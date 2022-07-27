@@ -27,11 +27,6 @@ const config = {
     i18n: {
         defaultLocale: 'en',
         locales: ['en', 'zh'],
-        localeConfigs: {
-            en: {
-                htmlLang: 'en-GB',
-            },
-        },
     },
 
     presets: [
@@ -44,11 +39,11 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-                    lastVersion: '3.0.0',
+                    lastVersion: '3.x',
                     versions: {
                         current: {
-                            label: '3.0.0',
-                            path: '3.0.0',
+                            label: '3.x',
+                            path: '3.x',
                         },
                     },
                 },

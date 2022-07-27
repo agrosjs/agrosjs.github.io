@@ -4,44 +4,108 @@ sidebar_position: 1
 
 # Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Agros is a framework for building robust, clean and scalable web applications. It based on TypeScript and combines elements of OOP (Object Oriented Programming), FP (Functional Programming).
 
-## Getting Started
+## Motivation
 
-Get started by **creating a new site**.
+[React.js](https://reactjs.org) has greatly helped developers build fast and responsive web applications, while its simplicity has also allowed it to accumulate a large number of users in a short period of time, and some large websites have started to be built entirely using React.js. All of this speaks volumes about the success of React.js. However, there are a number of architectural problems with building large web applications using React.js that add up to additional and increasingly large expenses for maintaining and iterating on the project, and Agros was created to solve these problems.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Inspired by [Angular](https://angular.io) and [Nest.js](https://nestjs.com/) and based on React.js and [React Router](https://reactrouter.com/), Agros provides an out-of-the-box experience to help developers create highly available, highly maintainable, stable, and low-coupling React applications.
 
-### What you'll need
+## Features
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- React.js compatible
+- Full CLI supported to help standardize workflow and project structure
+- Built-in modules includes React Router v6, React Error Boundary and others
 
-## Generate a new site
+## Requirements
 
-Generate a new Docusaurus site using the **classic template**.
+✅ Use TypeScript to write project<br />
+✅ React v16.8.0 or later<br />
+✅ React Router DOM v6.2.0 or later<br />
+✅ Webpack v5 or later<br />
+❇️ Node.js v10.10.0 or later
 
-The classic template will automatically be added to your project after you run the command:
+## Quick Start
 
-```bash
-npm init docusaurus@latest my-website classic
+### Install Agros CLI
+
+The Agros CLI helps you easily make and configure collections (providers, components and modules) into your projects, which is useful when the structure project is increasing.
+
+```
+npm i @agros/cli -g
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Here comes the usages of Agros CLI:
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+```
+Usage: agros [options] [command]
 
-## Start your site
+Options:
+  -V, --version   output the version number
+  -h, --help      display help for command
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
+Commands:
+  generate|g      Generate Agros.js collections
+  update|u        Update an Agros.js collections with another collection
+  routes|r        Manage project routes
+  help [command]  display help for command
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+### Create an Agros project
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+Create an Agros project by Agros CLI:
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+```bash
+agros generate application
+```
+
+As an alternative, you can also use Agros official-recommended scaffold `@agros/create-app` and prepare project directory:
+
+```bash
+npm i @agros/create-app -g
+mkdir example-project && cd example-project
+```
+
+Run create command:
+
+```bash
+npm create @agros/app
+# or
+create-agros-app
+```
+
+Follow the instruction and the project will be initialized in the directory.
+
+### Configure TypeScript
+
+In your `tsconfig.json` file in the project root directory, add following options into it:
+
+```json
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    }
+}
+```
+
+### Run the Project
+
+```bash
+npm start
+# or
+npx agros-app start
+```
+
+### Build the Project
+
+```bash
+npm run build
+# or
+npx agros-app build
+```
+
+# Support Us
+
+Agros is an MIT-licensed open source project. It can grow thanks to the support by these awesome people. If you'd like to join them, please read more here.

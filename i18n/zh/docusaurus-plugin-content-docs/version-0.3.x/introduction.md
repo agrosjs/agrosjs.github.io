@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Introduction Test i18n
 
 Agros is a framework for building robust, clean and scalable web applications. It based on TypeScript and combines elements of OOP (Object Oriented Programming), FP (Functional Programming).
 
@@ -14,41 +14,70 @@ Inspired by [Angular](https://angular.io) and [Nest.js](https://nestjs.com/) and
 
 ## Features
 
-- React.js compatible: Agros uses React.js' JSX syntax and hooks in its projects, and is 100% compatible with old React.js applications. That is, it will be very easy to migrate from former React.js projects in Agros.js projects
-- Full CLI supported: Agros CLI is a powerful tool for creating projects and managing collections in project
+- React.js compatible
+- Full CLI supported to help standardize workflow and project structure
 - Built-in modules includes React Router v6, React Error Boundary and others
+
+## Requirements
+
+✅ Use TypeScript to write project<br />
+✅ React v16.8.0 or later<br />
+✅ React Router DOM v6.2.0 or later<br />
+✅ Webpack v5 or later<br />
+❇️ Node.js v10.10.0 or later
 
 ## Quick Start
 
-### Installation
+### Install Agros CLI
 
-To get started, you can either scaffold the project with the Agros CLI. The Agros CLI helps you easily make and configure collections (providers, components and modules) into your projects, which is useful when the structure project is increasing:
+The Agros CLI helps you easily make and configure collections (providers, components and modules) into your projects, which is useful when the structure project is increasing.
 
-```bash
+```
 npm i @agros/cli -g
 ```
 
-To scaffold the project with the Agros CLI, run the following commands:
+Here comes the usages of Agros CLI:
+
+```
+Usage: agros [options] [command]
+
+Options:
+  -V, --version   output the version number
+  -h, --help      display help for command
+
+Commands:
+  generate|g      Generate Agros.js collections
+  update|u        Update an Agros.js collections with another collection
+  routes|r        Manage project routes
+  help [command]  display help for command
+```
+
+### Create an Agros project
+
+Create an Agros project by Agros CLI:
 
 ```bash
-# With Agros CLI
 agros generate application
 ```
 
-Follow the instruction prompted from CLI and it will create a new project in the current directory (or create a new project directory with `--path [value]` specified), and populate the directory with the initial core Agros files and supporting modules, creating a base structure for your project.
-
-Creating a new project with the Agros CLI is recommended for first-time users. But you can still use `@agros/create-app` to alternatively generate the same project files:
+As an alternative, you can also use Agros official-recommended scaffold `@agros/create-app` and prepare project directory:
 
 ```bash
-# Globally install package
-npm i @agros/create-app
-# Generate project
+npm i @agros/create-app -g
+mkdir example-project && cd example-project
+```
+
+Run create command:
+
+```bash
 npm create @agros/app
 # or
 create-agros-app
 ```
 
-### TypeScript Configuration
+Follow the instruction and the project will be initialized in the directory.
+
+### Configure TypeScript
 
 In your `tsconfig.json` file in the project root directory, add following options into it:
 
@@ -76,3 +105,7 @@ npm run build
 # or
 npx agros-app build
 ```
+
+# Support Us
+
+Agros is an MIT-licensed open source project. It can grow thanks to the support by these awesome people. If you'd like to join them, please read more here.

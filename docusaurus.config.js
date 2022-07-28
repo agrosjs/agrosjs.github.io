@@ -78,6 +78,11 @@ const config = {
                     label: 'Documentation',
                 },
                 {
+                    position: 'left',
+                    label: 'Support Us',
+                    to: '/support-us',
+                },
+                {
                     href: 'https://github.com/agrosjs/agros',
                     label: 'GitHub',
                     position: 'right',

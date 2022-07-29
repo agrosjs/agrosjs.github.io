@@ -35,33 +35,31 @@ Here are the initial files in the project:
 
 ```
 .
-|----LICENSE
-|----README.md
-|----public
-| |----favicon.ico
-| |----index.html
-| |----logo512.png
-| |----manifest.json
-| |----robots.txt
-| |----logo192.png
-|----.gitignore
-|----package.json
-|----.eslintrc.js
-|----tsconfig.json
-|----.eslintignore
-|----src
-| |----App.tsx
-| |----app.module.ts
-| |----app.component.ts
-| |----reportWebVitals.ts
-| |----app.component.css
-| |----index.ts
-| |----react-app-env.d.ts
+├── LICENSE
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── README.md
+├── src
+│   ├── app.component.css
+│   ├── app.component.ts
+│   ├── app.interceptor.ts
+│   ├── app.module.ts
+│   ├── app.service.ts
+│   ├── App.tsx
+│   └── index.ts
+└── tsconfig.json
 ```
 
 Here's a brief overview of the important files in `src` directory:
 
 | Filename | Description |
 | --- | --- |
-| `App.tsx` | React Component for entry |
-|单元格|单元格|
+| `app.component.ts` | The component declaration file |
+| `app.module.ts` | The root-point module |
+| `index.ts` | The entry point for the whole project |

@@ -250,8 +250,20 @@
     "message": "展开侧边栏",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
-  "pages.features.documentation": {
+  "pages.common.documentation": {
     "message": "文档",
     "description": "The documentation label"
+  },
+  "pages.common.subTitle": {
+    "message": "提升前端开发效率和体验的的另一个强有力的框架",
+    "description": "The documentation label"
+  },
+  "pages.homepage.features.easyToUse": {
+    "message": "易于使用",
+    "description": "Easy to Use"
+  },
+  "pages.homepage.features.easyToUse.description": {
+    "message": "易于使用",
+    "description": "Easy to Use"
   }
 }

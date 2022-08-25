@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'Agros.js',
-    tagline: 'Dinosaurs are cool',
+    tagline: 'Yet another powerful framework to enhance web front-end efficient and experience',
     url: 'https://agros.js.org',
     baseUrl: '/',
     onBrokenLinks: 'throw',
@@ -98,6 +98,14 @@ const config = {
                         {
                             label: 'Documentation',
                             to: '/docs/introduction',
+                        },
+                        {
+                            label: 'Developing',
+                            to: '/developing/collections',
+                        },
+                        {
+                            label: 'Support Us',
+                            to: '/support-us',
                         },
                     ],
                 },

@@ -79,7 +79,7 @@ const config = {
                 },
                 {
                     position: 'left',
-                    label: 'Support Us',
+                    label: 'SupportUs',
                     to: '/support-us',
                 },
                 {

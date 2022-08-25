@@ -255,7 +255,7 @@
     "description": "The documentation label"
   },
   "pages.common.subTitle": {
-    "message": "提升前端开发效率和体验的的另一个强有力的框架",
+    "message": "另一个提升前端开发效率和体验的强有力的框架",
     "description": "The documentation label"
   },
   "pages.homepage.features.easyToUse": {
@@ -263,7 +263,23 @@
     "description": "Easy to Use"
   },
   "pages.homepage.features.easyToUse.description": {
-    "message": "易于使用",
+    "message": "我们提供了一些极为简单的装饰器和方法来帮助你快速接入 Agros。此外，Agros 对现存的项目的侵入性也是很小的，因此不必费尽心思重构你的代码。",
     "description": "Easy to Use"
+  },
+  "pages.homepage.features.frameworkUnrelated": {
+    "message": "框架无关",
+    "description": "Framework Unrelated"
+  },
+  "pages.homepage.features.frameworkUnrelated.description": {
+    "message": "Agros 是一种可扩展 Web 应用程序结构的运行时，它不包含任何框架相关的方法。Agros 基于平台 (Platform) 技术实现了具体框架的抽象，因此可以通过引入对应的平台以实现对框架的支持。目前我们分别对 React.js 和 Vue.js 实现了完整的支持。",
+    "description": "Framework Unrelated"
+  },
+  "pages.homepage.features.empowerEfficiency": {
+    "message": "提升效率",
+    "description": "Empower Efficiency"
+  },
+  "pages.homepage.features.empowerEfficiency.description": {
+    "message": "Agros 提供了一套命令行工具 (CLI) 来帮助你快速生成 Agros 应用程序的各种模块。此外，Agros 采用约定大于配置的模式，可以快速投入开发而无需过多关注各种配置项。",
+    "description": "Empower Efficiency"
   }
 }

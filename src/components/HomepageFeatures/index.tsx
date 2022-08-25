@@ -17,30 +17,35 @@ const FeatureList: FeatureItem[] = [
         }),
         Svg: require('@site/static/img/features-easy-to-use.svg').default,
         description: (
-            <Translate>
-                Docusaurus was designed from the ground up to be easily installed and
-                used to get your website up and running quickly.
-            </Translate>
+            <Translate
+                id="pages.homepage.features.easyToUse.description"
+            >We provide some extremely simple decorators and methods to help you get started with Agros quickly, and Agros is minimally invasive to existing projects, so there's no need to go through the trouble of refactoring your code.</Translate>
         ),
     },
     {
-        title: 'Framework Unrelated',
+        title: translate({
+            id: 'pages.homepage.features.frameworkUnrelated',
+            message: 'Framework Unrelated',
+        }),
         Svg: require('@site/static/img/features-framework-unrelated.svg').default,
         description: (
-            <>
-                Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-                ahead and move your docs into the <code>docs</code> directory.
-            </>
+            <Translate
+                id="pages.homepage.features.frameworkUnrelated.description"
+            >Agros is a runtime for extensible web application architectures that does not contain any framework-related methods. Agros implements framework-specific abstractions based on platform technologies, so framework support can be implemented by introducing the corresponding platform. Agros currently has full support for React.js and Vue.js respectively.</Translate>
         ),
     },
     {
-        title: 'Empower Efficiency',
+        title: translate({
+            message: 'Empower Efficiency',
+            id: 'pages.homepage.features.empowerEfficiency',
+        }),
         Svg: require('@site/static/img/features-empower-efficiency.svg').default,
         description: (
-            <>
-                Extend or customize your website layout by reusing React. Docusaurus can
-                be extended while reusing the same header and footer.
-            </>
+            <Translate
+                id="pages.homepage.features.empowerEfficiency.description"
+            >
+                Agros provides a set of command line tools to help you quickly generate various modules of Agros applications. In addition, Agros uses a convention-over-configuration model, which allows you to quickly jump into development without having to pay too much attention to various configuration items.
+            </Translate>
         ),
     },
 ];

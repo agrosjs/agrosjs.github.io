@@ -249,5 +249,9 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "展开侧边栏",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "pages.features.documentation": {
+    "message": "文档",
+    "description": "The documentation label"
   }
 }

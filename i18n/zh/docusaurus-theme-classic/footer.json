@@ -3,16 +3,28 @@
     "message": "Docs",
     "description": "The title of the footer links column with title=Docs in the footer"
   },
+  "link.title.Resources": {
+    "message": "资源",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
   "link.title.Community": {
     "message": "Community",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.More": {
-    "message": "More",
+    "message": "更多",
     "description": "The title of the footer links column with title=More in the footer"
   },
-  "link.item.label.Tutorial": {
-    "message": "Tutorial",
+  "link.item.label.Documentation": {
+    "message": "文档",
+    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
+  },
+  "link.item.label.Developing": {
+    "message": "开发",
+    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
+  },
+  "link.item.label.Support Us": {
+    "message": "支持我们",
     "description": "The label of footer link with label=Tutorial linking to /docs/intro"
   },
   "link.item.label.Stack Overflow": {
@@ -32,7 +44,7 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/facebook/docusaurus"
   },
   "copyright": {
-    "message": "Copyright © 2022 Agros.js and all its developers. Built with Docusaurus.",
+    "message": "版权所有 © 2022 Agros.js 以及它的所有开发者。使用 Docusaurus 构建。",
     "description": "The footer copyright"
   }
 }

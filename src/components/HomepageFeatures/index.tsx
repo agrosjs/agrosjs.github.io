@@ -19,7 +19,7 @@ const FeatureList: FeatureItem[] = [
         description: (
             <Translate
                 id="pages.homepage.features.easyToUse.description"
-            >We provide some extremely simple decorators and methods to help you get started with Agros quickly, and Agros is minimally invasive to existing projects, so there's no need to go through the trouble of refactoring your code.</Translate>
+            >Agros provides some extremely simple decorators and methods to help you get started with Agros quickly, and Agros is minimally invasive to existing projects, so there's no need to go through the trouble of refactoring your code.</Translate>
         ),
     },
     {

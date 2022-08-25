@@ -7,7 +7,7 @@
     "message": "文档",
     "description": "Navbar item with label Tutorial"
   },
-  "item.label.SupportUs": {
+  "item.label.Support Us": {
     "message": "支持我们",
     "description": "Navbar item with label Blog"
   },

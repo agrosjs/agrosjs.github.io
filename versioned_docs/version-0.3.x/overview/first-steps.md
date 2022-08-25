@@ -4,12 +4,12 @@ sidebar_position: 1
 
 # First Steps
 
-In this set of documentations, we will describe and document the core fundamentals of Agros. To get familiar with the essential building blocks of Agros applications, we'll build a basic application with features that cover the most scenes for you to bootstrap from Agros.
+In this set of documentations, we will describe and document the core fundamentals of Agros. To get familiar with the essential modules of Agros applications, we'll build a basic application with features that cover the most scenes for you to get started with Agros.
 
 ## Prerequisites
 
 ✅ Use TypeScript to write project<br />
-✅ [Node.js](https://nodejs.org) v16.0.0 or later<br />
+✅ [Node.js](https://nodejs.org) v16.14.0 or later<br />
 ✳️ A computer with 4 GB RAM
 
 :::tip

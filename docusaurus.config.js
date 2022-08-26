@@ -39,11 +39,11 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-                    lastVersion: '0.3.x',
+                    lastVersion: '0.x',
                     versions: {
                         current: {
-                            label: '0.3.x',
-                            path: '0.3.x',
+                            label: '0.x',
+                            path: '0.x',
                         },
                     },
                 },

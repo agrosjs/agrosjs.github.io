@@ -79,6 +79,16 @@ const config = {
                 },
                 {
                     position: 'left',
+                    label: 'Developing',
+                    to: '/developing',
+                },
+                {
+                    position: 'left',
+                    label: 'API',
+                    to: '/api',
+                },
+                {
+                    position: 'left',
                     label: 'Support Us',
                     to: '/support-us',
                 },
@@ -101,7 +111,15 @@ const config = {
                         },
                         {
                             label: 'Developing',
-                            to: '/developing/collections',
+                            to: '/developing',
+                        },
+                        {
+                            label: 'API',
+                            to: '/api',
+                        },
+                        {
+                            label: 'CLI',
+                            to: '/docs/category/cli',
                         },
                         {
                             label: 'Support Us',

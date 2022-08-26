@@ -69,6 +69,8 @@ npm start
 npx agros-app start
 ```
 
+Agros will start a server binds with `0.0.0.0:3000` after executing this command. If the `3000` port is already in use, it will automatically find a new port available.
+
 ### Build the Project
 
 ```bash
@@ -76,3 +78,5 @@ npm run build
 # or
 npx agros-app build
 ```
+
+The default distribution directory is `build`, after executing this command, Agros will generate all the bundled files into it. You can run a HTTP server in it or do any other things you want with them.

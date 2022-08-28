@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Providers
@@ -43,7 +43,7 @@ export class UserService {
 To create a service using the CLI, simply execute the `agros generate service user` command.
 :::
 
-The `UserService` above is a normal class with `create`, `find` and `findAll` methods. The only difference between it and other classes is that it uses the `@Injectable()` decorator. The `@Injectable()` decorator attaches metadata, which declares that `UserService` is a class that can be managed by the Agros [IoC](https://en.wikipedia.org/wiki/Inversion_of_control) container. The code below is the content of the `User` interface coresponding with `UserService`:
+The `UserService` above is a normal class with `create`, `find` and `findAll` methods. The only difference between it and other classes is that it uses the `@Injectable()` decorator. The `@Injectable()` decorator attaches metadata, which declares that `UserService` is a class that can be managed by the Agros [IoC](https://en.wikipedia.org/wiki/Inversion_of_control) container. The code below is the content of the `User` interface corresponding with `UserService`:
 
 ```ts title=user.interface.ts
 export interface User {
@@ -92,6 +92,32 @@ export default () => {
 };
 ```
 
-# Dependency Injection
+## Dependency Injection
 
 The same as [Nest](https://nestjs.com) and [Angular](https://angular.io), Agros provides a system of dependency injection based on IoC container. If you are not familiar with it, we recommend you reading [this article](https://angular.io/guide/dependency-injection) from Angular's official documentation.
+
+In Agros apps, based on TypeScript's IoC capabilities, it's extremely easy to manage dependencies because they are resolved just by type. In the example below, Agros will resolve the `userService` by creating and returning an instance of `UserService` (or, in the normal case of a singleton, returning the existing instance if it has already been requested elsewhere). This dependency is resolved and passed to your controller's constructor (or assigned to the indicated property):
+
+```ts
+public constructor(private userService: UserService) {}
+```
+
+## Registration
+
+After defining a provider, we should declare it in the corresponding module file to register it:
+
+```ts title=user.module.ts
+import { Module } from '@agros/app';
+import { UserService } from './user.service';
+
+@Module({
+    providers: [
+        UserService,
+    ],
+})
+export class UserModule {}
+```
+
+:::tip
+The Agros CLI will automatically add these lines to corresponding module file when adding a new provider using `agros generate` command.
+:::

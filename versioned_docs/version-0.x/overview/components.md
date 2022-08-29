@@ -188,11 +188,15 @@ import { Component } from '@agros/app';
     file: './User',
     // highlight-start
     lazy: true,
-    suspenseFallback: <div>Loading...</div>
+    suspenseFallback: <div>loading...</div>
     // highlight-end
 })
 export class UserCardComponent {}
 ```
+
+Here is a demo GIF of lazy loading:
+
+![lazy-loading](/img/component-lazy-load.gif)
 
 ### Styles
 

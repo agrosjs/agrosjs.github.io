@@ -19,7 +19,7 @@
     "message": "文档",
     "description": "The label of footer link with label=Tutorial linking to /docs/intro"
   },
-  "link.item.label.Developing": {
+  "link.item.label.Development": {
     "message": "开发",
     "description": "The label of footer link with label=Tutorial linking to /docs/intro"
   },

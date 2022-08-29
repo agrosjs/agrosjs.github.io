@@ -79,8 +79,8 @@ const config = {
                 },
                 {
                     position: 'left',
-                    label: 'Developing',
-                    to: '/developing',
+                    label: 'Development',
+                    to: '/development',
                 },
                 {
                     position: 'left',
@@ -110,8 +110,8 @@ const config = {
                             to: '/docs/introduction',
                         },
                         {
-                            label: 'Developing',
-                            to: '/developing',
+                            label: 'Development',
+                            to: '/development',
                         },
                         {
                             label: 'API',

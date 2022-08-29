@@ -60,26 +60,32 @@ At this time, there is a class to manage users, we can use it in the `UserCompon
 
 ```ts title=user.component.ts
 import { Component } from '@agros/app';
+// highlight-next-line
 import { UserService } from './user.service';
 
 @Component({
     file: './User',
+    // highlight-start
     declarations: [
         UserService,
     ],
+    // highlight-end
 })
 export class UserComponent {}
 ```
 
-The `UserService` is injected through the `declarations` in the `@Component()` decorator. In the component file, you can get the service through `getContainer` function:
+The `UserService` is injected through the `declarations` in the `@Component()` decorator. In the component description file, you can get the service through `getContainer` function:
 
 ```ts title=User.tsx
 import { getContainer } from '@agros/app';
+// highlight-next-line
 import { UserService } from './user.service';
 
 export default () => {
+    // highlight-start
     const container = getContainer();
     const userService = container.get<UserService>(UserService);
+    // highlight-end
 
     // You can do something with the instance of UserService here ...
     userService.find('UID').then(() => {
@@ -111,9 +117,11 @@ import { Module } from '@agros/app';
 import { UserService } from './user.service';
 
 @Module({
+    // highlight-start
     providers: [
         UserService,
     ],
+    // highlight-end
 })
 export class UserModule {}
 ```

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkagrosjs_github_io=self.webpackChunkagrosjs_github_io||[]).push([[168],{1536:e=>{e.exports=JSON.parse('{"title":"Overview","slug":"/category/overview","permalink":"/docs/category/overview","navigation":{"previous":{"title":"Introduction","permalink":"/docs/introduction"},"next":{"title":"First Steps","permalink":"/docs/overview/first-steps"}}}')}}]);

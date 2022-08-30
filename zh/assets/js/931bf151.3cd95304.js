@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkagrosjs_github_io=self.webpackChunkagrosjs_github_io||[]).push([[701],{3139:i=>{i.exports=JSON.parse('{"title":"CLI","slug":"/category/cli","permalink":"/zh/docs/category/cli","navigation":{"previous":{"title":"Application","permalink":"/zh/docs/overview/application"},"next":{"title":"Installation","permalink":"/zh/docs/cli/installation"}}}')}}]);

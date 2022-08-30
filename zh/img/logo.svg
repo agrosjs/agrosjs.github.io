@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="184px" viewBox="0 0 200 184" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="166.527874%" y1="50%" x2="-11.1723206%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M82,69 L210,69 C229.882251,69 246,85.117749 246,105 L246,105.79358 C246,125.237549 230.237549,141 210.79358,141 L175.587159,141 L82,141 C62.117749,141 46,124.882251 46,105 C46,85.117749 62.117749,69 82,69 Z" id="path-2"></path>
+        <linearGradient x1="100%" y1="50%" x2="-11.1723206%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M18,69 L146,69 C165.882251,69 182,85.117749 182,105 L182,105.79358 C182,125.237549 166.237549,141 146.79358,141 L111.587159,141 L18,141 C-1.88225099,141 -18,124.882251 -18,105 C-18,85.117749 -1.88225099,69 18,69 Z" id="path-4"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="group" transform="translate(-28.000000, -36.000000)">
+            <path d="M46.1499336,-1.86451255e-15 L209.850066,1.86451255e-15 C225.897404,-1.08333549e-15 231.716556,1.670861 237.583223,4.80838867 C243.449889,7.94591634 248.054084,12.5501107 251.191611,18.4167773 C254.329139,24.283444 256,30.1025963 256,46.1499336 L256,209.850066 C256,225.897404 254.329139,231.716556 251.191611,237.583223 C248.054084,243.449889 243.449889,248.054084 237.583223,251.191611 C231.716556,254.329139 225.897404,256 209.850066,256 L46.1499336,256 C30.1025963,256 24.283444,254.329139 18.4167773,251.191611 C12.5501107,248.054084 7.94591634,243.449889 4.80838867,237.583223 C1.670861,231.716556 7.22223659e-16,225.897404 -1.24300837e-15,209.850066 L1.24300837e-15,46.1499336 C-7.22223659e-16,30.1025963 1.670861,24.283444 4.80838867,18.4167773 C7.94591634,12.5501107 12.5501107,7.94591634 18.4167773,4.80838867 C24.283444,1.670861 30.1025963,1.08333549e-15 46.1499336,-1.86451255e-15 Z" id="container"></path>
+            <g id="image-wrapper" transform="translate(14.000000, 23.000000)">
+                <g id="right" transform="translate(146.000000, 105.000000) rotate(60.000000) translate(-146.000000, -105.000000) ">
+                    <use fill="#0969DA" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                </g>
+                <g id="left" transform="translate(82.000000, 105.000000) rotate(-60.000000) translate(-82.000000, -105.000000) ">
+                    <use fill="#0969DA" xlink:href="#path-4"></use>
+                    <use fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

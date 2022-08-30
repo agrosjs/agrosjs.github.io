@@ -17,8 +17,8 @@ const config = {
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'agrosjs', // Usually your GitHub org/user name.
-    projectName: 'agros-website', // Usually your repo name.
-    deploymentBranch: 'gh-pages',
+    projectName: 'agrosjs.github.io', // Usually your repo name.
+    deploymentBranch: 'master',
     trailingSlash: false,
 
     // Even if you don't use internalization, you can use this field to set useful

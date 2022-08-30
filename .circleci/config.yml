@@ -51,6 +51,9 @@ jobs:
           keys:
             - v1-dist-{{ checksum "checksum.txt" }}
             - v1-dependencies-{{ checksum "checksum.txt" }}
+      - run: git config --global user.name "lenconda"
+      - run: git config --global user.email i@lenconda.top
+      - run: ssh-keyscan github.com >> ~/.ssh/known_hosts
       - run: npm run deploy
 
 workflows:
@@ -66,10 +69,10 @@ workflows:
             - install
           filters:
             tags:
-              only: /.*/
+              ignore: /^publish@(\d+)/
       - deploy:
           requires:
-            - build
+            - install
           filters:
             tags:
               only:

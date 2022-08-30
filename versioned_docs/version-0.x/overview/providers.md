@@ -23,6 +23,16 @@ import axios from 'axios';
 
 @Injectable()
 export class UserService {
+    private currentUser: Promise<User>;
+
+    public constructor() {
+        this.currentUser = axios.get('/user').then(({ data }) => data);
+    }
+
+    public async getCurrentUser() {
+        return await this.currentUser;
+    }
+
     public async create(user: User) {
         await axios.post('/user', user);
     }

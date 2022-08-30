@@ -162,7 +162,8 @@ import UserCardComponent from './user-card.component';
 
 export default (props) => {
     // highlight-start
-    const UserCard = getContainer<React.FC>(UserCardComponent);
+    const container = getContainer();
+    const UserCard = container.get<React.FC>(UserCardComponent);
     // highlight-end
     return (
         <div>
@@ -188,16 +189,59 @@ import { Component } from '@agros/app';
     file: './User',
     // highlight-start
     lazy: true,
-    suspenseFallback: <div>loading...</div>
+    suspenseFallback: <div>loading...</div>,
     // highlight-end
 })
-export class UserCardComponent {}
+export class UserComponent {}
 ```
 
 Here is a demo GIF of lazy loading:
 
-![lazy-loading](/img/component-lazy-load.gif)
+![full-width](/img/lazy-loading.gif)
 
 ### Styles
 
+Style files can be passed into the `styles` option of `@Component()` decorator. It's an array of string, which indicates the all style files' location. You can pass either absolute path or relative path (with the component declaration file) into it.
+
+```ts
+import { Component } from '@agros/app';
+
+@Component({
+    file: './User',
+    // highlight-start
+    styles: [
+        './user.component.css',
+    ],
+    // highlight-end
+})
+export class UserComponent {}
+```
+
+:::info
+Agros supports the following style preprocessers:
+
+- [Less](https://lesscss.org/) with `.less` extension
+- [Sass](https://sass-lang.com/) with `.sass` and `.scss` extensions
+:::
+
 ### Registration
+
+After defining a component, we should declare it in the corresponding module file to register it:
+
+```ts title=user.module.ts
+import { Module } from '@agros/app';
+import { UserComponent } from './user.component';
+
+@Module({
+    // highlight-start
+    components: [
+        UserComponent,
+    ],
+    // highlight-end
+})
+export class UserModule {}
+```
+
+:::tip
+The Agros CLI will automatically add these lines to corresponding module file when adding a new component using `agros generate` command.
+:::

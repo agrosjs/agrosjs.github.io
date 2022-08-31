@@ -5,10 +5,6 @@ aliases: [
     "node_modules",
     "checksum.txt",
   ],
-  &output-paths [
-    "build",
-    "checksum.txt",
-  ],
 ]
 
 defaults: &defaults
@@ -29,19 +25,6 @@ jobs:
       - persist_to_workspace:
           root: ~/repo
           paths: .
-  build:
-    <<: *defaults
-    steps:
-      - attach_workspace:
-          at: ~/repo
-      - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "checksum.txt" }}
-      - run: npm run build
-      - save_cache:
-          paths: *output-paths
-          key: v1-dist-{{ checksum "checksum.txt" }}
-
   deploy:
     <<: *defaults
     steps:
@@ -49,7 +32,6 @@ jobs:
           at: ~/repo
       - restore_cache:
           keys:
-            - v1-dist-{{ checksum "checksum.txt" }}
             - v1-dependencies-{{ checksum "checksum.txt" }}
       - run: git config --global user.name "lenconda"
       - run: git config --global user.email i@lenconda.top
@@ -66,12 +48,6 @@ workflows:
           filters:
             branches:
               ignore: /^gh-pages$/
-      - build:
-          requires:
-            - install
       - deploy:
           requires:
             - install
-          filters:
-            branches:
-              ignore: /.*/

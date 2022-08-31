@@ -65,19 +65,13 @@ workflows:
       - install:
           filters:
             branches:
-              ignore: /^gh\-pages$/
+              ignore: /^gh-pages$/
       - build:
           requires:
             - install
-          filters:
-            tags:
-              ignore: /^publish@(\d+)/
       - deploy:
           requires:
             - install
           filters:
-            tags:
-              only:
-                - /^publish@(\d+)/
             branches:
               ignore: /.*/

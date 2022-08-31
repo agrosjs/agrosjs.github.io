@@ -113,7 +113,7 @@ const config = {
                         },
                         {
                             label: 'CLI',
-                            to: '/docs/category/cli-commands',
+                            to: '/docs/cli-commands',
                         },
                         {
                             label: 'Support Us',

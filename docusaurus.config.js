@@ -68,7 +68,10 @@ const config = {
             logo: {
                 alt: 'logo',
                 src: 'img/logo.svg',
-                width: '70%',
+                height: '100%',
+                style: {
+                    marginRight: 0,
+                },
             },
             items: [
                 {

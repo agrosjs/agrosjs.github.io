@@ -31,11 +31,14 @@
 }
 
 .navbar__logo {
-    margin-right: 0;
+    flex-basis: 0;
+    width: auto;
+    flex-grow: 1;
 }
 
 .navbar__title {
-    font-size: 24px;
+    font-size: 22px;
+    transform: translateY(-0.1em);
     font-family: 'Outfit';
 }
 

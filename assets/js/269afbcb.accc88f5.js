@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkagrosjs_github_io=self.webpackChunkagrosjs_github_io||[]).push([[175],{7252:e=>{e.exports=JSON.parse('{"title":"Commands","slug":"/category/commands","permalink":"/docs/category/commands","navigation":{"previous":{"title":"Usage","permalink":"/docs/cli/usage"},"next":{"title":"agros generate","permalink":"/docs/cli/commands/generate"}}}')}}]);

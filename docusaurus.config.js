@@ -91,6 +91,10 @@ const config = {
                     to: '/support-us',
                 },
                 {
+                    type: 'localeDropdown',
+                    position: 'right',
+                },
+                {
                     href: 'https://github.com/agrosjs/agros',
                     label: 'GitHub',
                     position: 'right',

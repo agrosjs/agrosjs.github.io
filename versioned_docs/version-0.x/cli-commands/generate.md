@@ -4,7 +4,9 @@ sidebar_position: 0
 
 # agros generate
 
-Generate files to project from specified collection. With the default official collection `@agros/collections`, its help information is printed as following content:
+Generate files to project from specified collection.
+
+With the default official collection `@agros/collections`, its help information is printed as following content:
 
 ```
 Usage: agros generate|g [options] [command]

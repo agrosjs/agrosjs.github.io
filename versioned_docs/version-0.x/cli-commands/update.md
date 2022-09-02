@@ -23,3 +23,15 @@ Commands:
   service|s [options] <target>
   help [command]                    display help for command
 ```
+
+## Sub Commands
+
+`@agros/collections` provides 4 collections: `component`, `interceptor`, `module` and `service`, so the `agros update` command can take these 4 collections as its sub commands. We can now dive into them to get more information about them.
+
+### agros update module
+
+### agros update component
+
+### agros update service
+
+### agros update interceptor

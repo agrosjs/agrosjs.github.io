@@ -129,3 +129,44 @@ export class UtilsModule {}
 ```
 
 Once the `UtilsModule` has been imported into the root module, any other module can access its exported providers without having to explicitly import it.
+
+## Asynchoronous Modules
+
+Agros support importing modules as a dynamic promise by [`import()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import) declaration:
+
+```ts title=app.module.ts
+import { Module } from '@agros/app';
+import { AppComponent } from '@/app.component';
+import { AppService } from '@/app.service';
+import { AppInterceptor } from '@/app.interceptor';
+import { FooModule } from '@modules/foo/foo.module';
+
+// highlight-next-line
+const BazModule = import('@modules/baz/baz.module').then(({ BazModule }) => BazModule);
+
+@Module({
+    providers: [
+        AppInterceptor,
+        AppService,
+    ],
+    components: [AppComponent],
+    routes: [
+        {
+            path: '',
+            useComponentClass: AppComponent,
+        },
+    ],
+    exports: [
+        AppComponent,
+        AppInterceptor,
+        AppService,
+    ],
+    imports: [
+        FooModule,
+        BazModule,
+    ],
+})
+export class AppModule {}
+```
+
+According to [Webpack's behavior](https://webpack.js.org/guides/code-splitting/#dynamic-imports) to `import()`, it will be dynamically loaded and splitted into a standalone bundle by Webpack.

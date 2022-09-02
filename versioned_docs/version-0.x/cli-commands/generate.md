@@ -27,7 +27,7 @@ Commands:
 
 ## Sub Commands
 
-`@agros/collections` provides 5 collection: `application`, `component`, `interceptor`, `module` and `service`, so the `agros generate` command can take these 5 collections as its sub commands. We can now dive into them to get more information about them.
+`@agros/collections` provides 5 collections: `application`, `component`, `interceptor`, `module` and `service`, so the `agros generate` command can take these 5 collections as its sub commands. We can now dive into them to get more information about them.
 
 ### agros generate application
 

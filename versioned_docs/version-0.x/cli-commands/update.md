@@ -26,6 +26,19 @@ Commands:
 
 ## Update Map
 
+In an Agros project, you can use `update` sub-command from CLI to add entity classes to another entity class. However, there are several scenarios that are unable to be permitted, they are listed in the table below. The column are source entities when the row are target entities.
+
+||`module`|`component`|`service`|`interceptor`|
+|---|---|---|---|---|
+|`module`|✅|✅|✅|✅|
+|`component`|❎|✅|✅|✳️|
+|`service`|❎|❎|✅|❎|
+|`interceptor`|❎|❎|✅|✳️|
+
+:::info
+"✳️" means that it is currently not supported by Agros project and CLI, but it will be probably be supported in the future.
+:::
+
 ## Sub Commands
 
 `@agros/collections` provides 4 collections: `component`, `interceptor`, `module` and `service`, so the `agros update` command can take these 4 collections as its sub commands. We can now dive into them to get more information about them.
@@ -90,7 +103,7 @@ The pathname of source entity. It must be specified when executing this command.
 
 #### --skip-export
 
-When updating `component` and other injectable entities into a module entity, Agros will add them into `exports` field of `@module()` decorator. If this flag is set to be `true`, the entities will not be exported.
+When updating `component` and other injectable entities into a module entity, Agros will add them into `exports` field of `@Module()` decorator. If this flag is set to be `true`, the entities will not be exported.
 
 #### --async-module
 
@@ -111,6 +124,126 @@ export class BarModule {}
 
 ### agros update component
 
+Add source entity to `declarations` field of `@Component()` decorator.
+
+```
+Usage: agros update component|c [options] <target>
+
+Arguments:
+  target          Target entity pathname or identifier
+
+Options:
+  --from [value]  Source entity pathname or identifier (preset: "")
+  -h, --help      display help for command
+```
+
+#### --from [value]
+
+The pathname of source entity. It must be specified when executing this command.
+
+Suppose we have a component declaration named `FooComponent` at `src/modules/foo/foo.components` with description file at `src/modules/foo/Foo.tsx`:
+
+```ts title=src/modules/foo/foo.component.ts
+import { Component } from '@agros/app';
+
+@Component({
+    file: './Foo',
+})
+export class FooComponent {}
+```
+
+If we have a service named `FooService` at `src/modules/foo/foo.service.ts` and we hope add it into `FooComponent`, we should execute the following command:
+
+```
+agros update ./src/modules/foo/foo.component.ts --from ./src/modules/foo/foo.service.ts
+```
+
+The `FooComponent` will be:
+
+```ts title=src/modules/foo/foo.component.ts
+import { Component } from '@agros/app';
+// highlight-next-line
+import { FooService } from '@modules/foo/foo.service';
+
+@Component({
+    file: './Foo',
+    // highlight-start
+    declarations: [
+        FooService,
+    ],
+    // highlight-end
+})
+export class FooComponent {}
+```
+
 ### agros update service
 
+Add source entity to the constructor of a service class.
+
+```
+Usage: agros update service|s [options] <target>
+
+Arguments:
+  target                   Target entity pathname or identifier
+
+Options:
+  --from [value]           Source entity pathname or identifier (preset: "")
+  --accessibility [value]  The accessibility of the service in target service's constructor (default: "private")
+   --skip-readonly         Prevent read-only parameter property (default: false)
+  -h, --help               display help for command
+```
+
+Suppose we have a `FooService` at `src/modules/foo/foo.service.ts`:
+
+```ts title=src/modules/foo/foo.service.ts
+import { Injectable } from '@agros/app';
+
+@Injectable()
+export class FooService {}
+```
+
+If we hope add `BarService` at `src/modules/bar/bar.service`, we should execute the following command:
+
+```
+agros update service ./src/modules/foo/foo.service.ts --from ./src/modules/bar/bar.service.ts
+```
+
+Then the content of `FooService` will be like:
+
+```ts title=src/modules/foo/foo.service.ts
+import { Injectable } from '@agros/app';
+// highlight-next-line
+import { BarService } from '@modules/bar/bar.service';
+
+@Injectable()
+export class FooService {
+    // highlight-next-line
+    public constructor(private readonly barService: BarService) {}
+}
+```
+
+#### --from [value]
+
+The pathname of source entity. It must be specified when executing this command.
+
+#### --accessibility [value]
+
+The accessibility of constructor property, default is `private` and supports other two values: `protected` and `public`. For example, if we set the value of this flag as `protected`, the updated content of `FooService` will be:
+
+```ts
+public constructor(protected readonly barService: BarService) {}
+```
+
+#### --skip-readonly
+
+By default, each updated constructor property will be set `readonly` operator to avoid being modified by user, if we do not want to have the operator, we should set this flag to be `true`, and the updated content of `FooService` will be:
+
+```ts
+public constructor(private barService: BarService) {}
+```
+
 ### agros update interceptor
+
+:::info
+The content about command `agros update interceptor` is the same as `agros update service`.
+:::

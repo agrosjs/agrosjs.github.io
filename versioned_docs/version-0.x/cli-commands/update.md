@@ -39,11 +39,9 @@ In an Agros project, you can use `update` sub-command from CLI to add entity cla
 "✳️" means that it is currently not supported by Agros project and CLI, but it will be probably be supported in the future.
 :::
 
-## Sub Commands
-
 `@agros/collections` provides 4 collections: `component`, `interceptor`, `module` and `service`, so the `agros update` command can take these 4 collections as its sub commands. We can now dive into them to get more information about them.
 
-### agros update module
+## agros update module
 
 Add source entity to a proper field in `@Module()` decorator of target module entity, and export it.
 
@@ -97,15 +95,15 @@ export class FooModule {}
 
 In the same way, we can update `module`, `component` and other entities to a module.
 
-#### --from [value]
+### --from [value]
 
 The pathname of source entity. It must be specified when executing this command.
 
-#### --skip-export
+### --skip-export
 
 When updating `component` and other injectable entities into a module entity, Agros will add them into `exports` field of `@Module()` decorator. If this flag is set to be `true`, the entities will not be exported.
 
-#### --async-module
+### --async-module
 
 When updating a module entity into another module entity, if this flag is set to be `true`,  the import declaration in root module will be like:
 
@@ -122,7 +120,7 @@ const FooModule = import('@modules/foo/foo.module').then(({ FooModule }) => FooM
 export class BarModule {}
 ```
 
-### agros update component
+## agros update component
 
 Add source entity to `declarations` field of `@Component()` decorator.
 
@@ -137,7 +135,7 @@ Options:
   -h, --help      display help for command
 ```
 
-#### --from [value]
+### --from [value]
 
 The pathname of source entity. It must be specified when executing this command.
 
@@ -176,7 +174,7 @@ import { FooService } from '@modules/foo/foo.service';
 export class FooComponent {}
 ```
 
-### agros update service
+## agros update service
 
 Add source entity to the constructor of a service class.
 
@@ -222,11 +220,11 @@ export class FooService {
 }
 ```
 
-#### --from [value]
+### --from [value]
 
 The pathname of source entity. It must be specified when executing this command.
 
-#### --accessibility [value]
+### --accessibility [value]
 
 The accessibility of constructor property, default is `private` and supports other two values: `protected` and `public`. For example, if we set the value of this flag as `protected`, the updated content of `FooService` will be:
 
@@ -234,7 +232,7 @@ The accessibility of constructor property, default is `private` and supports oth
 public constructor(protected readonly barService: BarService) {}
 ```
 
-#### --skip-readonly
+### --skip-readonly
 
 By default, each updated constructor property will be set `readonly` operator to avoid being modified by user, if we do not want to have the operator, we should set this flag to be `true`, and the updated content of `FooService` will be:
 
@@ -242,7 +240,7 @@ By default, each updated constructor property will be set `readonly` operator to
 public constructor(private barService: BarService) {}
 ```
 
-### agros update interceptor
+## agros update interceptor
 
 :::info
 The content about command `agros update interceptor` is the same as `agros update service`.

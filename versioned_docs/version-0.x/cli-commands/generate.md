@@ -25,11 +25,9 @@ Commands:
   help [command]                                display help for command
 ```
 
-## Sub Commands
-
 `@agros/collections` provides 5 collections: `application`, `component`, `interceptor`, `module` and `service`, so the `agros generate` command can take these 5 collections as its sub commands. We can now dive into them to get more information about them.
 
-### agros generate application
+## agros generate application
 
 Generate the whole application with default template using `@agros/platform-react`. It's based on `@agros/create-app`, so it equals to `npm create @agros/app`.
 
@@ -46,15 +44,15 @@ Options:
 This command is dangerous because it will modify cwd directory.
 :::
 
-#### --path, -p
+### --path, -p
 
 The target pathname to generate project files, default value is the current cwd, which should be `process.cwd()`.
 
-#### --skip-install, -S
+### --skip-install, -S
 
 If this flag is set to `true`, the generator will not automatically install dependencies after generating the project.
 
-### agros generate module
+## agros generate module
 
 Generate module file and automatically import and update root module.
 
@@ -122,11 +120,11 @@ import { FooModule } from '@modules/foo/foo.module';
 export class AppModule {}
 ```
 
-#### --global
+### --global
 
 Generate a [global module](/docs/overview/modules#global-modules).
 
-#### --async
+### --async
 
 Asynchoronously import this module in root module, if the flag is set to be `true`, the import declaration in root module will be like:
 
@@ -143,7 +141,7 @@ const FooModule = import('@modules/foo/foo.module').then(({ FooModule }) => FooM
 export class AppModule {}
 ```
 
-#### --skip-declare-collections
+### --skip-declare-collections
 
 Suppose we have a directory `src/modules/bar`, and there are not a file named `src/modules/bar/bar.module.ts`, but have a service file `src/modules/bar/bar.service.ts`,that is, no module file in the directory -- it is legal of course. In this case, when we execute `agros generate module bar`, it will automatically declare `BarService` from `bar.service.ts` as its provider:
 
@@ -165,11 +163,11 @@ export class BarModule {}
 
 If the flag is set to be `true`, the new-generated module file will not declare any providers and components anymore.
 
-#### --skip-export-declared-collections
+### --skip-export-declared-collections
 
 In the case mentioned above, a new-generated will also export existing providers and components by default. If this flag is set to be `true`, the new-generated module file will not export any providers and components anymore.
 
-### agros generate component
+## agros generate component
 
 Generate component declaration file into a module and update the `components` field of `@Module()` decorator in the corresponding module file.
 
@@ -225,7 +223,7 @@ import { FooComponent } from '@modules/foo/foo.component';
 export class FooModule {}
 ```
 
-#### --lazy
+### --lazy
 
 Import component description as a lazy-load component. The component declaration file will be:
 
@@ -240,7 +238,7 @@ import { Component } from '@agros/app';
 export class FooComponent {}
 ```
 
-#### --skip-export
+### --skip-export
 
 If this flat is set to be `true`, the component declaration will not be exported from its corresponding module:
 
@@ -257,7 +255,7 @@ import { FooComponent } from '@modules/foo/foo.component';
 export class FooModule {}
 ```
 
-### agros generate interceptor
+## agros generate interceptor
 
 Generate interceptor file into a module and update the `providers` field of `@Module()` decorator in the corresponding module file.
 
@@ -317,11 +315,11 @@ import { FooInterceptor } from '@modules/foo/foo.interceptor';
 export class FooModule {}
 ```
 
-#### --skip-export
+### --skip-export
 
 If this flat is set to be `true`, the interceptor will not be exported from its corresponding module.
 
-### agros generate service
+## agros generate service
 
 Generate service file into a module and update the `providers` field of `@Module()` decorator in the corresponding module file.
 
@@ -380,6 +378,6 @@ import { FooService } from '@modules/foo/foo.service';
 export class FooModule {}
 ```
 
-#### --skip-export
+### --skip-export
 
 If this flat is set to be `true`, the service will not be exported from its corresponding module.

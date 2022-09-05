@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkagrosjs_github_io=self.webpackChunkagrosjs_github_io||[]).push([[7664],{7876:e=>{e.exports=JSON.parse('{"title":"Development","slug":"/category/development","permalink":"/docs/category/development","navigation":{"previous":{"title":"Examples","permalink":"/docs/examples"},"next":{"title":"Platform","permalink":"/docs/development/platform"}}}')}}]);

@@ -2,7 +2,7 @@
 
 # Interface: Interceptor
 
-## TOC
+## Table of contents
 
 ### Properties
 

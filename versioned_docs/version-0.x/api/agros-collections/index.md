@@ -2,7 +2,7 @@
 
 # @agros/collections
 
-## TOC
+## Table of contents
 
 ### Variables
 
@@ -32,4 +32,4 @@
 
 #### Defined in
 
-[collections/index.ts:19](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-collections/src/collections/index.ts#L19)
+[collections/index.ts:19](https://github.com/agrosjs/agros/blob/854b313/packages/agros-collections/src/collections/index.ts#L19)

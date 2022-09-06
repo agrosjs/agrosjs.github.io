@@ -2,7 +2,7 @@
 
 # Interface: Interceptor
 
-## TOC
+## Table of contents
 
 ### Properties
 
@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:120](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L120)
+[packages/agros-common/src/types.ts:120](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L120)

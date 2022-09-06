@@ -8,7 +8,7 @@
 | :------ | :------ |
 | `T` | `any` |
 
-## TOC
+## Table of contents
 
 ### Properties
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:34](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L34)
+[packages/agros-common/src/types.ts:34](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L34)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:35](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L35)
+[packages/agros-common/src/types.ts:35](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L35)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:31](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L31)
+[packages/agros-common/src/types.ts:31](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L31)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:37](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L37)
+[packages/agros-common/src/types.ts:37](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L37)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:32](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L32)
+[packages/agros-common/src/types.ts:32](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L32)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:33](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L33)
+[packages/agros-common/src/types.ts:33](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L33)
 
 ___
 
@@ -88,4 +88,4 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:36](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L36)
+[packages/agros-common/src/types.ts:36](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L36)

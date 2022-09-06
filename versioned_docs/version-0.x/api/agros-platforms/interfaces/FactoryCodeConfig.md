@@ -2,7 +2,7 @@
 
 # Interface: FactoryCodeConfig
 
-## TOC
+## Table of contents
 
 ### Properties
 
@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[platform.interface.ts:7](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-platforms/src/platform.interface.ts#L7)
+[platform.interface.ts:7](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L7)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:6](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-platforms/src/platform.interface.ts#L6)
+[platform.interface.ts:6](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L6)

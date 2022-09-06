@@ -10,7 +10,7 @@
 
   ↳↳ [`EntityDescriptor`](EntityDescriptor.md)
 
-## TOC
+## Table of contents
 
 ### Properties
 
@@ -43,7 +43,7 @@
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:9](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L9)
+[packages/agros-common/src/types.ts:9](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L9)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:10](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L10)
+[packages/agros-common/src/types.ts:10](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L10)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:15](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L15)
+[packages/agros-common/src/types.ts:15](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L15)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:11](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L11)
+[packages/agros-common/src/types.ts:11](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L11)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:7](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L7)
+[packages/agros-common/src/types.ts:7](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L7)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:8](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L8)
+[packages/agros-common/src/types.ts:8](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L8)
 
 ## Methods
 

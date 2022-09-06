@@ -2,7 +2,7 @@
 
 # Interface: CollectionGenerateResult
 
-## TOC
+## Table of contents
 
 ### Properties
 
@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[packages/agros-common/src/collection.ts:28](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/collection.ts#L28)
+[packages/agros-common/src/collection.ts:28](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/collection.ts#L28)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/collection.ts:27](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/collection.ts#L27)
+[packages/agros-common/src/collection.ts:27](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/collection.ts#L27)

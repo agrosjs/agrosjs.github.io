@@ -2,7 +2,7 @@
 
 # Interface: Platform
 
-## TOC
+## Table of contents
 
 ### Properties
 
@@ -37,7 +37,7 @@
 
 #### Defined in
 
-[platform.interface.ts:23](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-platforms/src/platform.interface.ts#L23)
+[platform.interface.ts:23](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L23)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:22](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-platforms/src/platform.interface.ts#L22)
+[platform.interface.ts:22](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L22)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:16](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-platforms/src/platform.interface.ts#L16)
+[platform.interface.ts:16](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L16)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:17](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-platforms/src/platform.interface.ts#L17)
+[platform.interface.ts:17](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L17)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:14](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-platforms/src/platform.interface.ts#L14)
+[platform.interface.ts:14](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L14)
 
 ___
 
@@ -155,7 +155,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:15](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-platforms/src/platform.interface.ts#L15)
+[platform.interface.ts:15](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L15)
 
 ___
 
@@ -173,4 +173,4 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:13](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-platforms/src/platform.interface.ts#L13)
+[platform.interface.ts:13](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L13)

@@ -2,7 +2,7 @@
 
 # @agros/platforms
 
-## TOC
+## Table of contents
 
 ### Interfaces
 
@@ -36,4 +36,4 @@
 
 #### Defined in
 
-[platform.interface.ts:10](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-platforms/src/platform.interface.ts#L10)
+[platform.interface.ts:10](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L10)

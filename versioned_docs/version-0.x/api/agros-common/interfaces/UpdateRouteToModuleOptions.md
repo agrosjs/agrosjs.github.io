@@ -2,7 +2,7 @@
 
 # Interface: UpdateRouteToModuleOptions
 
-## TOC
+## Table of contents
 
 ### Properties
 
@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[packages/agros-common/src/updaters.ts:396](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/updaters.ts#L396)
+[packages/agros-common/src/updaters.ts:396](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/updaters.ts#L396)

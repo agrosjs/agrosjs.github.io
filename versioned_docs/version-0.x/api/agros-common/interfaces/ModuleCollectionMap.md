@@ -2,7 +2,7 @@
 
 # Interface: ModuleCollectionMap
 
-## TOC
+## Table of contents
 
 ### Properties
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[packages/agros-common/src/scanner.ts:18](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/scanner.ts#L18)
+[packages/agros-common/src/scanner.ts:18](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/scanner.ts#L18)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/scanner.ts:20](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/scanner.ts#L20)
+[packages/agros-common/src/scanner.ts:20](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/scanner.ts#L20)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/scanner.ts:19](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/scanner.ts#L19)
+[packages/agros-common/src/scanner.ts:19](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/scanner.ts#L19)

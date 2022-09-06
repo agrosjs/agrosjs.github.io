@@ -2,7 +2,7 @@
 
 # @agros/create-app
 
-## TOC
+## Table of contents
 
 ### Classes
 
@@ -28,4 +28,4 @@
 
 #### Defined in
 
-[create-agros-app/src/run.ts:4](https://github.com/agrosjs/agros/blob/31bad22/packages/create-agros-app/src/run.ts#L4)
+[create-agros-app/src/run.ts:4](https://github.com/agrosjs/agros/blob/854b313/packages/create-agros-app/src/run.ts#L4)

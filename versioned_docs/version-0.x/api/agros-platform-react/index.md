@@ -2,7 +2,7 @@
 
 # @agros/platform-react
 
-## TOC
+## Table of contents
 
 ### Variables
 
@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[platform.ts:19](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-platform-react/src/platform.ts#L19)
+[platform.ts:19](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platform-react/src/platform.ts#L19)

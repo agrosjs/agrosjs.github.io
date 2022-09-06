@@ -8,7 +8,7 @@
 | :------ |
 | `Props` |
 
-## TOC
+## Table of contents
 
 ### Properties
 
@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:109](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L109)
+[packages/agros-common/src/types.ts:109](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L109)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:108](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/types.ts#L108)
+[packages/agros-common/src/types.ts:108](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/types.ts#L108)

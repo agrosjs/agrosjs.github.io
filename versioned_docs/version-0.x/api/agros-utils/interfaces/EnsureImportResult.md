@@ -2,7 +2,7 @@
 
 # Interface: EnsureImportResult
 
-## TOC
+## Table of contents
 
 ### Properties
 
@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[ensure-import.ts:19](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-utils/src/ensure-import.ts#L19)
+[ensure-import.ts:19](https://github.com/agrosjs/agros/blob/854b313/packages/agros-utils/src/ensure-import.ts#L19)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[ensure-import.ts:18](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-utils/src/ensure-import.ts#L18)
+[ensure-import.ts:18](https://github.com/agrosjs/agros/blob/854b313/packages/agros-utils/src/ensure-import.ts#L18)

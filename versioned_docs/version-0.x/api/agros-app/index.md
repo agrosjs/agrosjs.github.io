@@ -2,7 +2,7 @@
 
 # @agros/app
 
-## TOC
+## Table of contents
 
 ### Interfaces
 
@@ -35,7 +35,7 @@
 
 #### Defined in
 
-[agros-app/src/decorators/component.decorator.ts:7](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-app/src/decorators/component.decorator.ts#L7)
+[agros-app/src/decorators/component.decorator.ts:7](https://github.com/agrosjs/agros/blob/854b313/packages/agros-app/src/decorators/component.decorator.ts#L7)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Defined in
 
-[agros-app/src/decorators/global.decorator.ts:3](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-app/src/decorators/global.decorator.ts#L3)
+[agros-app/src/decorators/global.decorator.ts:3](https://github.com/agrosjs/agros/blob/854b313/packages/agros-app/src/decorators/global.decorator.ts#L3)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[agros-app/src/decorators/injectable.decorator.ts:3](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-app/src/decorators/injectable.decorator.ts#L3)
+[agros-app/src/decorators/injectable.decorator.ts:3](https://github.com/agrosjs/agros/blob/854b313/packages/agros-app/src/decorators/injectable.decorator.ts#L3)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[agros-app/src/decorators/module.decorator.ts:7](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-app/src/decorators/module.decorator.ts#L7)
+[agros-app/src/decorators/module.decorator.ts:7](https://github.com/agrosjs/agros/blob/854b313/packages/agros-app/src/decorators/module.decorator.ts#L7)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[agros-app/src/decorators/use-interceptors.decorator.ts:4](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-app/src/decorators/use-interceptors.decorator.ts#L4)
+[agros-app/src/decorators/use-interceptors.decorator.ts:4](https://github.com/agrosjs/agros/blob/854b313/packages/agros-app/src/decorators/use-interceptors.decorator.ts#L4)
 
 ___
 
@@ -129,4 +129,4 @@ get container dependencies
 
 #### Defined in
 
-[agros-app/src/get-container.ts:9](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-app/src/get-container.ts#L9)
+[agros-app/src/get-container.ts:9](https://github.com/agrosjs/agros/blob/854b313/packages/agros-app/src/get-container.ts#L9)

@@ -2,7 +2,7 @@
 
 # Interface: CollectionWriteFileOptions
 
-## TOC
+## Table of contents
 
 ### Properties
 
@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[packages/agros-common/src/collection.ts:32](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/collection.ts#L32)
+[packages/agros-common/src/collection.ts:32](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/collection.ts#L32)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/collection.ts:33](https://github.com/agrosjs/agros/blob/31bad22/packages/agros-common/src/collection.ts#L33)
+[packages/agros-common/src/collection.ts:33](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/collection.ts#L33)

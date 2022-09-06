@@ -2,7 +2,7 @@
 
 # Interface: FactoryCodeConfig
 
-## Table of contents
+## TOC
 
 ### Properties
 

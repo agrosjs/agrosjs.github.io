@@ -2,7 +2,7 @@
 
 # Interface: AppCollectionOptions
 
-## Table of contents
+## TOC
 
 ### Properties
 

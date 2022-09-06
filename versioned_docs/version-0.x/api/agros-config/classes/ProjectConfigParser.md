@@ -2,7 +2,7 @@
 
 # Class: ProjectConfigParser
 
-## Table of contents
+## TOC
 
 ### Constructors
 

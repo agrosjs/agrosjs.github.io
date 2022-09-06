@@ -8,7 +8,7 @@
 
   ↳ **`ComponentInstanceMetadata`**
 
-## Table of contents
+## TOC
 
 ### Properties
 

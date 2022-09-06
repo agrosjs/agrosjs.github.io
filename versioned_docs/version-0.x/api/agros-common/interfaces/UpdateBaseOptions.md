@@ -2,7 +2,7 @@
 
 # Interface: UpdateBaseOptions
 
-## Table of contents
+## TOC
 
 ### Properties
 

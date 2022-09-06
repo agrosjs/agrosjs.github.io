@@ -2,7 +2,7 @@
 
 # Interface: ModuleCollectionMap
 
-## Table of contents
+## TOC
 
 ### Properties
 

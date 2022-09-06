@@ -2,7 +2,7 @@
 
 # Interface: ImportedItem
 
-## Table of contents
+## TOC
 
 ### Properties
 

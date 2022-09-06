@@ -2,7 +2,7 @@
 
 # Class: PlatformConfigParser
 
-## Table of contents
+## TOC
 
 ### Constructors
 

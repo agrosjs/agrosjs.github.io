@@ -2,7 +2,7 @@
 
 # Interface: Platform
 
-## Table of contents
+## TOC
 
 ### Properties
 

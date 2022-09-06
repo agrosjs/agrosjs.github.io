@@ -2,7 +2,7 @@
 
 # @agros/app
 
-## Table of contents
+## TOC
 
 ### Interfaces
 

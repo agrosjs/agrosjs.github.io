@@ -2,7 +2,7 @@
 
 # Interface: UpdateImportedServiceToServiceOptions
 
-## Table of contents
+## TOC
 
 ### Properties
 

@@ -2,7 +2,7 @@
 
 # @agros/common
 
-## Table of contents
+## TOC
 
 ### Classes
 

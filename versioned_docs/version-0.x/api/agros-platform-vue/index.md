@@ -2,7 +2,7 @@
 
 # @agros/platform-vue
 
-## Table of contents
+## TOC
 
 ### Variables
 

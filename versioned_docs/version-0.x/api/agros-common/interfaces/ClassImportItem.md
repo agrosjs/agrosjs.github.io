@@ -8,7 +8,7 @@
 | :------ | :------ |
 | `T` | extends `Statement` |
 
-## Table of contents
+## TOC
 
 ### Properties
 

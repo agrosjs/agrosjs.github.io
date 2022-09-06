@@ -12,7 +12,7 @@
 
 - `AbstractCollection`
 
-## Table of contents
+## TOC
 
 ### Constructors
 

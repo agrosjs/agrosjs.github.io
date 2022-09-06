@@ -2,7 +2,7 @@
 
 # @agros/collections
 
-## Table of contents
+## TOC
 
 ### Variables
 

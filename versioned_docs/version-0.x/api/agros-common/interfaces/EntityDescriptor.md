@@ -10,7 +10,7 @@
 
   ↳↳ [`RootPointDescriptor`](RootPointDescriptor.md)
 
-## Table of contents
+## TOC
 
 ### Properties
 

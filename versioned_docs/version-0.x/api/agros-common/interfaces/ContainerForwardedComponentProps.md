@@ -8,7 +8,7 @@
 | :------ |
 | `Props` |
 
-## Table of contents
+## TOC
 
 ### Properties
 

@@ -8,7 +8,7 @@
 
   ↳ **`RootPointDescriptor`**
 
-## Table of contents
+## TOC
 
 ### Properties
 

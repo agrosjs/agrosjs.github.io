@@ -2,7 +2,7 @@
 
 # Interface: ProjectConfig
 
-## Table of contents
+## TOC
 
 ### Properties
 

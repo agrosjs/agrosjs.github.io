@@ -2,7 +2,7 @@
 
 # Interface: RequireFromStringOptions
 
-## Table of contents
+## TOC
 
 ### Properties
 

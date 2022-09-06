@@ -8,7 +8,7 @@
 
   ↳ **`Decorator`**
 
-## Table of contents
+## TOC
 
 ### Properties
 

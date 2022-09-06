@@ -2,7 +2,7 @@
 
 # Interface: EnsureImportOptions
 
-## Table of contents
+## TOC
 
 ### Properties
 

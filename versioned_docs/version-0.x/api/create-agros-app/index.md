@@ -2,7 +2,7 @@
 
 # @agros/create-app
 
-## Table of contents
+## TOC
 
 ### Classes
 

@@ -10,7 +10,7 @@
 
   ↳↳ [`CollectionDescriptor`](CollectionDescriptor.md)
 
-## Table of contents
+## TOC
 
 ### Properties
 

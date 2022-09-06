@@ -2,7 +2,7 @@
 
 # @agros/cli
 
-## Table of contents
+## TOC
 
 ### Functions
 

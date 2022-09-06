@@ -2,7 +2,7 @@
 
 # @agros/platform-react
 
-## Table of contents
+## TOC
 
 ### Variables
 

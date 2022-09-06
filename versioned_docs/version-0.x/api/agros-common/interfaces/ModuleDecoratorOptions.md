@@ -2,7 +2,7 @@
 
 # Interface: ModuleDecoratorOptions
 
-## Table of contents
+## TOC
 
 ### Properties
 

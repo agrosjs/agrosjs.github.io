@@ -2,7 +2,7 @@
 
 # @agros/logger
 
-## Table of contents
+## TOC
 
 ### Classes
 

@@ -14,7 +14,7 @@
 
   ↳ **`RouteOptionItem`**
 
-## Table of contents
+## TOC
 
 ### Properties
 

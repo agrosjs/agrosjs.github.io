@@ -2,7 +2,7 @@
 
 # @agros/loader
 
-## Table of contents
+## TOC
 
 ### Functions
 

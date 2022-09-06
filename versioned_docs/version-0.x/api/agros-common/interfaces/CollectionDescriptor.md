@@ -10,7 +10,7 @@
 
   ↳↳ [`EntityDescriptor`](EntityDescriptor.md)
 
-## Table of contents
+## TOC
 
 ### Properties
 

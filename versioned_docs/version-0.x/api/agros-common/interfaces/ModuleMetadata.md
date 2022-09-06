@@ -8,7 +8,7 @@
 
   ↳ [`ModuleInstanceMetadata`](ModuleInstanceMetadata.md)
 
-## Table of contents
+## TOC
 
 ### Properties
 

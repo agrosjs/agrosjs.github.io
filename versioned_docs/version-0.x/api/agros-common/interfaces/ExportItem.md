@@ -8,7 +8,7 @@
 | :------ | :------ |
 | `T` | `Statement` \| `Expression` |
 
-## Table of contents
+## TOC
 
 ### Properties
 

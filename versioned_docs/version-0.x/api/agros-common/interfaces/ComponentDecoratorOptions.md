@@ -8,7 +8,7 @@
 | :------ | :------ |
 | `T` | `any` |
 
-## Table of contents
+## TOC
 
 ### Properties
 

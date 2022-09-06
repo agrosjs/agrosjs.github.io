@@ -2,7 +2,7 @@
 
 # @agros/config
 
-## Table of contents
+## TOC
 
 ### Classes
 

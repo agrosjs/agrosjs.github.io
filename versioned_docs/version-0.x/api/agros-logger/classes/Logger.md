@@ -2,7 +2,7 @@
 
 # Class: Logger
 
-## Table of contents
+## TOC
 
 ### Constructors
 

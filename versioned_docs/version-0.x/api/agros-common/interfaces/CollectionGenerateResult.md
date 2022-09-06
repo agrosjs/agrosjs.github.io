@@ -2,7 +2,7 @@
 
 # Interface: CollectionGenerateResult
 
-## Table of contents
+## TOC
 
 ### Properties
 

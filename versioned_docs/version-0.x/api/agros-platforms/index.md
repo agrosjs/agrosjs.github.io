@@ -2,7 +2,7 @@
 
 # @agros/platforms
 
-## Table of contents
+## TOC
 
 ### Interfaces
 

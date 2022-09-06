@@ -2,7 +2,7 @@
 
 # Interface: CollectionWriteFileOptions
 
-## Table of contents
+## TOC
 
 ### Properties
 

@@ -2,7 +2,7 @@
 
 # Interface: Collection
 
-## Table of contents
+## TOC
 
 ### Properties
 

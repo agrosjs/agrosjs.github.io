@@ -2,7 +2,7 @@
 
 # Interface: UpdateRouteToModuleOptions
 
-## Table of contents
+## TOC
 
 ### Properties
 

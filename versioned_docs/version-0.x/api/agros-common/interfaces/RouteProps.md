@@ -9,7 +9,7 @@
 | `C` | `any` |
 | `R` | `any` |
 
-## Table of contents
+## TOC
 
 ### Properties
 

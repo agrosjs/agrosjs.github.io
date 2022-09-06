@@ -2,7 +2,7 @@
 
 # Interface: Factory
 
-## Table of contents
+## TOC
 
 ### Properties
 

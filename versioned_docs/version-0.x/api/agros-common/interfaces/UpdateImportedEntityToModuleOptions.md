@@ -2,7 +2,7 @@
 
 # Interface: UpdateImportedEntityToModuleOptions
 
-## Table of contents
+## TOC
 
 ### Properties
 

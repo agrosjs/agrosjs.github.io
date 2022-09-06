@@ -8,7 +8,7 @@
 
   ↳ **`BootstrapConfigItem`**
 
-## Table of contents
+## TOC
 
 ### Properties
 

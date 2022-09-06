@@ -2,7 +2,7 @@
 
 # Class: CLIConfigParser
 
-## Table of contents
+## TOC
 
 ### Constructors
 

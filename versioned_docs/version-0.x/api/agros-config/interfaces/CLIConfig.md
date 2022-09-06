@@ -2,7 +2,7 @@
 
 # Interface: CLIConfig
 
-## Table of contents
+## TOC
 
 ### Properties
 

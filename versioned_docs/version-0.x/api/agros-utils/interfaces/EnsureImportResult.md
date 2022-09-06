@@ -2,7 +2,7 @@
 
 # Interface: EnsureImportResult
 
-## Table of contents
+## TOC
 
 ### Properties
 

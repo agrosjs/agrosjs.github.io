@@ -8,7 +8,7 @@
 
   ↳ **`LinterOptions`**
 
-## Table of contents
+## TOC
 
 ### Properties
 

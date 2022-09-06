@@ -5,10 +5,6 @@ aliases: [
     "node_modules",
     "checksum.txt",
   ],
-  &output-paths [
-    "dist",
-    "checksum.txt",
-  ],
 ]
 
 defaults: &defaults
@@ -37,10 +33,7 @@ jobs:
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "checksum.txt" }}
-      - run: npm run build -- --out-dir=dist
-      - save_cache:
-          paths: *output-paths
-          key: v1-dist-{{ checksum "checksum.txt" }}
+      - run: npm run build
   deploy:
     <<: *defaults
     steps:
@@ -49,14 +42,13 @@ jobs:
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "checksum.txt" }}
-            - v1-dist-{{ checksum "checksum.txt" }}
       - run: git config --global user.name "lenconda"
       - run: git config --global user.email i@lenconda.top
       - run: mkdir -p ~/.ssh
       - run: touch ~/.ssh/known_hosts
       - run: ssh-keyscan github.com >> ~/.ssh/known_hosts
       - run: cp -r ./.circleci ./static
-      - run: npm run deploy -- --out-dir=dist --skip-build
+      - run: npm run deploy
 
 workflows:
   version: 2
@@ -69,9 +61,12 @@ workflows:
       - build:
           requires:
             - install
+          filters:
+            branches:
+              ignore: /^master$/
       - deploy:
           requires:
-            - build
+            - install
           filters:
             branches:
               only: /^master$/

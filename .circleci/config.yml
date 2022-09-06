@@ -6,7 +6,7 @@ aliases: [
     "checksum.txt",
   ],
   &output-paths [
-    "build",
+    "dist",
     "checksum.txt",
   ],
 ]
@@ -37,7 +37,7 @@ jobs:
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "checksum.txt" }}
-      - run: npm run build
+      - run: npm run build -- --out-dir=dist
       - save_cache:
           paths: *output-paths
           key: v1-dist-{{ checksum "checksum.txt" }}
@@ -56,7 +56,7 @@ jobs:
       - run: touch ~/.ssh/known_hosts
       - run: ssh-keyscan github.com >> ~/.ssh/known_hosts
       - run: cp -r ./.circleci ./static
-      - run: npm run deploy -- --skip-build
+      - run: npm run deploy -- --out-dir=dist --skip-build
 
 workflows:
   version: 2

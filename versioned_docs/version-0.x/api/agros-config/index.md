@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[project-config-parser.ts:7](https://github.com/agrosjs/agros/blob/854b313/packages/agros-config/src/project-config-parser.ts#L7)
+[project-config-parser.ts:7](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-config/src/project-config-parser.ts#L7)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[project-config-parser.ts:8](https://github.com/agrosjs/agros/blob/854b313/packages/agros-config/src/project-config-parser.ts#L8)
+[project-config-parser.ts:8](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-config/src/project-config-parser.ts#L8)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[project-config-parser.ts:9](https://github.com/agrosjs/agros/blob/854b313/packages/agros-config/src/project-config-parser.ts#L9)
+[project-config-parser.ts:9](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-config/src/project-config-parser.ts#L9)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[project-config-parser.ts:6](https://github.com/agrosjs/agros/blob/854b313/packages/agros-config/src/project-config-parser.ts#L6)
+[project-config-parser.ts:6](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-config/src/project-config-parser.ts#L6)

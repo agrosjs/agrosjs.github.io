@@ -6,7 +6,6 @@
 
 ### Interfaces
 
-- [FactoryCodeConfig](interfaces/FactoryCodeConfig.md)
 - [Platform](interfaces/Platform.md)
 
 ### Type Aliases
@@ -36,4 +35,4 @@
 
 #### Defined in
 
-[platform.interface.ts:10](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L10)
+[platform.interface.ts:5](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-platforms/src/platform.interface.ts#L5)

@@ -37,7 +37,7 @@
 
 #### Defined in
 
-[platform.interface.ts:23](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L23)
+[platform.interface.ts:19](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-platforms/src/platform.interface.ts#L19)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:22](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L22)
+[platform.interface.ts:18](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-platforms/src/platform.interface.ts#L18)
 
 ___
 
@@ -93,17 +93,17 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:16](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L16)
+[platform.interface.ts:11](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-platforms/src/platform.interface.ts#L11)
 
 ___
 
 ### <a id="getcomponentfactorycode" name="getcomponentfactorycode"></a> getComponentFactoryCode
 
-• **getComponentFactoryCode**: (`ensuredImportsMap`: `Record`<`string`, `string`\>, `filePath`: `string`, `lazy`: `boolean`) => [`FactoryCodeConfig`](FactoryCodeConfig.md)
+• **getComponentFactoryCode**: (`ensuredImportsMap`: `Record`<`string`, `string`\>, `filePath`: `string`, `componentIdentifierName`: `string`, `lazy`: `boolean`) => `string`
 
 #### Type declaration
 
-▸ (`ensuredImportsMap`, `filePath`, `lazy`): [`FactoryCodeConfig`](FactoryCodeConfig.md)
+▸ (`ensuredImportsMap`, `filePath`, `componentIdentifierName`, `lazy`): `string`
 
 ##### Parameters
 
@@ -111,15 +111,16 @@ ___
 | :------ | :------ |
 | `ensuredImportsMap` | `Record`<`string`, `string`\> |
 | `filePath` | `string` |
+| `componentIdentifierName` | `string` |
 | `lazy` | `boolean` |
 
 ##### Returns
 
-[`FactoryCodeConfig`](FactoryCodeConfig.md)
+`string`
 
 #### Defined in
 
-[platform.interface.ts:17](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L17)
+[platform.interface.ts:12](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-platforms/src/platform.interface.ts#L12)
 
 ___
 
@@ -137,7 +138,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:14](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L14)
+[platform.interface.ts:9](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-platforms/src/platform.interface.ts#L9)
 
 ___
 
@@ -155,7 +156,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:15](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L15)
+[platform.interface.ts:10](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-platforms/src/platform.interface.ts#L10)
 
 ___
 
@@ -173,4 +174,4 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:13](https://github.com/agrosjs/agros/blob/854b313/packages/agros-platforms/src/platform.interface.ts#L13)
+[platform.interface.ts:8](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-platforms/src/platform.interface.ts#L8)

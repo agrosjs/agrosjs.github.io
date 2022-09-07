@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[packages/agros-common/src/updaters.ts:21](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/updaters.ts#L21)
+[packages/agros-common/src/updaters.ts:21](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/updaters.ts#L21)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/updaters.ts:23](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/updaters.ts#L23)
+[packages/agros-common/src/updaters.ts:23](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/updaters.ts#L23)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/updaters.ts:22](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/updaters.ts#L22)
+[packages/agros-common/src/updaters.ts:22](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/updaters.ts#L22)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/updaters.ts:20](https://github.com/agrosjs/agros/blob/854b313/packages/agros-common/src/updaters.ts#L20)
+[packages/agros-common/src/updaters.ts:20](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/updaters.ts#L20)

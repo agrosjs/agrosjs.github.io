@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[index.ts:6](https://github.com/agrosjs/agros/blob/854b313/packages/agros-cli/src/index.ts#L6)
+[index.ts:6](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-cli/src/index.ts#L6)

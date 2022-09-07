@@ -1,3 +1,6 @@
 {
-    "label": "API"
+    "label": "API",
+    "link": {
+        "type": "generated-index"
+    }
 }

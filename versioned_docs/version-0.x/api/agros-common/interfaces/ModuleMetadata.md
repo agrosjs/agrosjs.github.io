@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:94](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/types.ts#L94)
+[packages/agros-common/src/types.ts:99](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/types.ts#L99)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:93](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/types.ts#L93)
+[packages/agros-common/src/types.ts:98](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/types.ts#L98)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:91](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/types.ts#L91)
+[packages/agros-common/src/types.ts:96](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/types.ts#L96)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:92](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/types.ts#L92)
+[packages/agros-common/src/types.ts:97](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/types.ts#L97)
 
 ___
 
@@ -66,4 +66,4 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:95](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/types.ts#L95)
+[packages/agros-common/src/types.ts:100](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/types.ts#L100)

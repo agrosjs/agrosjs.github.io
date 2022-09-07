@@ -6,7 +6,6 @@
 
 ### Properties
 
-- [createRoutes](Platform.md#createroutes)
 - [generateComponent](Platform.md#generatecomponent)
 - [getBootstrapCode](Platform.md#getbootstrapcode)
 - [getComponentFactoryCode](Platform.md#getcomponentfactorycode)
@@ -15,31 +14,6 @@
 - [getLoaderImports](Platform.md#getloaderimports)
 
 ## Properties
-
-### <a id="createroutes" name="createroutes"></a> createRoutes
-
-• **createRoutes**: (`routerItems`: `RouterItem`[], `level?`: `number`) => `any`
-
-#### Type declaration
-
-▸ (`routerItems`, `level?`): `any`
-
-##### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `routerItems` | `RouterItem`[] |
-| `level?` | `number` |
-
-##### Returns
-
-`any`
-
-#### Defined in
-
-[platform.interface.ts:19](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-platforms/src/platform.interface.ts#L19)
-
-___
 
 ### <a id="generatecomponent" name="generatecomponent"></a> generateComponent
 
@@ -68,7 +42,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:18](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-platforms/src/platform.interface.ts#L18)
+[platform.interface.ts:17](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-platforms/src/platform.interface.ts#L17)
 
 ___
 
@@ -93,7 +67,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:11](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-platforms/src/platform.interface.ts#L11)
+[platform.interface.ts:10](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-platforms/src/platform.interface.ts#L10)
 
 ___
 
@@ -120,7 +94,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:12](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-platforms/src/platform.interface.ts#L12)
+[platform.interface.ts:11](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-platforms/src/platform.interface.ts#L11)
 
 ___
 
@@ -138,7 +112,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:9](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-platforms/src/platform.interface.ts#L9)
+[platform.interface.ts:8](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-platforms/src/platform.interface.ts#L8)
 
 ___
 
@@ -156,7 +130,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:10](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-platforms/src/platform.interface.ts#L10)
+[platform.interface.ts:9](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-platforms/src/platform.interface.ts#L9)
 
 ___
 
@@ -174,4 +148,4 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:8](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-platforms/src/platform.interface.ts#L8)
+[platform.interface.ts:7](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-platforms/src/platform.interface.ts#L7)

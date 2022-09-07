@@ -4,9 +4,18 @@
 
 ## Table of contents
 
+### Classes
+
+- [RouterModule](classes/RouterModule.md)
+
 ### Interfaces
 
 - [Interceptor](interfaces/Interceptor.md)
+- [RouterModuleRootOptions](interfaces/RouterModuleRootOptions.md)
+
+### Type Aliases
+
+- [RouterModuleFeatureOptions](index.md#routermodulefeatureoptions)
 
 ### Functions
 
@@ -16,6 +25,16 @@
 - [Module](index.md#module)
 - [UseInterceptors](index.md#useinterceptors)
 - [getContainer](index.md#getcontainer)
+
+## Type Aliases
+
+### <a id="routermodulefeatureoptions" name="routermodulefeatureoptions"></a> RouterModuleFeatureOptions
+
+Ƭ **RouterModuleFeatureOptions**: [`RouterModuleRootOptions`](interfaces/RouterModuleRootOptions.md)
+
+#### Defined in
+
+[agros-app/src/modules/router.module.ts:19](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-app/src/modules/router.module.ts#L19)
 
 ## Functions
 
@@ -35,7 +54,7 @@
 
 #### Defined in
 
-[agros-app/src/decorators/component.decorator.ts:7](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-app/src/decorators/component.decorator.ts#L7)
+[agros-app/src/decorators/component.decorator.ts:7](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-app/src/decorators/component.decorator.ts#L7)
 
 ___
 
@@ -49,7 +68,7 @@ ___
 
 #### Defined in
 
-[agros-app/src/decorators/global.decorator.ts:3](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-app/src/decorators/global.decorator.ts#L3)
+[agros-app/src/decorators/global.decorator.ts:3](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-app/src/decorators/global.decorator.ts#L3)
 
 ___
 
@@ -63,7 +82,7 @@ ___
 
 #### Defined in
 
-[agros-app/src/decorators/injectable.decorator.ts:3](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-app/src/decorators/injectable.decorator.ts#L3)
+[agros-app/src/decorators/injectable.decorator.ts:3](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-app/src/decorators/injectable.decorator.ts#L3)
 
 ___
 
@@ -83,7 +102,7 @@ ___
 
 #### Defined in
 
-[agros-app/src/decorators/module.decorator.ts:7](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-app/src/decorators/module.decorator.ts#L7)
+[agros-app/src/decorators/module.decorator.ts:7](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-app/src/decorators/module.decorator.ts#L7)
 
 ___
 
@@ -103,7 +122,7 @@ ___
 
 #### Defined in
 
-[agros-app/src/decorators/use-interceptors.decorator.ts:4](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-app/src/decorators/use-interceptors.decorator.ts#L4)
+[agros-app/src/decorators/use-interceptors.decorator.ts:4](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-app/src/decorators/use-interceptors.decorator.ts#L4)
 
 ___
 
@@ -129,4 +148,4 @@ get container dependencies
 
 #### Defined in
 
-[agros-app/src/get-container.ts:9](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-app/src/get-container.ts#L9)
+[agros-app/src/get-container.ts:9](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-app/src/get-container.ts#L9)

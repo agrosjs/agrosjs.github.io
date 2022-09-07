@@ -10,7 +10,6 @@
 - [exports](ModuleDecoratorOptions.md#exports)
 - [imports](ModuleDecoratorOptions.md#imports)
 - [providers](ModuleDecoratorOptions.md#providers)
-- [routes](ModuleDecoratorOptions.md#routes)
 
 ## Properties
 
@@ -20,7 +19,7 @@
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:85](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/types.ts#L85)
+[packages/agros-common/src/types.ts:91](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/types.ts#L91)
 
 ___
 
@@ -30,7 +29,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:87](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/types.ts#L87)
+[packages/agros-common/src/types.ts:92](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/types.ts#L92)
 
 ___
 
@@ -40,7 +39,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:83](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/types.ts#L83)
+[packages/agros-common/src/types.ts:89](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/types.ts#L89)
 
 ___
 
@@ -50,14 +49,4 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:84](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/types.ts#L84)
-
-___
-
-### <a id="routes" name="routes"></a> routes
-
-• `Optional` **routes**: [`RouteOptionItem`](RouteOptionItem.md)<`any`\>[]
-
-#### Defined in
-
-[packages/agros-common/src/types.ts:86](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/types.ts#L86)
+[packages/agros-common/src/types.ts:90](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/types.ts#L90)

@@ -42,6 +42,7 @@
 - [UpdateImportedServiceToServiceOptions](interfaces/UpdateImportedServiceToServiceOptions.md)
 - [UpdateItem](interfaces/UpdateItem.md)
 - [UpdateRouteToModuleOptions](interfaces/UpdateRouteToModuleOptions.md)
+- [ValueProvider](interfaces/ValueProvider.md)
 
 ### Type Aliases
 
@@ -62,6 +63,8 @@
 - [DI\_METADATA\_COMPONENT\_SYMBOL](index.md#di_metadata_component_symbol)
 - [DI\_METADATA\_MODULE\_SYMBOL](index.md#di_metadata_module_symbol)
 - [DI\_METADATA\_USE\_INTERCEPTORS\_SYMBOL](index.md#di_metadata_use_interceptors_symbol)
+- [ROUTES\_FEATURE](index.md#routes_feature)
+- [ROUTES\_ROOT](index.md#routes_root)
 
 ### Functions
 
@@ -105,7 +108,7 @@
 
 ### <a id="asyncmoduleclass" name="asyncmoduleclass"></a> AsyncModuleClass
 
-Ƭ **AsyncModuleClass**<`T`\>: [`Type`](index.md#type)<`T`\> \| `Promise`<[`Type`](index.md#type)\>
+Ƭ **AsyncModuleClass**<`T`\>: [`Type`](index.md#type)<`T`\> \| `Promise`<[`Type`](index.md#type)\> \| [`ValueProvider`](interfaces/ValueProvider.md)
 
 #### Type parameters
 
@@ -115,7 +118,7 @@
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:46](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/types.ts#L46)
+[packages/agros-common/src/types.ts:52](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/types.ts#L52)
 
 ___
 
@@ -125,7 +128,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:40](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/types.ts#L40)
+[packages/agros-common/src/types.ts:41](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/types.ts#L41)
 
 ___
 
@@ -135,7 +138,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:42](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/detectors.ts#L42)
+[packages/agros-common/src/detectors.ts:42](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/detectors.ts#L42)
 
 ___
 
@@ -145,7 +148,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:163](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/detectors.ts#L163)
+[packages/agros-common/src/detectors.ts:163](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/detectors.ts#L163)
 
 ___
 
@@ -170,7 +173,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/linters.ts:9](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/linters.ts#L9)
+[packages/agros-common/src/linters.ts:9](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/linters.ts#L9)
 
 ___
 
@@ -196,7 +199,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:45](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/types.ts#L45)
+[packages/agros-common/src/types.ts:51](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/types.ts#L51)
 
 ___
 
@@ -232,7 +235,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/updaters.ts:26](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/updaters.ts#L26)
+[packages/agros-common/src/updaters.ts:26](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/updaters.ts#L26)
 
 ___
 
@@ -264,7 +267,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/updaters.ts:35](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/updaters.ts#L35)
+[packages/agros-common/src/updaters.ts:35](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/updaters.ts#L35)
 
 ___
 
@@ -274,7 +277,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/types.ts:112](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/types.ts#L112)
+[packages/agros-common/src/types.ts:117](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/types.ts#L117)
 
 ## Variables
 
@@ -284,7 +287,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/constants.ts:1](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/constants.ts#L1)
+[packages/agros-common/src/constants.ts:1](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/constants.ts#L1)
 
 ___
 
@@ -294,7 +297,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/constants.ts:2](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/constants.ts#L2)
+[packages/agros-common/src/constants.ts:2](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/constants.ts#L2)
 
 ___
 
@@ -304,7 +307,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/constants.ts:5](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/constants.ts#L5)
+[packages/agros-common/src/constants.ts:5](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/constants.ts#L5)
 
 ___
 
@@ -314,7 +317,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/constants.ts:4](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/constants.ts#L4)
+[packages/agros-common/src/constants.ts:4](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/constants.ts#L4)
 
 ___
 
@@ -324,7 +327,27 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/constants.ts:6](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/constants.ts#L6)
+[packages/agros-common/src/constants.ts:6](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/constants.ts#L6)
+
+___
+
+### <a id="routes_feature" name="routes_feature"></a> ROUTES\_FEATURE
+
+• `Const` **ROUTES\_FEATURE**: ``"agros:internal:routes:feature"``
+
+#### Defined in
+
+[packages/agros-common/src/constants.ts:9](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/constants.ts#L9)
+
+___
+
+### <a id="routes_root" name="routes_root"></a> ROUTES\_ROOT
+
+• `Const` **ROUTES\_ROOT**: ``"agros:internal:routes:root"``
+
+#### Defined in
+
+[packages/agros-common/src/constants.ts:8](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/constants.ts#L8)
 
 ## Functions
 
@@ -345,7 +368,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/apply-updates.ts:4](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/apply-updates.ts#L4)
+[packages/agros-common/src/apply-updates.ts:4](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/apply-updates.ts#L4)
 
 ___
 
@@ -365,7 +388,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/check-entities.ts:3](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/check-entities.ts#L3)
+[packages/agros-common/src/check-entities.ts:3](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/check-entities.ts#L3)
 
 ___
 
@@ -386,7 +409,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:200](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/detectors.ts#L200)
+[packages/agros-common/src/detectors.ts:200](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/detectors.ts#L200)
 
 ___
 
@@ -406,7 +429,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:381](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/detectors.ts#L381)
+[packages/agros-common/src/detectors.ts:381](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/detectors.ts#L381)
 
 ___
 
@@ -433,7 +456,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:66](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/detectors.ts#L66)
+[packages/agros-common/src/detectors.ts:66](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/detectors.ts#L66)
 
 ___
 
@@ -453,7 +476,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:165](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/detectors.ts#L165)
+[packages/agros-common/src/detectors.ts:165](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/detectors.ts#L165)
 
 ___
 
@@ -475,7 +498,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:233](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/detectors.ts#L233)
+[packages/agros-common/src/detectors.ts:233](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/detectors.ts#L233)
 
 ___
 
@@ -495,7 +518,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:367](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/detectors.ts#L367)
+[packages/agros-common/src/detectors.ts:367](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/detectors.ts#L367)
 
 ___
 
@@ -517,7 +540,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:146](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/detectors.ts#L146)
+[packages/agros-common/src/detectors.ts:146](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/detectors.ts#L146)
 
 ___
 
@@ -531,7 +554,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:405](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/detectors.ts#L405)
+[packages/agros-common/src/detectors.ts:405](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/detectors.ts#L405)
 
 ___
 
@@ -551,7 +574,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/utils.ts:88](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/utils.ts#L88)
+[packages/agros-common/src/utils.ts:88](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/utils.ts#L88)
 
 ___
 
@@ -571,7 +594,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/utils.ts:150](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/utils.ts#L150)
+[packages/agros-common/src/utils.ts:150](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/utils.ts#L150)
 
 ___
 
@@ -591,7 +614,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/utils.ts:56](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/utils.ts#L56)
+[packages/agros-common/src/utils.ts:56](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/utils.ts#L56)
 
 ___
 
@@ -611,7 +634,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/utils.ts:122](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/utils.ts#L122)
+[packages/agros-common/src/utils.ts:122](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/utils.ts#L122)
 
 ___
 
@@ -631,7 +654,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/utils.ts:31](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/utils.ts#L31)
+[packages/agros-common/src/utils.ts:31](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/utils.ts#L31)
 
 ___
 
@@ -652,7 +675,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/linters.ts:15](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/linters.ts#L15)
+[packages/agros-common/src/linters.ts:15](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/linters.ts#L15)
 
 ___
 
@@ -673,7 +696,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/linters.ts:92](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/linters.ts#L92)
+[packages/agros-common/src/linters.ts:92](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/linters.ts#L92)
 
 ___
 
@@ -693,7 +716,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/utils.ts:101](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/utils.ts#L101)
+[packages/agros-common/src/utils.ts:101](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/utils.ts#L101)
 
 ___
 
@@ -714,7 +737,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/normalizers.ts:21](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/normalizers.ts#L21)
+[packages/agros-common/src/normalizers.ts:21](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/normalizers.ts#L21)
 
 ___
 
@@ -734,7 +757,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/normalizers.ts:33](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/normalizers.ts#L33)
+[packages/agros-common/src/normalizers.ts:33](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/normalizers.ts#L33)
 
 ___
 
@@ -756,7 +779,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/normalizers.ts:83](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/normalizers.ts#L83)
+[packages/agros-common/src/normalizers.ts:83](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/normalizers.ts#L83)
 
 ___
 
@@ -776,7 +799,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/normalizers.ts:47](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/normalizers.ts#L47)
+[packages/agros-common/src/normalizers.ts:47](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/normalizers.ts#L47)
 
 ___
 
@@ -798,7 +821,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/normalizers.ts:63](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/normalizers.ts#L63)
+[packages/agros-common/src/normalizers.ts:63](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/normalizers.ts#L63)
 
 ___
 
@@ -812,7 +835,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/normalizers.ts:29](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/normalizers.ts#L29)
+[packages/agros-common/src/normalizers.ts:29](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/normalizers.ts#L29)
 
 ___
 
@@ -832,7 +855,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/normalizers.ts:61](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/normalizers.ts#L61)
+[packages/agros-common/src/normalizers.ts:61](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/normalizers.ts#L61)
 
 ___
 
@@ -853,7 +876,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/normalizers.ts:25](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/normalizers.ts#L25)
+[packages/agros-common/src/normalizers.ts:25](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/normalizers.ts#L25)
 
 ___
 
@@ -872,7 +895,7 @@ pathname
 
 #### Defined in
 
-[packages/agros-common/src/normalizers.ts:17](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/normalizers.ts#L17)
+[packages/agros-common/src/normalizers.ts:17](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/normalizers.ts#L17)
 
 ___
 
@@ -892,7 +915,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/scanner.ts:23](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/scanner.ts#L23)
+[packages/agros-common/src/scanner.ts:23](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/scanner.ts#L23)
 
 ___
 
@@ -912,7 +935,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/scanner.ts:90](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/scanner.ts#L90)
+[packages/agros-common/src/scanner.ts:90](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/scanner.ts#L90)
 
 ___
 
@@ -932,7 +955,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/transformers.ts:56](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/transformers.ts#L56)
+[packages/agros-common/src/transformers.ts:56](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/transformers.ts#L56)
 
 ___
 
@@ -953,7 +976,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/transformers.ts:10](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/transformers.ts#L10)
+[packages/agros-common/src/transformers.ts:10](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/transformers.ts#L10)
 
 ___
 
@@ -975,7 +998,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/updaters.ts:35](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/updaters.ts#L35)
+[packages/agros-common/src/updaters.ts:35](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/updaters.ts#L35)
 
 ___
 
@@ -997,7 +1020,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/updaters.ts:35](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/updaters.ts#L35)
+[packages/agros-common/src/updaters.ts:35](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/updaters.ts#L35)
 
 ___
 
@@ -1019,7 +1042,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/updaters.ts:35](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/updaters.ts#L35)
+[packages/agros-common/src/updaters.ts:35](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/updaters.ts#L35)
 
 ___
 
@@ -1041,4 +1064,4 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/updaters.ts:35](https://github.com/agrosjs/agros/blob/64c5bfe/packages/agros-common/src/updaters.ts#L35)
+[packages/agros-common/src/updaters.ts:35](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-common/src/updaters.ts#L35)

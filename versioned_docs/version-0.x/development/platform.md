@@ -6,15 +6,17 @@ sidebar_position: 1
 
 Platforms are responsible for providing plarform-specific support that helps run and build the whole project. In this documentation, we will learn how to implement a platform.
 
-A platform should implement the [`Platform`](/docs/api/agros-platforms/interfaces/Platform) interface, and export the class as default.
+A platform should implement the [`Platform`](/docs/api/agros-platforms/interfaces/Platform) interface, and export the instance of the class as default.
 
-## getDefaultConfig
+## The Platform Interface
+
+### getDefaultConfig
 
 [Definition](/docs/api/agros-platforms/interfaces/Platform#getdefaultconfig)
 
 `getDefaultConfig` returns an object that would be merged into the project platform configuration, whose key name is `platformConfig.$PACKAGE_NAME`, while `$PACKAGE_NAME` is the package name of current platform.
 
-## getLoaderImports
+### getLoaderImports
 
 [Definition](/docs/api/agros-platforms/interfaces/Platform#getloaderimports)
 
@@ -71,13 +73,13 @@ The import declarations of `react-router-dom` can also be:
 
 The value of `type` field can be `default`, `named` or `namespace`. If `default` is specified, Agros will add a declaration like `import Foo from '/path/to/foo'`, if `named` is specified, it will add `import { Foo } from '/path/to/foo'`, and `import * as Foo from '/path/to/foo'` with `namespace`.
 
-## getDecoratorImports
+### getDecoratorImports
 
 [Definition](/docs/api/agros-platforms/interfaces/Platform#getdecoratorimports)
 
 `getDecoratorImports` should return an array of dependencies that could be used by `@agros/loader` when transforming `@Component()` decorator. The return value is the same as [`getLoaderImports`](#getLoaderImports).
 
-## getBootstrapCode
+### getBootstrapCode
 
 [Definition](/docs/api/agros-platforms/interfaces/Platform#getbootstrapcode)
 
@@ -144,3 +146,38 @@ class Platform implements IPlatform {
     // ...
 }
 ```
+
+### getComponentFactoryCode
+
+[Definition](/docs/api/agros-platforms/interfaces/Platform#getcomponentfactorycode)
+
+`getComponentFactoryCode` should return a string that contains the code content of a full factory function.
+
+The method passes the following parameters:
+
+- `importsMap`: same as the `importsMap` passed to [`getBootstrapCode`](#getBootstrapCode), the key-value pairs are from the definition of [`getDecoratorImports`](#getDecoratorImports)
+- `filePath`: the relative pathname (with component declaration file) of component file defined in the `file` field of `@Component()`
+- `identifierName`: the identifier of dynamically imported component file by `@agros/loader`, defined as `const ${identifierName} = import('filePath');`
+- `lazy`: a boolean value indicates whether the component is lazy or not
+
+The return value of this method should be a full declaration of factory function, in general, the factory function is a single function returns platform-specified import of components. For example, in `@agros/platform-react`, the factory code is:
+
+```ts
+import { Platform as IPlatform } from '@agros/platforms';
+class Platform implements IPlatform {
+    // ...
+    public getComponentFactoryCode(
+        map: Record<string, string>,
+        filePath: string,
+        componentIdentifierName: string,
+        lazy = false,
+    ) {
+        return `() => ${lazy ? `() => import('${filePath}')` : componentIdentifierName};`;
+    },
+    // ...
+}
+```
+
+The `() => import('/path/to/file')` is [lazy component](https://reactjs.org/docs/code-splitting.html#import) definition of React.js.
+
+## agros-platform.config.js

@@ -8,7 +8,7 @@ Platforms are responsible for providing plarform-specific support that helps run
 
 A platform should implement the [`Platform`](/docs/api/agros-platforms/interfaces/Platform) interface, and export the instance of the class as default.
 
-## The Platform Interface
+## The `Platform` Interface
 
 ### getDefaultConfig
 
@@ -180,4 +180,10 @@ class Platform implements IPlatform {
 
 The `() => import('/path/to/file')` is [lazy component](https://reactjs.org/docs/code-splitting.html#import) definition of React.js.
 
+### generateComponent
+
+## The `BundlessPlatform` Interface
+
 ## agros-platform.config.js
+
+## package.json

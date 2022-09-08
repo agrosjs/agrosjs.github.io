@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[agros-app/src/modules/router.module.ts:44](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-app/src/modules/router.module.ts#L44)
+[agros-app/src/modules/router.module.ts:44](https://github.com/agrosjs/agros/blob/74ff0ba/packages/agros-app/src/modules/router.module.ts#L44)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[agros-app/src/modules/router.module.ts:33](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-app/src/modules/router.module.ts#L33)
+[agros-app/src/modules/router.module.ts:33](https://github.com/agrosjs/agros/blob/74ff0ba/packages/agros-app/src/modules/router.module.ts#L33)
 
 ___
 
@@ -90,4 +90,4 @@ ___
 
 #### Defined in
 
-[agros-app/src/modules/router.module.ts:22](https://github.com/agrosjs/agros/blob/4b72b68/packages/agros-app/src/modules/router.module.ts#L22)
+[agros-app/src/modules/router.module.ts:22](https://github.com/agrosjs/agros/blob/74ff0ba/packages/agros-app/src/modules/router.module.ts#L22)

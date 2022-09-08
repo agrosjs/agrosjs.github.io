@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[project-config-parser.ts:45](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-config/src/project-config-parser.ts#L45)
+[project-config-parser.ts:46](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-config/src/project-config-parser.ts#L46)
 
 ## Properties
 
@@ -37,7 +37,7 @@
 
 #### Defined in
 
-[project-config-parser.ts:24](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-config/src/project-config-parser.ts#L24)
+[project-config-parser.ts:25](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-config/src/project-config-parser.ts#L25)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[project-config-parser.ts:43](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-config/src/project-config-parser.ts#L43)
+[project-config-parser.ts:44](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-config/src/project-config-parser.ts#L44)
 
 ## Methods
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[project-config-parser.ts:99](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-config/src/project-config-parser.ts#L99)
+[project-config-parser.ts:98](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-config/src/project-config-parser.ts#L98)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[project-config-parser.ts:85](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-config/src/project-config-parser.ts#L85)
+[project-config-parser.ts:84](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-config/src/project-config-parser.ts#L84)
 
 ___
 
@@ -101,4 +101,4 @@ ___
 
 #### Defined in
 
-[project-config-parser.ts:93](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-config/src/project-config-parser.ts#L93)
+[project-config-parser.ts:92](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-config/src/project-config-parser.ts#L92)

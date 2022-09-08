@@ -17,7 +17,7 @@
 
 ### <a id="generatecomponent" name="generatecomponent"></a> generateComponent
 
-• **generateComponent**: <T\>(`componentInstance`: `ComponentInstance`, `component`: `any`) => `Promise`<`T`\>
+• `Optional` **generateComponent**: <T\>(`componentInstance`: `ComponentInstance`, `component`: `any`) => `Promise`<`T`\>
 
 #### Type declaration
 
@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[platform.interface.ts:17](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-platforms/src/platform.interface.ts#L17)
+[platform.interface.ts:17](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-platforms/src/platform.interface.ts#L17)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:10](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-platforms/src/platform.interface.ts#L10)
+[platform.interface.ts:9](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-platforms/src/platform.interface.ts#L9)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:11](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-platforms/src/platform.interface.ts#L11)
+[platform.interface.ts:10](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-platforms/src/platform.interface.ts#L10)
 
 ___
 
@@ -112,13 +112,13 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:8](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-platforms/src/platform.interface.ts#L8)
+[platform.interface.ts:8](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-platforms/src/platform.interface.ts#L8)
 
 ___
 
 ### <a id="getdefaultconfig" name="getdefaultconfig"></a> getDefaultConfig
 
-• **getDefaultConfig**: () => `Record`<`string`, `any`\>
+• `Optional` **getDefaultConfig**: () => `Record`<`string`, `any`\>
 
 #### Type declaration
 
@@ -130,7 +130,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:9](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-platforms/src/platform.interface.ts#L9)
+[platform.interface.ts:16](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-platforms/src/platform.interface.ts#L16)
 
 ___
 
@@ -148,4 +148,4 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:7](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-platforms/src/platform.interface.ts#L7)
+[platform.interface.ts:7](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-platforms/src/platform.interface.ts#L7)

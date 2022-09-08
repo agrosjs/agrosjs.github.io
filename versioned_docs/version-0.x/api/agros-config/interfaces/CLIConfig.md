@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[cli-config-parser.ts:7](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-config/src/cli-config-parser.ts#L7)
+[cli-config-parser.ts:7](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-config/src/cli-config-parser.ts#L7)

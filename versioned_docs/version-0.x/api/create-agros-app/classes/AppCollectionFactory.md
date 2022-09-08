@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:26](https://github.com/agrosjs/agros/blob/9f93173/packages/create-agros-app/src/app.factory.ts#L26)
+[create-agros-app/src/app.factory.ts:26](https://github.com/agrosjs/agros/blob/785aac3/packages/create-agros-app/src/app.factory.ts#L26)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:25](https://github.com/agrosjs/agros/blob/9f93173/packages/create-agros-app/src/app.factory.ts#L25)
+[create-agros-app/src/app.factory.ts:25](https://github.com/agrosjs/agros/blob/785aac3/packages/create-agros-app/src/app.factory.ts#L25)
 
 ___
 
@@ -132,7 +132,7 @@ AbstractCollection.generate
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:28](https://github.com/agrosjs/agros/blob/9f93173/packages/create-agros-app/src/app.factory.ts#L28)
+[create-agros-app/src/app.factory.ts:28](https://github.com/agrosjs/agros/blob/785aac3/packages/create-agros-app/src/app.factory.ts#L28)
 
 ___
 

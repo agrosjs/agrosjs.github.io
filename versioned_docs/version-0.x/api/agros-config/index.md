@@ -7,7 +7,6 @@
 ### Classes
 
 - [CLIConfigParser](classes/CLIConfigParser.md)
-- [PlatformConfigParser](classes/PlatformConfigParser.md)
 - [ProjectConfigParser](classes/ProjectConfigParser.md)
 
 ### Interfaces
@@ -30,7 +29,7 @@
 
 #### Defined in
 
-[project-config-parser.ts:7](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-config/src/project-config-parser.ts#L7)
+[project-config-parser.ts:8](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-config/src/project-config-parser.ts#L8)
 
 ___
 
@@ -40,7 +39,7 @@ ___
 
 #### Defined in
 
-[project-config-parser.ts:8](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-config/src/project-config-parser.ts#L8)
+[project-config-parser.ts:9](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-config/src/project-config-parser.ts#L9)
 
 ___
 
@@ -50,7 +49,7 @@ ___
 
 #### Defined in
 
-[project-config-parser.ts:9](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-config/src/project-config-parser.ts#L9)
+[project-config-parser.ts:10](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-config/src/project-config-parser.ts#L10)
 
 ___
 
@@ -60,4 +59,4 @@ ___
 
 #### Defined in
 
-[project-config-parser.ts:6](https://github.com/agrosjs/agros/blob/9f93173/packages/agros-config/src/project-config-parser.ts#L6)
+[project-config-parser.ts:7](https://github.com/agrosjs/agros/blob/785aac3/packages/agros-config/src/project-config-parser.ts#L7)

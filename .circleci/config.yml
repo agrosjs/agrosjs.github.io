@@ -90,5 +90,7 @@ workflows:
           requires:
             - install
           filters:
+            branches:
+              ignore: /.*/
             tags:
               only: /^version@\d+$/

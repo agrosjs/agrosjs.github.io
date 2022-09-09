@@ -267,7 +267,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/linters.ts:12](https://github.com/agrosjs/agros/blob/524cff1/packages/agros-common/src/linters.ts#L12)
+[packages/agros-common/src/linters.ts:12](https://github.com/agrosjs/agros/blob/462a64e/packages/agros-common/src/linters.ts#L12)
 
 ___
 
@@ -277,7 +277,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/linters.ts:11](https://github.com/agrosjs/agros/blob/524cff1/packages/agros-common/src/linters.ts#L11)
+[packages/agros-common/src/linters.ts:11](https://github.com/agrosjs/agros/blob/462a64e/packages/agros-common/src/linters.ts#L11)
 
 ___
 

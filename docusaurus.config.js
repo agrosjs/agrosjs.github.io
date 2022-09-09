@@ -39,12 +39,12 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl: 'https://github.com/agrosjs/agrosjs.github.io/tree/master/',
-                    lastVersion: '0.x',
+                    lastVersion: '0.7.x',
                     versions: {
-                        current: {
-                            label: '0.x',
-                            path: '0.x',
-                        },
+                        // current: {
+                        //     label: '0.7.x',
+                        //     path: '0.7.x',
+                        // },
                     },
                 },
                 blog: {
@@ -89,6 +89,11 @@ const config = {
                     position: 'left',
                     label: 'Support Us',
                     to: '/support-us',
+                },
+                {
+                    type: 'docsVersionDropdown',
+                    position: 'right',
+                    dropdownActiveClassDisabled: true,
                 },
                 {
                     type: 'localeDropdown',

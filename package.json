@@ -28,6 +28,7 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.0.0-rc.1",
     "@tsconfig/docusaurus": "^1.0.5",
+    "@types/semver": "^7.3.12",
     "@typescript-eslint/eslint-plugin": "^5.30.7",
     "@typescript-eslint/parser": "^5.30.7",
     "axios": "^0.27.2",
@@ -35,6 +36,7 @@
     "eslint-config-alloy": "^4.6.2",
     "gitignore-parser": "^0.0.2",
     "md5-file": "^5.0.0",
+    "semver": "^7.3.7",
     "typescript": "^4.7.4"
   },
   "browserslist": {

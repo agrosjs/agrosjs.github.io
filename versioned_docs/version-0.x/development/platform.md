@@ -40,21 +40,9 @@ class Platform implements IPlatform {
                 libName: '@agros/platform-react/lib/react-router-dom',
                 identifierName: 'Route',
             },
-            {
-                libName: '@agros/platform-react/lib/react-router-dom',
-                identifierName: 'BrowserRouter',
-            },
-            {
-                libName: '@agros/platform-react/lib/react',
-                identifierName: 'React',
-                type: 'default',
-            },
-            {
-                libName: '@agros/platform-react/lib/react-dom',
-                identifierName: 'render',
-            },
+            // ...
         ];
-    },
+    }
     // ...
 }
 ```
@@ -110,7 +98,6 @@ class Platform implements IPlatform {
     public getBootstrapCode(ensuredImportsMap: Record<string, string>): string {
         const reactIdentifier = ensuredImportsMap['React'] || 'React';
         const factoryIdentifier = ensuredImportsMap['factory'] || 'factory';
-        const platformIdentifier = ensuredImportsMap['platform'] || 'platform';
         return `
             const {
                 module: Module,
@@ -118,34 +105,84 @@ class Platform implements IPlatform {
                 routerProps,
                 container = document.getElementById('root'),
             } = config;
-            ${factoryIdentifier}.create(Module).then((routeItems) => {
-                const RootContainer = ({
-                    Module,
-                    routerProps = {},
-                    RouterComponent = ${ensuredImportsMap['BrowserRouter'] || 'BrowserRouter'},
-                }) => {
-                    const elements = ${platformIdentifier}.createRoutes(routeItems);
-
-                    return ${reactIdentifier}.createElement(
-                        RouterComponent,
-                        routerProps,
-                        ${reactIdentifier}.createElement(${ensuredImportsMap['Routes'] || 'Routes'}, {}, elements),
-                    );
-                };
-                ${ensuredImportsMap['render'] || 'render'}(
-                    ${reactIdentifier}.createElement(RootContainer, {
-                        Module,
-                        RouterComponent,
-                        routerProps,
-                    }),
-                    container,
-                );
+            ${factoryIdentifier}.create(Module).then((componentInstance) => {
+                const rootModuleInstance = ${factoryIdentifier}.getRootModuleInstance();
+                const rootRoutes = rootModuleInstance.getProviderValue(${ensuredImportsMap['ROUTES_ROOT']});
+                ${ensuredImportsMap['RouterModule']}.createRouterItems(${factoryIdentifier}, rootRoutes).then((routes) => {
+                    if (routes && Array.isArray(routes) && routes.length > 0) {
+                        const RootContainer = ({
+                            Module,
+                            routerProps = {},
+                            RouterComponent = ${ensuredImportsMap['BrowserRouter'] || 'BrowserRouter'},
+                        }) => {
+                            const elements = ${ensuredImportsMap['createRoutes']}(routes);
+                            return ${reactIdentifier}.createElement(
+                                RouterComponent,
+                                routerProps,
+                                ${reactIdentifier}.createElement(${ensuredImportsMap['Routes'] || 'Routes'}, {}, elements),
+                            );
+                        };
+                        ${ensuredImportsMap['render'] || 'render'}(
+                            ${reactIdentifier}.createElement(RootContainer, {
+                                Module,
+                                RouterComponent,
+                                routerProps,
+                            }),
+                            container,
+                        );
+                    } else {
+                        ${ensuredImportsMap['render'] || 'render'}(
+                            ${reactIdentifier}.createElement(componentInstance.getComponent()),
+                            container,
+                        );
+                    }
+                });
             });
         `;
-    },
+    }
     // ...
 }
 ```
+
+:::info
+This code requires a `createRoutes` which can be invoked by `ensuredImportsMap['createRoutes']`, the following code is its content:
+
+```ts title=./create-routes.ts
+import { RouterItem } from '@agros/common/lib/types';
+import {
+    createElement,
+} from 'react';
+import { Route } from 'react-router-dom';
+
+export const createRoutes = (routerItems: RouterItem[], level = 0) => {
+    return routerItems.map((routerItem, index) => {
+        const {
+            componentInstance,
+            children,
+            ...routeProps
+        } = routerItem;
+        const Component = componentInstance.getComponent();
+        const { elementProps = {} } = componentInstance.metadata;
+
+        return createElement(
+            Route,
+            {
+                key: `level${level}_${index}`,
+                ...routeProps,
+                ...(
+                    Component
+                        ? {
+                            element: createElement(Component, elementProps),
+                        }
+                        : {}
+                ),
+            },
+            (Array.isArray(children) && children.length > 0) ? createRoutes(children, level + 1) : [],
+        );
+    });
+};
+```
+:::
 
 ### getComponentFactoryCode
 
@@ -173,7 +210,7 @@ class Platform implements IPlatform {
         lazy = false,
     ) {
         return `() => ${lazy ? `() => import('${filePath}')` : componentIdentifierName};`;
-    },
+    }
     // ...
 }
 ```
@@ -182,8 +219,183 @@ The `() => import('/path/to/file')` is [lazy component](https://reactjs.org/docs
 
 ### generateComponent
 
+`generateComponent` passes `componentInstance` and `component` as parameters, which means the instance of current component declaration and the imported component description file.
+
+In general, it is optional and you can do nothing with it or simply not declare this method in a platform object since before this method being invoked by the factory, the `component` is already set into component instance by `ComponentInstance.prototype.setComponent()` method, this method provide a way to modify the component in `componentInstance`. For example, in `@agros/platform-react`, we can inject interceptor executions into it:
+
+```ts
+import { Platform as IPlatform } from '@agros/platforms';
+class Platform implements IPlatform {
+    // ...
+    public async generateComponent<T = any>(componentInstance: ComponentInstance, component: any): Promise<T> {
+        /**
+         * set component directly so that it can prevent unlimited creating tasks
+         */
+        componentInstance.setComponent((props: any) => {
+            const {
+                interceptorsFallback = null,
+                suspenseFallback = null,
+            } = componentInstance.metadata;
+            const [interceptorEnd, setInterceptorEnd] = useState<boolean>(false);
+
+            useAsyncEffect(async () => {
+                try {
+                    if (Array.isArray(componentInstance.metadata.interceptorInstances)) {
+                        for (const interceptorInstance of componentInstance.metadata.interceptorInstances) {
+                            await interceptorInstance.intercept({
+                                props,
+                            });
+                        }
+                    }
+                } finally {
+                    setInterceptorEnd(true);
+                }
+            }, []);
+
+            return interceptorEnd
+                ? createElement(
+                    Suspense,
+                    {
+                        fallback: suspenseFallback,
+                    },
+                    createElement(component, props),
+                )
+                : interceptorsFallback;
+        });
+
+        return component;
+    }
+    // ...
+}
+```
+
 ## The `BundlessPlatform` Interface
+
+`BundlessPlatform` is only designed to be used by Node.js environment since the methods in it contain some imports that cannot be recognized by Webpack. That is why the interface called `BundlessPlatform`. The following sections will introduce the methods in this interface.
+
+### getComponentScript
+
+`getComponentScript` passes the component description file content as parameter and returns an object with type of [`ComponentScript`](/docs/api/agros-utils/interfaces/ComponentScript), which has two fields: `content` and `location`.
+
+:::tip Why and when should Agros need this method from platform?
+When Agros loader loads the component description files whoes code are not totally pure JavaScript or TypeScript, like [Vue SFC](https://vuejs.org/guide/scaling-up/sfc.html) files, [Svelte](https://svelte.dev/docs#component-format) files, etc.
+
+Agros will need this method to extract JavaScript or TypeScript code content and the indexes of where it starts and ends, and return them to Agros loader. That is why Agros loader need this method from platform. By the way, other platforms with pure JavaScript or TypeScript frameworks may not provide this method.
+:::
+
+For example, in `@agros/platform-vue`, the definition of this method is:
+
+```ts
+import { BundlessPlatform as IBundlessPlatform } from '@agros/utils/lib/types';
+import { parse } from 'vue/compiler-sfc';
+
+class BundlessPlatform implements IBundlessPlatform {
+    // ...
+    public getComponentScript(source: string) {
+        const ast = parse(source);
+        const content = ast?.descriptor?.script?.content;
+        const start = ast?.descriptor?.script?.loc?.start?.offset;
+        const end = ast?.descriptor?.script?.loc?.end.offset;
+
+        if (typeof start !== 'number' || typeof end !== 'number') {
+            return {
+                content,
+            };
+        }
+
+        return {
+            content,
+            location: {
+                start,
+                end,
+            },
+        };
+    }
+    // ...
+}
+```
 
 ## agros-platform.config.js
 
+`agros-platform.config.js` is the configuration file of platform. This configuration file should export a function which passes a default Webpack configuration object from `@agros/app` by `module.exports`.
+
+In this file, you are allowed to modify some configuration with the parameter configuration object to add some loaders, plugins and any other things.
+
+For example, in `@agros/platform-vue`, the content of `agros-platform.config.js` is:
+
+```ts
+const { defineBuilderConfig } = require('@agros/common/lib/builder-config');
+const {
+    addBabelPreset,
+    addBabelPlugin,
+} = require('@agros/utils/lib/customizers');
+const { VueLoaderPlugin } = require('vue-loader');
+
+module.exports = defineBuilderConfig((config) => {
+    addBabelPreset(require.resolve('@babel/preset-env'))(config);
+    addBabelPreset(require.resolve('@vue/babel-preset-app'))(config);
+    addBabelPlugin(require.resolve('@babel/plugin-transform-typescript'))(config);
+    addBabelPlugin(require.resolve('@babel/plugin-transform-runtime'))(config);
+    addBabelPlugin(require.resolve('@babel/plugin-transform-parameters'))(config);
+
+    config.module?.rules?.unshift({
+        test: /\.vue$/,
+        use: [
+            {
+                loader: require.resolve('./lib/loaders/vue-loader.js'),
+                options: {
+                    loaders: {
+                        js: require.resolve('awesome-typescript-loader'),
+                    },
+                },
+            },
+        ],
+    });
+
+    let resourceRule = config.module.rules.find((rule) => rule?.type === 'asset/resource');
+
+    if (!resourceRule) {
+        resourceRule = config.module.rules.find((rule) => !!rule.oneOf)?.oneOf?.find((rule) => {
+            return rule?.type === 'asset/resource';
+        });
+    }
+
+    if (resourceRule) {
+        resourceRule?.exclude?.push(/\.vue$/);
+    }
+
+    config.plugins?.push(new VueLoaderPlugin());
+    config.module.rules = config.module?.rules?.map((rule) => {
+        if (
+            typeof rule.use === 'string' && (
+                rule.use.indexOf('@agros/loader') !== -1 ||
+                /packages\/agros-loader/.test(rule.use)
+            )
+        ) {
+            return {
+                ...rule,
+                test: /\.(js|jsx|ts|tsx|vue)$/,
+            };
+        }
+        return rule;
+    });
+
+    return config;
+});
+```
+
 ## package.json
+
+Agros preserves a field named `agrosPlatform` to manage other key-value configurations. In the following documentation, we will introduce these fields.
+
+### agrosPlatform.bundless
+
+The relative pathname of `BundlessPlatform` file. For example, in `@agros/platform-vue`, the compiled `BundlessPlatform` file is located in `lib/bundless-platform.js` this part of `package.json` is:
+
+```json
+{
+    "agrosPlatform": {
+        "bundless": "./lib/bundless-platform.js"
+    }
+}
+```

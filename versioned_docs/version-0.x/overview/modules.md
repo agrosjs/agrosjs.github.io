@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Modules
 
-A module is a class annotated with a `@Module()` decorator. The `@Module()` decorator provides metadata with providers, components, routes, imported modules, which could be made use of to organize an Agros application.
+A module is a class annotated with a `@Module()` decorator. The `@Module()` decorator provides metadata with providers, components, imported modules and exported providers and component, which could be made use of to organize an Agros application.
 
 ![modules](/img/modules.png)
 
@@ -150,12 +150,6 @@ const BazModule = import('@modules/baz/baz.module').then(({ BazModule }) => BazM
         AppService,
     ],
     components: [AppComponent],
-    routes: [
-        {
-            path: '',
-            useComponentClass: AppComponent,
-        },
-    ],
     exports: [
         AppComponent,
         AppInterceptor,

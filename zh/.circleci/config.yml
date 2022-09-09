@@ -49,6 +49,21 @@ jobs:
       - run: ssh-keyscan github.com >> ~/.ssh/known_hosts
       - run: cp -r ./.circleci ./static
       - run: npm run deploy
+  depoly_and_update_new_version:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "checksum.txt" }}
+      - run: git config --global user.name "lenconda"
+      - run: git config --global user.email i@lenconda.top
+      - run: mkdir -p ~/.ssh
+      - run: touch ~/.ssh/known_hosts
+      - run: ssh-keyscan github.com >> ~/.ssh/known_hosts
+      - run: cp -r ./.circleci ./static
+      - run: npm run deploy
       - run: npm run new-version
 
 workflows:
@@ -69,5 +84,13 @@ workflows:
           requires:
             - install
           filters:
+            tags:
+              ignore: /^version@\d+$/
+      - depoly_and_update_new_version:
+          requires:
+            - install
+          filters:
             branches:
-              only: /^master$/
+              ignore: /.*/
+            tags:
+              only: /^version@\d+$/

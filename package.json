@@ -13,7 +13,8 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "checksum": "node ./scripts/checksum.js"
+    "checksum": "node ./scripts/checksum.js",
+    "new-version": "node ./scripts/new-version.js"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-rc.1",
@@ -29,6 +30,7 @@
     "@tsconfig/docusaurus": "^1.0.5",
     "@typescript-eslint/eslint-plugin": "^5.30.7",
     "@typescript-eslint/parser": "^5.30.7",
+    "axios": "^0.27.2",
     "eslint": "^8.20.0",
     "eslint-config-alloy": "^4.6.2",
     "gitignore-parser": "^0.0.2",

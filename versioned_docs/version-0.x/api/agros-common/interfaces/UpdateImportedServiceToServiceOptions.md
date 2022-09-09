@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[packages/agros-common/src/updaters.ts:215](https://github.com/agrosjs/agros/blob/75f75f3/packages/agros-common/src/updaters.ts#L215)
+[packages/agros-common/src/updaters.ts:215](https://github.com/agrosjs/agros/blob/524cff1/packages/agros-common/src/updaters.ts#L215)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/updaters.ts:214](https://github.com/agrosjs/agros/blob/75f75f3/packages/agros-common/src/updaters.ts#L214)
+[packages/agros-common/src/updaters.ts:214](https://github.com/agrosjs/agros/blob/524cff1/packages/agros-common/src/updaters.ts#L214)

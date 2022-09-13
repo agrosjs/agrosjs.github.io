@@ -11,6 +11,7 @@
 - [getComponentFactoryCode](Platform.md#getcomponentfactorycode)
 - [getDecoratorImports](Platform.md#getdecoratorimports)
 - [getDefaultConfig](Platform.md#getdefaultconfig)
+- [getEntryTailCode](Platform.md#getentrytailcode)
 - [getLoaderImports](Platform.md#getloaderimports)
 
 ## Properties
@@ -42,7 +43,7 @@
 
 #### Defined in
 
-[platform.interface.ts:17](https://github.com/agrosjs/agros/blob/462a64e/packages/agros-platforms/src/platform.interface.ts#L17)
+[platform.interface.ts:32](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-platforms/src/platform.interface.ts#L32)
 
 ___
 
@@ -67,34 +68,31 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:9](https://github.com/agrosjs/agros/blob/462a64e/packages/agros-platforms/src/platform.interface.ts#L9)
+[platform.interface.ts:29](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-platforms/src/platform.interface.ts#L29)
 
 ___
 
 ### <a id="getcomponentfactorycode" name="getcomponentfactorycode"></a> getComponentFactoryCode
 
-• **getComponentFactoryCode**: (`ensuredImportsMap`: `Record`<`string`, `string`\>, `filePath`: `string`, `componentIdentifierName`: `string`, `lazy`: `boolean`) => `string`
+• **getComponentFactoryCode**: (`data`: [`GetComponentFactoryCodeData`](GetComponentFactoryCodeData.md)) => `string` \| [`FactoryCode`](FactoryCode.md)
 
 #### Type declaration
 
-▸ (`ensuredImportsMap`, `filePath`, `componentIdentifierName`, `lazy`): `string`
+▸ (`data`): `string` \| [`FactoryCode`](FactoryCode.md)
 
 ##### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `ensuredImportsMap` | `Record`<`string`, `string`\> |
-| `filePath` | `string` |
-| `componentIdentifierName` | `string` |
-| `lazy` | `boolean` |
+| `data` | [`GetComponentFactoryCodeData`](GetComponentFactoryCodeData.md) |
 
 ##### Returns
 
-`string`
+`string` \| [`FactoryCode`](FactoryCode.md)
 
 #### Defined in
 
-[platform.interface.ts:10](https://github.com/agrosjs/agros/blob/462a64e/packages/agros-platforms/src/platform.interface.ts#L10)
+[platform.interface.ts:30](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-platforms/src/platform.interface.ts#L30)
 
 ___
 
@@ -112,7 +110,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:8](https://github.com/agrosjs/agros/blob/462a64e/packages/agros-platforms/src/platform.interface.ts#L8)
+[platform.interface.ts:28](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-platforms/src/platform.interface.ts#L28)
 
 ___
 
@@ -130,7 +128,31 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:16](https://github.com/agrosjs/agros/blob/462a64e/packages/agros-platforms/src/platform.interface.ts#L16)
+[platform.interface.ts:31](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-platforms/src/platform.interface.ts#L31)
+
+___
+
+### <a id="getentrytailcode" name="getentrytailcode"></a> getEntryTailCode
+
+• `Optional` **getEntryTailCode**: (`data`: [`EntryTailCodeData`](EntryTailCodeData.md)) => `string`[]
+
+#### Type declaration
+
+▸ (`data`): `string`[]
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`EntryTailCodeData`](EntryTailCodeData.md) |
+
+##### Returns
+
+`string`[]
+
+#### Defined in
+
+[platform.interface.ts:33](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-platforms/src/platform.interface.ts#L33)
 
 ___
 
@@ -148,4 +170,4 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:7](https://github.com/agrosjs/agros/blob/462a64e/packages/agros-platforms/src/platform.interface.ts#L7)
+[platform.interface.ts:27](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-platforms/src/platform.interface.ts#L27)

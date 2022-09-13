@@ -6,6 +6,9 @@
 
 ### Interfaces
 
+- [EntryTailCodeData](interfaces/EntryTailCodeData.md)
+- [FactoryCode](interfaces/FactoryCode.md)
+- [GetComponentFactoryCodeData](interfaces/GetComponentFactoryCodeData.md)
 - [Platform](interfaces/Platform.md)
 
 ### Type Aliases
@@ -35,4 +38,4 @@
 
 #### Defined in
 
-[platform.interface.ts:4](https://github.com/agrosjs/agros/blob/462a64e/packages/agros-platforms/src/platform.interface.ts#L4)
+[platform.interface.ts:4](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-platforms/src/platform.interface.ts#L4)

@@ -1,6 +1,6 @@
-@agros/platform-react
+@agros/platform-svelte
 
-# @agros/platform-react
+# @agros/platform-svelte
 
 ## Table of contents
 
@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[platform.ts:12](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-platform-react/src/platform.ts#L12)
+[platform.ts:8](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-platform-svelte/src/platform.ts#L8)

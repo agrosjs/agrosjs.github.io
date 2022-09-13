@@ -32,4 +32,4 @@
 
 #### Defined in
 
-[collections/index.ts:19](https://github.com/agrosjs/agros/blob/462a64e/packages/agros-collections/src/collections/index.ts#L19)
+[collections/index.ts:19](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-collections/src/collections/index.ts#L19)

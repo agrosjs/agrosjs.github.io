@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[platform-config-parser.ts:9](https://github.com/agrosjs/agros/blob/e4d2f36/packages/agros-config/src/platform-config-parser.ts#L9)
+[platform-config-parser.ts:9](https://github.com/agrosjs/agros/blob/f31aa82/packages/agros-config/src/platform-config-parser.ts#L9)
 
 ___
 
@@ -41,4 +41,4 @@ ___
 
 #### Defined in
 
-[platform-config-parser.ts:10](https://github.com/agrosjs/agros/blob/e4d2f36/packages/agros-config/src/platform-config-parser.ts#L10)
+[platform-config-parser.ts:10](https://github.com/agrosjs/agros/blob/f31aa82/packages/agros-config/src/platform-config-parser.ts#L10)

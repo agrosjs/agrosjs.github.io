@@ -3,6 +3,10 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const semver = require('semver');
+const fs = require('fs-extra');
+
+// const versions = fs.readJsonSync();
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -39,13 +43,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl: 'https://github.com/agrosjs/agrosjs.github.io/tree/master/',
-                    lastVersion: '0.7.x',
-                    versions: {
-                        // current: {
-                        //     label: '0.7.x',
-                        //     path: '0.7.x',
-                        // },
-                    },
+                    lastVersion: ,
                 },
                 blog: {
                     showReadingTime: true,

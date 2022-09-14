@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[platform.interface.ts:18](https://github.com/agrosjs/agros/blob/01b3301/packages/agros-platforms/src/platform.interface.ts#L18)
+[platform.interface.ts:18](https://github.com/agrosjs/agros/blob/e4d2f36/packages/agros-platforms/src/platform.interface.ts#L18)
 
 ___
 
@@ -41,4 +41,4 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:19](https://github.com/agrosjs/agros/blob/01b3301/packages/agros-platforms/src/platform.interface.ts#L19)
+[platform.interface.ts:19](https://github.com/agrosjs/agros/blob/e4d2f36/packages/agros-platforms/src/platform.interface.ts#L19)

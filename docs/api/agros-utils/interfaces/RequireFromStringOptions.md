@@ -20,7 +20,7 @@ Useful when you want to be able require modules from these paths.
 
 #### Defined in
 
-[require-from-string.ts:9](https://github.com/agrosjs/agros/blob/01b3301/packages/agros-utils/src/require-from-string.ts#L9)
+[require-from-string.ts:9](https://github.com/agrosjs/agros/blob/e4d2f36/packages/agros-utils/src/require-from-string.ts#L9)
 
 ___
 
@@ -33,4 +33,4 @@ Useful when you want to be able require modules from these paths.
 
 #### Defined in
 
-[require-from-string.ts:14](https://github.com/agrosjs/agros/blob/01b3301/packages/agros-utils/src/require-from-string.ts#L14)
+[require-from-string.ts:14](https://github.com/agrosjs/agros/blob/e4d2f36/packages/agros-utils/src/require-from-string.ts#L14)

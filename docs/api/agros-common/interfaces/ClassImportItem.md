@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:221](https://github.com/agrosjs/agros/blob/01b3301/packages/agros-common/src/detectors.ts#L221)
+[packages/agros-common/src/detectors.ts:221](https://github.com/agrosjs/agros/blob/e4d2f36/packages/agros-common/src/detectors.ts#L221)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:222](https://github.com/agrosjs/agros/blob/01b3301/packages/agros-common/src/detectors.ts#L222)
+[packages/agros-common/src/detectors.ts:222](https://github.com/agrosjs/agros/blob/e4d2f36/packages/agros-common/src/detectors.ts#L222)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:224](https://github.com/agrosjs/agros/blob/01b3301/packages/agros-common/src/detectors.ts#L224)
+[packages/agros-common/src/detectors.ts:224](https://github.com/agrosjs/agros/blob/e4d2f36/packages/agros-common/src/detectors.ts#L224)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:220](https://github.com/agrosjs/agros/blob/01b3301/packages/agros-common/src/detectors.ts#L220)
+[packages/agros-common/src/detectors.ts:220](https://github.com/agrosjs/agros/blob/e4d2f36/packages/agros-common/src/detectors.ts#L220)
 
 ___
 
@@ -66,4 +66,4 @@ ___
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:223](https://github.com/agrosjs/agros/blob/01b3301/packages/agros-common/src/detectors.ts#L223)
+[packages/agros-common/src/detectors.ts:223](https://github.com/agrosjs/agros/blob/e4d2f36/packages/agros-common/src/detectors.ts#L223)

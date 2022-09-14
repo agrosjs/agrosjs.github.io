@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[platform.interface.ts:4](https://github.com/agrosjs/agros/blob/01b3301/packages/agros-platforms/src/platform.interface.ts#L4)
+[platform.interface.ts:4](https://github.com/agrosjs/agros/blob/e4d2f36/packages/agros-platforms/src/platform.interface.ts#L4)

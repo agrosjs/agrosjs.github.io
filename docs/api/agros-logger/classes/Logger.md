@@ -43,7 +43,7 @@
 
 #### Defined in
 
-[index.ts:22](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-logger/src/index.ts#L22)
+[index.ts:22](https://github.com/agrosjs/agros/blob/f7aa4e9/packages/agros-logger/src/index.ts#L22)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[index.ts:10](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-logger/src/index.ts#L10)
+[index.ts:10](https://github.com/agrosjs/agros/blob/f7aa4e9/packages/agros-logger/src/index.ts#L10)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[index.ts:30](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-logger/src/index.ts#L30)
+[index.ts:30](https://github.com/agrosjs/agros/blob/f7aa4e9/packages/agros-logger/src/index.ts#L30)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[index.ts:68](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-logger/src/index.ts#L68)
+[index.ts:68](https://github.com/agrosjs/agros/blob/f7aa4e9/packages/agros-logger/src/index.ts#L68)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[index.ts:18](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-logger/src/index.ts#L18)
+[index.ts:18](https://github.com/agrosjs/agros/blob/f7aa4e9/packages/agros-logger/src/index.ts#L18)
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 #### Defined in
 
-[index.ts:58](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-logger/src/index.ts#L58)
+[index.ts:58](https://github.com/agrosjs/agros/blob/f7aa4e9/packages/agros-logger/src/index.ts#L58)
 
 ___
 
@@ -177,4 +177,4 @@ ___
 
 #### Defined in
 
-[index.ts:14](https://github.com/agrosjs/agros/blob/ba10164/packages/agros-logger/src/index.ts#L14)
+[index.ts:14](https://github.com/agrosjs/agros/blob/f7aa4e9/packages/agros-logger/src/index.ts#L14)

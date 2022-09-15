@@ -271,7 +271,7 @@
     "description": "Framework Unrelated"
   },
   "pages.homepage.features.frameworkUnrelated.description": {
-    "message": "Agros 是一种可扩展 Web 应用程序结构的运行时，它不包含任何框架相关的方法。Agros 基于平台 (Platform) 技术实现了具体框架的抽象，因此可以通过引入对应的平台以实现对框架的支持。目前我们分别对 React.js 和 Vue.js 实现了完整的支持。",
+    "message": "Agros 是一种可扩展 Web 应用程序结构的运行时，它不包含任何框架相关的方法。Agros 基于平台 (Platform) 技术实现了具体框架的抽象，因此可以通过引入对应的平台以实现对框架的支持。目前我们分别对 React.js、Vue.js 和 Svelte.js 实现了完整的支持。",
     "description": "Framework Unrelated"
   },
   "pages.homepage.features.empowerEfficiency": {

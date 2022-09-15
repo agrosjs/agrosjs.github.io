@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
         description: (
             <Translate
                 id="pages.homepage.features.frameworkUnrelated.description"
-            >Agros is a runtime for extensible web application architectures that does not contain any framework-related methods. Agros implements framework-specific abstractions based on platform technologies, so framework support can be implemented by introducing the corresponding platform. Agros currently has full support for React.js and Vue.js respectively.</Translate>
+            >Agros is a runtime for extensible web application architectures that does not contain any framework-related methods. Agros implements framework-specific abstractions based on platform technologies, so framework support can be implemented by introducing the corresponding platform. Agros currently has full support for React.js, Vue.js and Svelte.js respectively.</Translate>
         ),
     },
     {

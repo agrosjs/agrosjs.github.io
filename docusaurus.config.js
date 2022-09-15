@@ -5,8 +5,18 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const semver = require('semver');
 const fs = require('fs-extra');
+const path = require('path');
 
-// const versions = fs.readJsonSync();
+let versions = Array.from(fs.readJsonSync(path.resolve(__dirname, './versions.json')));
+
+versions = versions.sort((a, b) => {
+    return semver.lt(
+        a.split('.').slice(0, 2).concat('0').join('.'),
+        a.split('.').slice(0, 2).concat('0').join('.'),
+    )
+        ? -1
+        : 1;
+});
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -43,7 +53,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl: 'https://github.com/agrosjs/agrosjs.github.io/tree/master/',
-                    lastVersion: '1.0.x',
+                    lastVersion: versions[0],
                 },
                 blog: {
                     showReadingTime: true,

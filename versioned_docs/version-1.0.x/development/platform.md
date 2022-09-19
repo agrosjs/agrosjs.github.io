@@ -317,13 +317,15 @@ class BundlessPlatform implements IBundlessPlatform {
 
 ## agros-platform.config.js
 
-`agros-platform.config.js` is the configuration file of platform. This configuration file should export a function which passes a default Webpack configuration object from `@agros/app` by `module.exports`.
+`agros-platform.config.js` is the configuration file of platform. This configuration file should export an object with type [`PlatformConfig`](../api/agros-config/interfaces/PlatformConfig).
 
-In this file, you are allowed to modify some configuration with the parameter configuration object to add some loaders, plugins and any other things.
+### configWebpack
 
-For example, in `@agros/platform-vue`, the content of `agros-platform.config.js` is:
+This is a function which passes a default Webpack configuration object from `@agros/app` by `module.exports`. In this file, you are allowed to modify some configuration with the parameter configuration object to add some loaders, plugins and any other things.
 
-```ts
+For example, in `@agros/platform-vue`, the content of `configWebpack` is:
+
+```js agros-platform.config.js
 const { defineBuilderConfig } = require('@agros/common/lib/builder-config');
 const {
     addBabelPreset,
@@ -331,71 +333,67 @@ const {
 } = require('@agros/utils/lib/customizers');
 const { VueLoaderPlugin } = require('vue-loader');
 
-module.exports = defineBuilderConfig((config) => {
-    addBabelPreset(require.resolve('@babel/preset-env'))(config);
-    addBabelPreset(require.resolve('@vue/babel-preset-app'))(config);
-    addBabelPlugin(require.resolve('@babel/plugin-transform-typescript'))(config);
-    addBabelPlugin(require.resolve('@babel/plugin-transform-runtime'))(config);
-    addBabelPlugin(require.resolve('@babel/plugin-transform-parameters'))(config);
+module.exports = {
+    configWebpack: defineBuilderConfig((config) => {
+        addBabelPreset(require.resolve('@babel/preset-env'))(config);
+        addBabelPreset(require.resolve('@vue/babel-preset-app'))(config);
+        addBabelPlugin(require.resolve('@babel/plugin-transform-typescript'))(config);
+        addBabelPlugin(require.resolve('@babel/plugin-transform-runtime'))(config);
+        addBabelPlugin(require.resolve('@babel/plugin-transform-parameters'))(config);
 
-    config.module?.rules?.unshift({
-        test: /\.vue$/,
-        use: [
-            {
-                loader: require.resolve('./lib/loaders/vue-loader.js'),
-                options: {
-                    loaders: {
-                        js: require.resolve('awesome-typescript-loader'),
+        config.module?.rules?.unshift({
+            test: /\.vue$/,
+            use: [
+                {
+                    loader: require.resolve('./lib/loaders/vue-loader.js'),
+                    options: {
+                        loaders: {
+                            js: require.resolve('awesome-typescript-loader'),
+                        },
                     },
                 },
-            },
-        ],
-    });
-
-    let resourceRule = config.module.rules.find((rule) => rule?.type === 'asset/resource');
-
-    if (!resourceRule) {
-        resourceRule = config.module.rules.find((rule) => !!rule.oneOf)?.oneOf?.find((rule) => {
-            return rule?.type === 'asset/resource';
+            ],
         });
-    }
 
-    if (resourceRule) {
-        resourceRule?.exclude?.push(/\.vue$/);
-    }
+        let resourceRule = config.module.rules.find((rule) => rule?.type === 'asset/resource');
 
-    config.plugins?.push(new VueLoaderPlugin());
-    config.module.rules = config.module?.rules?.map((rule) => {
-        if (
-            typeof rule.use === 'string' && (
-                rule.use.indexOf('@agros/loader') !== -1 ||
-                /packages\/agros-loader/.test(rule.use)
-            )
-        ) {
-            return {
-                ...rule,
-                test: /\.(js|jsx|ts|tsx|vue)$/,
-            };
+        if (!resourceRule) {
+            resourceRule = config.module.rules.find((rule) => !!rule.oneOf)?.oneOf?.find((rule) => {
+                return rule?.type === 'asset/resource';
+            });
         }
-        return rule;
-    });
 
-    return config;
-});
+        if (resourceRule) {
+            resourceRule?.exclude?.push(/\.vue$/);
+        }
+
+        config.plugins?.push(new VueLoaderPlugin());
+        config.module.rules = config.module?.rules?.map((rule) => {
+            if (
+                typeof rule.use === 'string' && (
+                    rule.use.indexOf('@agros/loader') !== -1 ||
+                    /packages\/agros-loader/.test(rule.use)
+                )
+            ) {
+                return {
+                    ...rule,
+                    test: /\.(js|jsx|ts|tsx|vue)$/,
+                };
+            }
+            return rule;
+        });
+
+        return config;
+    }),
+};
 ```
 
-## package.json
+### bundlessPlatform
 
-Agros preserves a field named `agrosPlatform` to manage other key-value configurations. In the following documentation, we will introduce these fields.
+The relative pathname of [`BundlessPlatform`](../api/agros-utils/interfaces/BundlessPlatform) file. For example, in `@agros/platform-vue`, the compiled `BundlessPlatform` file is located in `lib/bundless-platform.js` this field is:
 
-### agrosPlatform.bundless
-
-The relative pathname of `BundlessPlatform` file. For example, in `@agros/platform-vue`, the compiled `BundlessPlatform` file is located in `lib/bundless-platform.js` this part of `package.json` is:
-
-```json
-{
-    "agrosPlatform": {
-        "bundless": "./lib/bundless-platform.js"
-    }
-}
+```js agros-platform.config.js
+module.exports = {
+    configWebpack: './lib/bundless-platform.js',
+};
 ```

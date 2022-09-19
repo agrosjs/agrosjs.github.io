@@ -49,7 +49,7 @@ BabelDecorator.expression
 
 #### Defined in
 
-[packages/agros-common/src/detectors.ts:63](https://github.com/agrosjs/agros/blob/f31aa82/packages/agros-common/src/detectors.ts#L63)
+[packages/agros-common/src/detectors.ts:63](https://github.com/agrosjs/agros/blob/308fc0e/packages/agros-common/src/detectors.ts#L63)
 
 ___
 

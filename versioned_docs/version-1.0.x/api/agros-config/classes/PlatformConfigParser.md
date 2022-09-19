@@ -10,6 +10,7 @@
 
 ### Properties
 
+- [platformConfig](PlatformConfigParser.md#platformconfig)
 - [platformIndexFile](PlatformConfigParser.md#platformindexfile)
 - [platformName](PlatformConfigParser.md#platformname)
 - [platformRootDir](PlatformConfigParser.md#platformrootdir)
@@ -35,9 +36,19 @@
 
 #### Defined in
 
-[platform-config-parser.ts:11](https://github.com/agrosjs/agros/blob/e90e8df/packages/agros-config/src/platform-config-parser.ts#L11)
+[platform-config-parser.ts:21](https://github.com/agrosjs/agros/blob/308fc0e/packages/agros-config/src/platform-config-parser.ts#L21)
 
 ## Properties
+
+### <a id="platformconfig" name="platformconfig"></a> platformConfig
+
+• `Protected` **platformConfig**: `Required`<[`PlatformConfig`](../interfaces/PlatformConfig.md)\>
+
+#### Defined in
+
+[platform-config-parser.ts:16](https://github.com/agrosjs/agros/blob/308fc0e/packages/agros-config/src/platform-config-parser.ts#L16)
+
+___
 
 ### <a id="platformindexfile" name="platformindexfile"></a> platformIndexFile
 
@@ -45,7 +56,7 @@
 
 #### Defined in
 
-[platform-config-parser.ts:8](https://github.com/agrosjs/agros/blob/e90e8df/packages/agros-config/src/platform-config-parser.ts#L8)
+[platform-config-parser.ts:14](https://github.com/agrosjs/agros/blob/308fc0e/packages/agros-config/src/platform-config-parser.ts#L14)
 
 ___
 
@@ -55,7 +66,7 @@ ___
 
 #### Defined in
 
-[platform-config-parser.ts:11](https://github.com/agrosjs/agros/blob/e90e8df/packages/agros-config/src/platform-config-parser.ts#L11)
+[platform-config-parser.ts:21](https://github.com/agrosjs/agros/blob/308fc0e/packages/agros-config/src/platform-config-parser.ts#L21)
 
 ___
 
@@ -65,7 +76,7 @@ ___
 
 #### Defined in
 
-[platform-config-parser.ts:9](https://github.com/agrosjs/agros/blob/e90e8df/packages/agros-config/src/platform-config-parser.ts#L9)
+[platform-config-parser.ts:15](https://github.com/agrosjs/agros/blob/308fc0e/packages/agros-config/src/platform-config-parser.ts#L15)
 
 ## Methods
 
@@ -79,7 +90,7 @@ ___
 
 #### Defined in
 
-[platform-config-parser.ts:56](https://github.com/agrosjs/agros/blob/e90e8df/packages/agros-config/src/platform-config-parser.ts#L56)
+[platform-config-parser.ts:65](https://github.com/agrosjs/agros/blob/308fc0e/packages/agros-config/src/platform-config-parser.ts#L65)
 
 ___
 
@@ -99,7 +110,7 @@ ___
 
 #### Defined in
 
-[platform-config-parser.ts:48](https://github.com/agrosjs/agros/blob/e90e8df/packages/agros-config/src/platform-config-parser.ts#L48)
+[platform-config-parser.ts:57](https://github.com/agrosjs/agros/blob/308fc0e/packages/agros-config/src/platform-config-parser.ts#L57)
 
 ___
 
@@ -113,7 +124,7 @@ ___
 
 #### Defined in
 
-[platform-config-parser.ts:36](https://github.com/agrosjs/agros/blob/e90e8df/packages/agros-config/src/platform-config-parser.ts#L36)
+[platform-config-parser.ts:49](https://github.com/agrosjs/agros/blob/308fc0e/packages/agros-config/src/platform-config-parser.ts#L49)
 
 ___
 
@@ -127,4 +138,4 @@ ___
 
 #### Defined in
 
-[platform-config-parser.ts:40](https://github.com/agrosjs/agros/blob/e90e8df/packages/agros-config/src/platform-config-parser.ts#L40)
+[platform-config-parser.ts:53](https://github.com/agrosjs/agros/blob/308fc0e/packages/agros-config/src/platform-config-parser.ts#L53)

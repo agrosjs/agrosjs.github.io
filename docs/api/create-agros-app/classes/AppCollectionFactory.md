@@ -48,7 +48,7 @@ AbstractCollection.constructor
 
 #### Defined in
 
-agros-common/lib/collection.d.ts:20
+agros-tools/lib/collection.d.ts:20
 
 ## Properties
 
@@ -66,7 +66,7 @@ AbstractCollection.entities
 
 #### Defined in
 
-agros-common/lib/collection.d.ts:19
+agros-tools/lib/collection.d.ts:19
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:26](https://github.com/agrosjs/agros/blob/308fc0e/packages/create-agros-app/src/app.factory.ts#L26)
+[create-agros-app/src/app.factory.ts:26](https://github.com/agrosjs/agros/blob/4a028b2/packages/create-agros-app/src/app.factory.ts#L26)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:25](https://github.com/agrosjs/agros/blob/308fc0e/packages/create-agros-app/src/app.factory.ts#L25)
+[create-agros-app/src/app.factory.ts:25](https://github.com/agrosjs/agros/blob/4a028b2/packages/create-agros-app/src/app.factory.ts#L25)
 
 ___
 
@@ -104,7 +104,7 @@ AbstractCollection.projectConfig
 
 #### Defined in
 
-agros-common/lib/collection.d.ts:18
+agros-tools/lib/collection.d.ts:18
 
 ## Methods
 
@@ -132,7 +132,7 @@ AbstractCollection.generate
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:28](https://github.com/agrosjs/agros/blob/308fc0e/packages/create-agros-app/src/app.factory.ts#L28)
+[create-agros-app/src/app.factory.ts:28](https://github.com/agrosjs/agros/blob/4a028b2/packages/create-agros-app/src/app.factory.ts#L28)
 
 ___
 
@@ -160,7 +160,7 @@ AbstractCollection.getEntityDescriptor
 
 #### Defined in
 
-agros-common/lib/collection.d.ts:27
+agros-tools/lib/collection.d.ts:27
 
 ___
 
@@ -188,7 +188,7 @@ AbstractCollection.modulesPath
 
 #### Defined in
 
-agros-common/lib/collection.d.ts:24
+agros-tools/lib/collection.d.ts:24
 
 ___
 
@@ -216,7 +216,7 @@ AbstractCollection.projectPath
 
 #### Defined in
 
-agros-common/lib/collection.d.ts:22
+agros-tools/lib/collection.d.ts:22
 
 ___
 
@@ -244,7 +244,7 @@ AbstractCollection.srcPath
 
 #### Defined in
 
-agros-common/lib/collection.d.ts:23
+agros-tools/lib/collection.d.ts:23
 
 ___
 
@@ -266,7 +266,7 @@ AbstractCollection.updateEntities
 
 #### Defined in
 
-agros-common/lib/collection.d.ts:21
+agros-tools/lib/collection.d.ts:21
 
 ___
 
@@ -296,7 +296,7 @@ AbstractCollection.writeFile
 
 #### Defined in
 
-agros-common/lib/collection.d.ts:25
+agros-tools/lib/collection.d.ts:25
 
 ___
 
@@ -327,4 +327,4 @@ AbstractCollection.writeTemplateFile
 
 #### Defined in
 
-agros-common/lib/collection.d.ts:26
+agros-tools/lib/collection.d.ts:26

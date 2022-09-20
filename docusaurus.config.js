@@ -24,7 +24,7 @@ const config = {
     tagline: 'Yet another powerful framework to enhance web front-end efficient and experience',
     url: 'https://agros.js.org',
     baseUrl: '/',
-    onBrokenLinks: 'throw',
+    onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
 

@@ -6,23 +6,23 @@ sidebar_position: 1
 
 Platforms are responsible for providing plarform-specific support that helps run and build the whole project. In this documentation, we will learn how to implement a platform.
 
-A platform should implement the [`Platform`](/docs/api/agros-platforms/interfaces/Platform) interface, and export the instance of the class as default.
+A platform should implement the [`Platform`](../api/agros-tools/interfaces/Platform) interface, and export the instance of the class as default.
 
 ## The `Platform` Interface
 
 ### getDefaultConfig
 
-[Definition](/docs/api/agros-platforms/interfaces/Platform#getdefaultconfig)
+[Definition](../api/agros-tools/interfaces/Platform#getdefaultconfig)
 
 `getDefaultConfig` returns an object that would be merged into the project platform configuration, whose key name is `platformConfig.$PACKAGE_NAME`, while `$PACKAGE_NAME` is the package name of current platform.
 
 ### getLoaderImports
 
-[Definition](/docs/api/agros-platforms/interfaces/Platform#getloaderimports)
+[Definition](../api/agros-tools/interfaces/Platform#getloaderimports)
 
 `getLoaderImports` should return an array of dependencies that could be used by `@agros/loader`'s AOP to generate bootstrap code.
 
-The definition of array item can be found [here](/docs/api/agros-utils/interfaces/EnsureImportOptions). In general, there will always be two things that should be in this array: renderer and router.
+The definition of array item can be found [here](../api/agros-tools/interfaces/EnsureImportOptions). In general, there will always be two things that should be in this array: renderer and router.
 
 For example, in `@agros/platform-react`, we should import `react` (which is exported from `@agros/platform-react/lib/react`) and `react-router-dom` (which is exported from `@agros/platform-react/lib/react-router-dom`), then the `getLoaderImports`' value will be:
 
@@ -63,13 +63,13 @@ The value of `type` field can be `default`, `named` or `namespace`. If `default`
 
 ### getDecoratorImports
 
-[Definition](/docs/api/agros-platforms/interfaces/Platform#getdecoratorimports)
+[Definition](../api/agros-tools/interfaces/Platform#getdecoratorimports)
 
 `getDecoratorImports` should return an array of dependencies that could be used by `@agros/loader` when transforming `@Component()` decorator. The return value is the same as [`getLoaderImports`](#getLoaderImports).
 
 ### getBootstrapCode
 
-[Definition](/docs/api/agros-platforms/interfaces/Platform#getbootstrapcode)
+[Definition](../api/agros-tools/interfaces/Platform#getbootstrapcode)
 
 `getBootstrapCode` should return a string value that defines the body of the entry function. It passes a value named `config` from **string literal** of code, which points to the default-exported object from the entry file of the project (usually `src/index.ts`).
 
@@ -186,7 +186,7 @@ export const createRoutes = (routerItems: RouterItem[], level = 0) => {
 
 ### getComponentFactoryCode
 
-[Definition](/docs/api/agros-platforms/interfaces/Platform#getcomponentfactorycode)
+[Definition](../api/agros-tools/interfaces/Platform#getcomponentfactorycode)
 
 `getComponentFactoryCode` should return a string that contains the code content of a full factory function.
 
@@ -275,7 +275,7 @@ class Platform implements IPlatform {
 
 ### getComponentScript
 
-`getComponentScript` passes the component description file content as parameter and returns an object with type of [`ComponentScript`](/docs/api/agros-utils/interfaces/ComponentScript), which has two fields: `content` and `location`.
+`getComponentScript` passes the component description file content as parameter and returns an object with type of [`ComponentScript`](../api/agros-tools/interfaces/ComponentScript), which has two fields: `content` and `location`.
 
 :::tip Why and when should Agros need this method from platform?
 When Agros loader loads the component description files whoes code are not totally pure JavaScript or TypeScript, like [Vue SFC](https://vuejs.org/guide/scaling-up/sfc.html) files, [Svelte](https://svelte.dev/docs#component-format) files, etc.
@@ -317,7 +317,7 @@ class BundlessPlatform implements IBundlessPlatform {
 
 ## agros-platform.config.js
 
-`agros-platform.config.js` is the configuration file of platform. This configuration file should export an object with type [`PlatformConfig`](../api/agros-config/interfaces/PlatformConfig).
+`agros-platform.config.js` is the configuration file of platform. This configuration file should export an object with type [`PlatformConfig`](../api/agros-tools/interfaces/PlatformConfig).
 
 ### configWebpack
 
@@ -390,7 +390,7 @@ module.exports = {
 
 ### bundlessPlatform
 
-The relative pathname of [`BundlessPlatform`](../api/agros-utils/interfaces/BundlessPlatform) file. For example, in `@agros/platform-vue`, the compiled `BundlessPlatform` file is located in `lib/bundless-platform.js` this field is:
+The relative pathname of [`BundlessPlatform`](../api/agros-tools/interfaces/BundlessPlatform) file. For example, in `@agros/platform-vue`, the compiled `BundlessPlatform` file is located in `lib/bundless-platform.js` this field is:
 
 ```js agros-platform.config.js
 module.exports = {

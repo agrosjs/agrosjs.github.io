@@ -317,7 +317,7 @@ class BundlessPlatform implements IBundlessPlatform {
 
 ## agros-platform.config.js
 
-`agros-platform.config.js` is the configuration file of platform. This configuration file should export an object with type [`PlatformConfig`](../api/agros-config/interfaces/PlatformConfig).
+`agros-platform.config.js` is the configuration file of platform. This configuration file should export an object with type [`PlatformConfig`](../api/agros-tools/interfaces/PlatformConfig).
 
 ### configWebpack
 

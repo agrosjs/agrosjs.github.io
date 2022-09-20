@@ -43,7 +43,7 @@
 
 #### Defined in
 
-[platform.interface.ts:32](https://github.com/agrosjs/agros/blob/4a028b2/packages/agros-tools/src/platform.interface.ts#L32)
+[platform.interface.ts:32](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/platform.interface.ts#L32)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:29](https://github.com/agrosjs/agros/blob/4a028b2/packages/agros-tools/src/platform.interface.ts#L29)
+[platform.interface.ts:29](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/platform.interface.ts#L29)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:30](https://github.com/agrosjs/agros/blob/4a028b2/packages/agros-tools/src/platform.interface.ts#L30)
+[platform.interface.ts:30](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/platform.interface.ts#L30)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:28](https://github.com/agrosjs/agros/blob/4a028b2/packages/agros-tools/src/platform.interface.ts#L28)
+[platform.interface.ts:28](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/platform.interface.ts#L28)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:31](https://github.com/agrosjs/agros/blob/4a028b2/packages/agros-tools/src/platform.interface.ts#L31)
+[platform.interface.ts:31](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/platform.interface.ts#L31)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:33](https://github.com/agrosjs/agros/blob/4a028b2/packages/agros-tools/src/platform.interface.ts#L33)
+[platform.interface.ts:33](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/platform.interface.ts#L33)
 
 ___
 
@@ -170,4 +170,4 @@ ___
 
 #### Defined in
 
-[platform.interface.ts:27](https://github.com/agrosjs/agros/blob/4a028b2/packages/agros-tools/src/platform.interface.ts#L27)
+[platform.interface.ts:27](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/platform.interface.ts#L27)

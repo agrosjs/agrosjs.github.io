@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[component-instance.class.ts:19](https://github.com/agrosjs/agros/blob/4a028b2/packages/agros-tools/src/component-instance.class.ts#L19)
+[component-instance.class.ts:19](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/component-instance.class.ts#L19)
 
 ## Properties
 
@@ -46,7 +46,7 @@ React component for current component instance
 
 #### Defined in
 
-[component-instance.class.ts:13](https://github.com/agrosjs/agros/blob/4a028b2/packages/agros-tools/src/component-instance.class.ts#L13)
+[component-instance.class.ts:13](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/component-instance.class.ts#L13)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[component-instance.class.ts:20](https://github.com/agrosjs/agros/blob/4a028b2/packages/agros-tools/src/component-instance.class.ts#L20)
+[component-instance.class.ts:20](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/component-instance.class.ts#L20)
 
 ## Methods
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[component-instance.class.ts:27](https://github.com/agrosjs/agros/blob/4a028b2/packages/agros-tools/src/component-instance.class.ts#L27)
+[component-instance.class.ts:27](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/component-instance.class.ts#L27)
 
 ___
 
@@ -96,4 +96,4 @@ ___
 
 #### Defined in
 
-[component-instance.class.ts:23](https://github.com/agrosjs/agros/blob/4a028b2/packages/agros-tools/src/component-instance.class.ts#L23)
+[component-instance.class.ts:23](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/component-instance.class.ts#L23)

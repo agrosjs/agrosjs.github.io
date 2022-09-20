@@ -14,11 +14,15 @@
 - [BootstrapConfigItem](interfaces/BootstrapConfigItem.md)
 - [BundlessPlatform](interfaces/BundlessPlatform.md)
 - [CodeLocation](interfaces/CodeLocation.md)
+- [CollectionDescriptor](interfaces/CollectionDescriptor.md)
 - [ComponentDecoratorOptions](interfaces/ComponentDecoratorOptions.md)
 - [ComponentInstanceMetadata](interfaces/ComponentInstanceMetadata.md)
 - [ComponentScript](interfaces/ComponentScript.md)
 - [Container](interfaces/Container.md)
 - [ContainerForwardedComponentProps](interfaces/ContainerForwardedComponentProps.md)
+- [EnsureImportOptions](interfaces/EnsureImportOptions.md)
+- [EnsureImportResult](interfaces/EnsureImportResult.md)
+- [EntityDescriptor](interfaces/EntityDescriptor.md)
 - [EntryTailCodeData](interfaces/EntryTailCodeData.md)
 - [Factory](interfaces/Factory.md)
 - [FactoryCode](interfaces/FactoryCode.md)
@@ -27,8 +31,11 @@
 - [ModuleDecoratorOptions](interfaces/ModuleDecoratorOptions.md)
 - [ModuleInstanceMetadata](interfaces/ModuleInstanceMetadata.md)
 - [ModuleMetadata](interfaces/ModuleMetadata.md)
+- [PathDescriptor](interfaces/PathDescriptor.md)
 - [Platform](interfaces/Platform.md)
+- [PlatformConfig](interfaces/PlatformConfig.md)
 - [RootContainerProps](interfaces/RootContainerProps.md)
+- [RootPointDescriptor](interfaces/RootPointDescriptor.md)
 - [RouteOptionItem](interfaces/RouteOptionItem.md)
 - [RouteProps](interfaces/RouteProps.md)
 - [RouterItem](interfaces/RouterItem.md)
@@ -41,6 +48,7 @@
 - [CollectionMap](index.md#collectionmap)
 - [CollectionType](index.md#collectiontype)
 - [ComponentMetadata](index.md#componentmetadata)
+- [EnsureImportType](index.md#ensureimporttype)
 - [Type](index.md#type)
 - [UseInterceptorsDecoratorOptions](index.md#useinterceptorsdecoratoroptions)
 
@@ -67,7 +75,7 @@
 
 #### Defined in
 
-[platform.interface.ts:4](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/platform.interface.ts#L4)
+[packages/agros-tools/src/platform.interface.ts:4](https://github.com/agrosjs/agros/blob/1965b42/packages/agros-tools/src/platform.interface.ts#L4)
 
 ___
 
@@ -83,7 +91,7 @@ ___
 
 #### Defined in
 
-[types.ts:43](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/types.ts#L43)
+[packages/agros-tools/src/types.ts:46](https://github.com/agrosjs/agros/blob/1965b42/packages/agros-tools/src/types.ts#L46)
 
 ___
 
@@ -93,7 +101,7 @@ ___
 
 #### Defined in
 
-[types.ts:5](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/types.ts#L5)
+[packages/agros-tools/src/types.ts:8](https://github.com/agrosjs/agros/blob/1965b42/packages/agros-tools/src/types.ts#L8)
 
 ___
 
@@ -103,7 +111,7 @@ ___
 
 #### Defined in
 
-[types.ts:6](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/types.ts#L6)
+[packages/agros-tools/src/types.ts:9](https://github.com/agrosjs/agros/blob/1965b42/packages/agros-tools/src/types.ts#L9)
 
 ___
 
@@ -113,7 +121,17 @@ ___
 
 #### Defined in
 
-[types.ts:32](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/types.ts#L32)
+[packages/agros-tools/src/types.ts:35](https://github.com/agrosjs/agros/blob/1965b42/packages/agros-tools/src/types.ts#L35)
+
+___
+
+### <a id="ensureimporttype" name="ensureimporttype"></a> EnsureImportType
+
+Ƭ **EnsureImportType**: ``"named"`` \| ``"default"`` \| ``"namespace"``
+
+#### Defined in
+
+[packages/agros-tools/src/types.ts:125](https://github.com/agrosjs/agros/blob/1965b42/packages/agros-tools/src/types.ts#L125)
 
 ___
 
@@ -139,7 +157,7 @@ ___
 
 #### Defined in
 
-[types.ts:42](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/types.ts#L42)
+[packages/agros-tools/src/types.ts:45](https://github.com/agrosjs/agros/blob/1965b42/packages/agros-tools/src/types.ts#L45)
 
 ___
 
@@ -149,4 +167,4 @@ ___
 
 #### Defined in
 
-[types.ts:108](https://github.com/agrosjs/agros/blob/2fa30a3/packages/agros-tools/src/types.ts#L108)
+[packages/agros-tools/src/types.ts:111](https://github.com/agrosjs/agros/blob/1965b42/packages/agros-tools/src/types.ts#L111)

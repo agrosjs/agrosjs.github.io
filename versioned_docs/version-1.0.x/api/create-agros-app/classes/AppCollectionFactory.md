@@ -4,13 +4,13 @@
 
 ## Hierarchy
 
-- `AbstractCollection`
+- `AbstractGeneratorFactory`
 
   ↳ **`AppCollectionFactory`**
 
 ## Implements
 
-- `AbstractCollection`
+- `AbstractGeneratorFactory`
 
 ## Table of contents
 
@@ -23,6 +23,7 @@
 - [entities](AppCollectionFactory.md#entities)
 - [licenseList](AppCollectionFactory.md#licenselist)
 - [licenseUtils](AppCollectionFactory.md#licenseutils)
+- [platformConfig](AppCollectionFactory.md#platformconfig)
 - [projectConfig](AppCollectionFactory.md#projectconfig)
 
 ### Methods
@@ -44,11 +45,11 @@
 
 #### Inherited from
 
-AbstractCollection.constructor
+AbstractGeneratorFactory.constructor
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:20
+agros-tools/lib/collection.d.ts:21
 
 ## Properties
 
@@ -58,15 +59,15 @@ agros-tools/lib/collection.d.ts:20
 
 #### Implementation of
 
-AbstractCollection.entities
+AbstractGeneratorFactory.entities
 
 #### Inherited from
 
-AbstractCollection.entities
+AbstractGeneratorFactory.entities
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:19
+agros-tools/lib/collection.d.ts:20
 
 ___
 
@@ -76,7 +77,7 @@ ___
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:26](https://github.com/agrosjs/agros/blob/638b447/packages/create-agros-app/src/app.factory.ts#L26)
+[create-agros-app/src/app.factory.ts:26](https://github.com/agrosjs/agros/blob/c4e8ac6/packages/create-agros-app/src/app.factory.ts#L26)
 
 ___
 
@@ -86,7 +87,25 @@ ___
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:25](https://github.com/agrosjs/agros/blob/638b447/packages/create-agros-app/src/app.factory.ts#L25)
+[create-agros-app/src/app.factory.ts:25](https://github.com/agrosjs/agros/blob/c4e8ac6/packages/create-agros-app/src/app.factory.ts#L25)
+
+___
+
+### <a id="platformconfig" name="platformconfig"></a> platformConfig
+
+• `Protected` `Readonly` **platformConfig**: `PlatformConfigParser`
+
+#### Implementation of
+
+AbstractGeneratorFactory.platformConfig
+
+#### Inherited from
+
+AbstractGeneratorFactory.platformConfig
+
+#### Defined in
+
+agros-tools/lib/collection.d.ts:19
 
 ___
 
@@ -96,11 +115,11 @@ ___
 
 #### Implementation of
 
-AbstractCollection.projectConfig
+AbstractGeneratorFactory.projectConfig
 
 #### Inherited from
 
-AbstractCollection.projectConfig
+AbstractGeneratorFactory.projectConfig
 
 #### Defined in
 
@@ -110,7 +129,7 @@ agros-tools/lib/collection.d.ts:18
 
 ### <a id="generate" name="generate"></a> generate
 
-▸ **generate**(`__namedParameters`): `Promise`<`CollectionGenerateResult`\>
+▸ **generate**(`__namedParameters`): `Promise`<`CollectionFactoryResult`\>
 
 #### Parameters
 
@@ -120,19 +139,19 @@ agros-tools/lib/collection.d.ts:18
 
 #### Returns
 
-`Promise`<`CollectionGenerateResult`\>
+`Promise`<`CollectionFactoryResult`\>
 
 #### Implementation of
 
-AbstractCollection.generate
+AbstractGeneratorFactory.generate
 
 #### Overrides
 
-AbstractCollection.generate
+AbstractGeneratorFactory.generate
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:28](https://github.com/agrosjs/agros/blob/638b447/packages/create-agros-app/src/app.factory.ts#L28)
+[create-agros-app/src/app.factory.ts:28](https://github.com/agrosjs/agros/blob/c4e8ac6/packages/create-agros-app/src/app.factory.ts#L28)
 
 ___
 
@@ -152,15 +171,15 @@ ___
 
 #### Implementation of
 
-AbstractCollection.getEntityDescriptor
+AbstractGeneratorFactory.getEntityDescriptor
 
 #### Inherited from
 
-AbstractCollection.getEntityDescriptor
+AbstractGeneratorFactory.getEntityDescriptor
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:27
+agros-tools/lib/collection.d.ts:28
 
 ___
 
@@ -180,15 +199,15 @@ ___
 
 #### Implementation of
 
-AbstractCollection.modulesPath
+AbstractGeneratorFactory.modulesPath
 
 #### Inherited from
 
-AbstractCollection.modulesPath
+AbstractGeneratorFactory.modulesPath
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:24
+agros-tools/lib/collection.d.ts:25
 
 ___
 
@@ -208,15 +227,15 @@ ___
 
 #### Implementation of
 
-AbstractCollection.projectPath
+AbstractGeneratorFactory.projectPath
 
 #### Inherited from
 
-AbstractCollection.projectPath
+AbstractGeneratorFactory.projectPath
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:22
+agros-tools/lib/collection.d.ts:23
 
 ___
 
@@ -236,15 +255,15 @@ ___
 
 #### Implementation of
 
-AbstractCollection.srcPath
+AbstractGeneratorFactory.srcPath
 
 #### Inherited from
 
-AbstractCollection.srcPath
+AbstractGeneratorFactory.srcPath
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:23
+agros-tools/lib/collection.d.ts:24
 
 ___
 
@@ -258,15 +277,15 @@ ___
 
 #### Implementation of
 
-AbstractCollection.updateEntities
+AbstractGeneratorFactory.updateEntities
 
 #### Inherited from
 
-AbstractCollection.updateEntities
+AbstractGeneratorFactory.updateEntities
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:21
+agros-tools/lib/collection.d.ts:22
 
 ___
 
@@ -288,15 +307,15 @@ ___
 
 #### Implementation of
 
-AbstractCollection.writeFile
+AbstractGeneratorFactory.writeFile
 
 #### Inherited from
 
-AbstractCollection.writeFile
+AbstractGeneratorFactory.writeFile
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:25
+agros-tools/lib/collection.d.ts:26
 
 ___
 
@@ -319,12 +338,12 @@ ___
 
 #### Implementation of
 
-AbstractCollection.writeTemplateFile
+AbstractGeneratorFactory.writeTemplateFile
 
 #### Inherited from
 
-AbstractCollection.writeTemplateFile
+AbstractGeneratorFactory.writeTemplateFile
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:26
+agros-tools/lib/collection.d.ts:27

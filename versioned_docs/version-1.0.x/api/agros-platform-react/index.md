@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[platform.ts:12](https://github.com/agrosjs/agros/blob/c4e8ac6/packages/agros-platform-react/src/platform.ts#L12)
+[platform.ts:12](https://github.com/agrosjs/agros/blob/b4c49b1/packages/agros-platform-react/src/platform.ts#L12)

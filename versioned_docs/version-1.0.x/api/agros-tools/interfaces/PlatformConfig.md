@@ -9,6 +9,7 @@
 - [bundlessPlatform](PlatformConfig.md#bundlessplatform)
 - [configWebpack](PlatformConfig.md#configwebpack)
 - [files](PlatformConfig.md#files)
+- [withoutComponentDescriptionFileExtension](PlatformConfig.md#withoutcomponentdescriptionfileextension)
 
 ## Properties
 
@@ -18,7 +19,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:148](https://github.com/agrosjs/agros/blob/c4e8ac6/packages/agros-tools/src/types.ts#L148)
+[packages/agros-tools/src/types.ts:150](https://github.com/agrosjs/agros/blob/b4c49b1/packages/agros-tools/src/types.ts#L150)
 
 ___
 
@@ -42,14 +43,24 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:150](https://github.com/agrosjs/agros/blob/c4e8ac6/packages/agros-tools/src/types.ts#L150)
+[packages/agros-tools/src/types.ts:151](https://github.com/agrosjs/agros/blob/b4c49b1/packages/agros-tools/src/types.ts#L151)
 
 ___
 
 ### <a id="files" name="files"></a> files
 
-• **files**: `PlatformFiles`
+• **files**: [`PlatformFiles`](PlatformFiles.md)
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:149](https://github.com/agrosjs/agros/blob/c4e8ac6/packages/agros-tools/src/types.ts#L149)
+[packages/agros-tools/src/types.ts:148](https://github.com/agrosjs/agros/blob/b4c49b1/packages/agros-tools/src/types.ts#L148)
+
+___
+
+### <a id="withoutcomponentdescriptionfileextension" name="withoutcomponentdescriptionfileextension"></a> withoutComponentDescriptionFileExtension
+
+• `Optional` **withoutComponentDescriptionFileExtension**: `boolean`
+
+#### Defined in
+
+[packages/agros-tools/src/types.ts:149](https://github.com/agrosjs/agros/blob/b4c49b1/packages/agros-tools/src/types.ts#L149)

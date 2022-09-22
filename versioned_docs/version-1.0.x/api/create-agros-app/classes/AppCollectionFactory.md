@@ -23,7 +23,6 @@
 - [entities](AppCollectionFactory.md#entities)
 - [licenseList](AppCollectionFactory.md#licenselist)
 - [licenseUtils](AppCollectionFactory.md#licenseutils)
-- [platformConfig](AppCollectionFactory.md#platformconfig)
 - [projectConfig](AppCollectionFactory.md#projectconfig)
 
 ### Methods
@@ -49,7 +48,7 @@ AbstractGeneratorFactory.constructor
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:21
+agros-tools/lib/collection.d.ts:20
 
 ## Properties
 
@@ -67,7 +66,7 @@ AbstractGeneratorFactory.entities
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:20
+agros-tools/lib/collection.d.ts:19
 
 ___
 
@@ -77,7 +76,7 @@ ___
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:26](https://github.com/agrosjs/agros/blob/b4c49b1/packages/create-agros-app/src/app.factory.ts#L26)
+[create-agros-app/src/app.factory.ts:28](https://github.com/agrosjs/agros/blob/1643897/packages/create-agros-app/src/app.factory.ts#L28)
 
 ___
 
@@ -87,25 +86,7 @@ ___
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:25](https://github.com/agrosjs/agros/blob/b4c49b1/packages/create-agros-app/src/app.factory.ts#L25)
-
-___
-
-### <a id="platformconfig" name="platformconfig"></a> platformConfig
-
-• `Protected` `Readonly` **platformConfig**: `PlatformConfigParser`
-
-#### Implementation of
-
-AbstractGeneratorFactory.platformConfig
-
-#### Inherited from
-
-AbstractGeneratorFactory.platformConfig
-
-#### Defined in
-
-agros-tools/lib/collection.d.ts:19
+[create-agros-app/src/app.factory.ts:27](https://github.com/agrosjs/agros/blob/1643897/packages/create-agros-app/src/app.factory.ts#L27)
 
 ___
 
@@ -151,7 +132,7 @@ AbstractGeneratorFactory.generate
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:28](https://github.com/agrosjs/agros/blob/b4c49b1/packages/create-agros-app/src/app.factory.ts#L28)
+[create-agros-app/src/app.factory.ts:30](https://github.com/agrosjs/agros/blob/1643897/packages/create-agros-app/src/app.factory.ts#L30)
 
 ___
 
@@ -179,7 +160,7 @@ AbstractGeneratorFactory.getEntityDescriptor
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:28
+agros-tools/lib/collection.d.ts:27
 
 ___
 
@@ -207,7 +188,7 @@ AbstractGeneratorFactory.modulesPath
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:25
+agros-tools/lib/collection.d.ts:24
 
 ___
 
@@ -235,7 +216,7 @@ AbstractGeneratorFactory.projectPath
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:23
+agros-tools/lib/collection.d.ts:22
 
 ___
 
@@ -263,7 +244,7 @@ AbstractGeneratorFactory.srcPath
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:24
+agros-tools/lib/collection.d.ts:23
 
 ___
 
@@ -285,7 +266,7 @@ AbstractGeneratorFactory.updateEntities
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:22
+agros-tools/lib/collection.d.ts:21
 
 ___
 
@@ -315,7 +296,7 @@ AbstractGeneratorFactory.writeFile
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:26
+agros-tools/lib/collection.d.ts:25
 
 ___
 
@@ -346,4 +327,4 @@ AbstractGeneratorFactory.writeTemplateFile
 
 #### Defined in
 
-agros-tools/lib/collection.d.ts:27
+agros-tools/lib/collection.d.ts:26

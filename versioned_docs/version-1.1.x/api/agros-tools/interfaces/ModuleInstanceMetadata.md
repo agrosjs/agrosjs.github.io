@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:98](https://github.com/agrosjs/agros/blob/bbdb8c2/packages/agros-tools/src/types.ts#L98)
+[packages/agros-tools/src/types.ts:98](https://github.com/agrosjs/agros/blob/0186512/packages/agros-tools/src/types.ts#L98)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:93](https://github.com/agrosjs/agros/blob/bbdb8c2/packages/agros-tools/src/types.ts#L93)
+[packages/agros-tools/src/types.ts:93](https://github.com/agrosjs/agros/blob/0186512/packages/agros-tools/src/types.ts#L93)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:92](https://github.com/agrosjs/agros/blob/bbdb8c2/packages/agros-tools/src/types.ts#L92)
+[packages/agros-tools/src/types.ts:92](https://github.com/agrosjs/agros/blob/0186512/packages/agros-tools/src/types.ts#L92)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:90](https://github.com/agrosjs/agros/blob/bbdb8c2/packages/agros-tools/src/types.ts#L90)
+[packages/agros-tools/src/types.ts:90](https://github.com/agrosjs/agros/blob/0186512/packages/agros-tools/src/types.ts#L90)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:99](https://github.com/agrosjs/agros/blob/bbdb8c2/packages/agros-tools/src/types.ts#L99)
+[packages/agros-tools/src/types.ts:99](https://github.com/agrosjs/agros/blob/0186512/packages/agros-tools/src/types.ts#L99)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:91](https://github.com/agrosjs/agros/blob/bbdb8c2/packages/agros-tools/src/types.ts#L91)
+[packages/agros-tools/src/types.ts:91](https://github.com/agrosjs/agros/blob/0186512/packages/agros-tools/src/types.ts#L91)
 
 ___
 
@@ -108,4 +108,4 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:94](https://github.com/agrosjs/agros/blob/bbdb8c2/packages/agros-tools/src/types.ts#L94)
+[packages/agros-tools/src/types.ts:94](https://github.com/agrosjs/agros/blob/0186512/packages/agros-tools/src/types.ts#L94)

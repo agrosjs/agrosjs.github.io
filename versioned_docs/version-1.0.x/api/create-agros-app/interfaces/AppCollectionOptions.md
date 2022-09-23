@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:20](https://github.com/agrosjs/agros/blob/c4e8ac6/packages/create-agros-app/src/app.factory.ts#L20)
+[create-agros-app/src/app.factory.ts:22](https://github.com/agrosjs/agros/blob/ccf46f8/packages/create-agros-app/src/app.factory.ts#L22)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:21](https://github.com/agrosjs/agros/blob/c4e8ac6/packages/create-agros-app/src/app.factory.ts#L21)
+[create-agros-app/src/app.factory.ts:23](https://github.com/agrosjs/agros/blob/ccf46f8/packages/create-agros-app/src/app.factory.ts#L23)

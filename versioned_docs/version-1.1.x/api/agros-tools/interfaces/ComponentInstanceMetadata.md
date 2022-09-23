@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:71](https://github.com/agrosjs/agros/blob/8ed049a/packages/agros-tools/src/types.ts#L71)
+[packages/agros-tools/src/types.ts:71](https://github.com/agrosjs/agros/blob/f20df82/packages/agros-tools/src/types.ts#L71)
 
 ___
 
@@ -45,7 +45,7 @@ ComponentMetadata.elementProps
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:33](https://github.com/agrosjs/agros/blob/8ed049a/packages/agros-tools/src/types.ts#L33)
+[packages/agros-tools/src/types.ts:33](https://github.com/agrosjs/agros/blob/f20df82/packages/agros-tools/src/types.ts#L33)
 
 ___
 
@@ -67,7 +67,7 @@ ComponentMetadata.factory
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:40](https://github.com/agrosjs/agros/blob/8ed049a/packages/agros-tools/src/types.ts#L40)
+[packages/agros-tools/src/types.ts:40](https://github.com/agrosjs/agros/blob/f20df82/packages/agros-tools/src/types.ts#L40)
 
 ___
 
@@ -81,7 +81,7 @@ ComponentMetadata.file
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:29](https://github.com/agrosjs/agros/blob/8ed049a/packages/agros-tools/src/types.ts#L29)
+[packages/agros-tools/src/types.ts:29](https://github.com/agrosjs/agros/blob/f20df82/packages/agros-tools/src/types.ts#L29)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:72](https://github.com/agrosjs/agros/blob/8ed049a/packages/agros-tools/src/types.ts#L72)
+[packages/agros-tools/src/types.ts:72](https://github.com/agrosjs/agros/blob/f20df82/packages/agros-tools/src/types.ts#L72)
 
 ___
 
@@ -105,7 +105,7 @@ ComponentMetadata.interceptorsFallback
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:35](https://github.com/agrosjs/agros/blob/8ed049a/packages/agros-tools/src/types.ts#L35)
+[packages/agros-tools/src/types.ts:35](https://github.com/agrosjs/agros/blob/f20df82/packages/agros-tools/src/types.ts#L35)
 
 ___
 
@@ -119,7 +119,7 @@ ComponentMetadata.lazy
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:30](https://github.com/agrosjs/agros/blob/8ed049a/packages/agros-tools/src/types.ts#L30)
+[packages/agros-tools/src/types.ts:30](https://github.com/agrosjs/agros/blob/f20df82/packages/agros-tools/src/types.ts#L30)
 
 ___
 
@@ -133,7 +133,7 @@ ComponentMetadata.styles
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:31](https://github.com/agrosjs/agros/blob/8ed049a/packages/agros-tools/src/types.ts#L31)
+[packages/agros-tools/src/types.ts:31](https://github.com/agrosjs/agros/blob/f20df82/packages/agros-tools/src/types.ts#L31)
 
 ___
 
@@ -147,7 +147,7 @@ ComponentMetadata.suspenseFallback
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:34](https://github.com/agrosjs/agros/blob/8ed049a/packages/agros-tools/src/types.ts#L34)
+[packages/agros-tools/src/types.ts:34](https://github.com/agrosjs/agros/blob/f20df82/packages/agros-tools/src/types.ts#L34)
 
 ___
 
@@ -161,4 +161,4 @@ ComponentMetadata.uuid
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:39](https://github.com/agrosjs/agros/blob/8ed049a/packages/agros-tools/src/types.ts#L39)
+[packages/agros-tools/src/types.ts:39](https://github.com/agrosjs/agros/blob/f20df82/packages/agros-tools/src/types.ts#L39)

@@ -14,8 +14,8 @@ versions = versions.sort((a, b) => {
         a.split('.').slice(0, 2).concat('0').join('.'),
         b.split('.').slice(0, 2).concat('0').join('.'),
     )
-        ? -1
-        : 1;
+        ? 1
+        : -1;
 });
 
 /** @type {import('@docusaurus/types').Config} */

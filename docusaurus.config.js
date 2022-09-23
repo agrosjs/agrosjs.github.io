@@ -12,7 +12,7 @@ let versions = Array.from(fs.readJsonSync(path.resolve(__dirname, './versions.js
 versions = versions.sort((a, b) => {
     return semver.lt(
         a.split('.').slice(0, 2).concat('0').join('.'),
-        a.split('.').slice(0, 2).concat('0').join('.'),
+        b.split('.').slice(0, 2).concat('0').join('.'),
     )
         ? -1
         : 1;

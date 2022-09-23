@@ -11,6 +11,9 @@
 
 ### Interfaces
 
+- [AddImportedEntityToModuleOptions](interfaces/AddImportedEntityToModuleOptions.md)
+- [AddImportedServiceToServiceOptions](interfaces/AddImportedServiceToServiceOptions.md)
+- [AddRouteToModuleOptions](interfaces/AddRouteToModuleOptions.md)
 - [BootstrapConfigItem](interfaces/BootstrapConfigItem.md)
 - [BundlessPlatform](interfaces/BundlessPlatform.md)
 - [CodeLocation](interfaces/CodeLocation.md)
@@ -40,6 +43,7 @@
 - [RouteOptionItem](interfaces/RouteOptionItem.md)
 - [RouteProps](interfaces/RouteProps.md)
 - [RouterItem](interfaces/RouterItem.md)
+- [UpdateItem](interfaces/UpdateItem.md)
 - [ValueProvider](interfaces/ValueProvider.md)
 
 ### Type Aliases
@@ -51,6 +55,8 @@
 - [ComponentMetadata](index.md#componentmetadata)
 - [EnsureImportType](index.md#ensureimporttype)
 - [Type](index.md#type)
+- [Updater](index.md#updater)
+- [UpdaterWithChecker](index.md#updaterwithchecker)
 - [UseInterceptorsDecoratorOptions](index.md#useinterceptorsdecoratoroptions)
 
 ## Type Aliases
@@ -76,7 +82,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/platform.interface.ts:4](https://github.com/agrosjs/agros/blob/93cc9fc/packages/agros-tools/src/platform.interface.ts#L4)
+[packages/agros-tools/src/platform.interface.ts:4](https://github.com/agrosjs/agros/blob/19ac562/packages/agros-tools/src/platform.interface.ts#L4)
 
 ___
 
@@ -92,7 +98,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:46](https://github.com/agrosjs/agros/blob/93cc9fc/packages/agros-tools/src/types.ts#L46)
+[packages/agros-tools/src/types.ts:49](https://github.com/agrosjs/agros/blob/19ac562/packages/agros-tools/src/types.ts#L49)
 
 ___
 
@@ -102,7 +108,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:8](https://github.com/agrosjs/agros/blob/93cc9fc/packages/agros-tools/src/types.ts#L8)
+[packages/agros-tools/src/types.ts:11](https://github.com/agrosjs/agros/blob/19ac562/packages/agros-tools/src/types.ts#L11)
 
 ___
 
@@ -112,7 +118,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:9](https://github.com/agrosjs/agros/blob/93cc9fc/packages/agros-tools/src/types.ts#L9)
+[packages/agros-tools/src/types.ts:12](https://github.com/agrosjs/agros/blob/19ac562/packages/agros-tools/src/types.ts#L12)
 
 ___
 
@@ -122,7 +128,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:35](https://github.com/agrosjs/agros/blob/93cc9fc/packages/agros-tools/src/types.ts#L35)
+[packages/agros-tools/src/types.ts:38](https://github.com/agrosjs/agros/blob/19ac562/packages/agros-tools/src/types.ts#L38)
 
 ___
 
@@ -132,7 +138,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:125](https://github.com/agrosjs/agros/blob/93cc9fc/packages/agros-tools/src/types.ts#L125)
+[packages/agros-tools/src/types.ts:128](https://github.com/agrosjs/agros/blob/19ac562/packages/agros-tools/src/types.ts#L128)
 
 ___
 
@@ -158,7 +164,75 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:45](https://github.com/agrosjs/agros/blob/93cc9fc/packages/agros-tools/src/types.ts#L45)
+[packages/agros-tools/src/types.ts:48](https://github.com/agrosjs/agros/blob/19ac562/packages/agros-tools/src/types.ts#L48)
+
+___
+
+### <a id="updater" name="updater"></a> Updater
+
+Ƭ **Updater**<`T`\>: (`data`: { `classImportItem`: `ClassImportItem`<`t.ClassDeclaration`\> ; `initialResult`: [`UpdateItem`](interfaces/UpdateItem.md)[] ; `options?`: `T` ; `sourceDescriptor`: [`EntityDescriptor`](interfaces/EntityDescriptor.md) ; `targetAST`: `ParseResult`<`t.File`\> ; `targetDescriptor`: [`EntityDescriptor`](interfaces/EntityDescriptor.md)  }) => `Promise`<[`UpdateItem`](interfaces/UpdateItem.md)[]\>
+
+#### Type parameters
+
+| Name |
+| :------ |
+| `T` |
+
+#### Type declaration
+
+▸ (`data`): `Promise`<[`UpdateItem`](interfaces/UpdateItem.md)[]\>
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `Object` |
+| `data.classImportItem` | `ClassImportItem`<`t.ClassDeclaration`\> |
+| `data.initialResult` | [`UpdateItem`](interfaces/UpdateItem.md)[] |
+| `data.options?` | `T` |
+| `data.sourceDescriptor` | [`EntityDescriptor`](interfaces/EntityDescriptor.md) |
+| `data.targetAST` | `ParseResult`<`t.File`\> |
+| `data.targetDescriptor` | [`EntityDescriptor`](interfaces/EntityDescriptor.md) |
+
+##### Returns
+
+`Promise`<[`UpdateItem`](interfaces/UpdateItem.md)[]\>
+
+#### Defined in
+
+[packages/agros-tools/src/types.ts:187](https://github.com/agrosjs/agros/blob/19ac562/packages/agros-tools/src/types.ts#L187)
+
+___
+
+### <a id="updaterwithchecker" name="updaterwithchecker"></a> UpdaterWithChecker
+
+Ƭ **UpdaterWithChecker**<`T`\>: (`sourceDescriptor`: [`EntityDescriptor`](interfaces/EntityDescriptor.md), `targetDescriptor`: [`EntityDescriptor`](interfaces/EntityDescriptor.md), `options?`: `T`) => `Promise`<[`UpdateItem`](interfaces/UpdateItem.md)[]\>
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | `any` |
+
+#### Type declaration
+
+▸ (`sourceDescriptor`, `targetDescriptor`, `options?`): `Promise`<[`UpdateItem`](interfaces/UpdateItem.md)[]\>
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `sourceDescriptor` | [`EntityDescriptor`](interfaces/EntityDescriptor.md) |
+| `targetDescriptor` | [`EntityDescriptor`](interfaces/EntityDescriptor.md) |
+| `options?` | `T` |
+
+##### Returns
+
+`Promise`<[`UpdateItem`](interfaces/UpdateItem.md)[]\>
+
+#### Defined in
+
+[packages/agros-tools/src/types.ts:196](https://github.com/agrosjs/agros/blob/19ac562/packages/agros-tools/src/types.ts#L196)
 
 ___
 
@@ -168,4 +242,4 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:111](https://github.com/agrosjs/agros/blob/93cc9fc/packages/agros-tools/src/types.ts#L111)
+[packages/agros-tools/src/types.ts:114](https://github.com/agrosjs/agros/blob/19ac562/packages/agros-tools/src/types.ts#L114)

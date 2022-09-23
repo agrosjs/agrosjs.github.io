@@ -32,4 +32,4 @@ get container dependencies
 
 #### Defined in
 
-[get-container.ts:9](https://github.com/agrosjs/agros/blob/f20df82/packages/agros-app/src/get-container.ts#L9)
+[get-container.ts:9](https://github.com/agrosjs/agros/blob/c921279/packages/agros-app/src/get-container.ts#L9)

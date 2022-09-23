@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:25](https://github.com/agrosjs/agros/blob/c921279/packages/agros-tools/src/types.ts#L25)
+[packages/agros-tools/src/types.ts:25](https://github.com/agrosjs/agros/blob/0918b74/packages/agros-tools/src/types.ts#L25)

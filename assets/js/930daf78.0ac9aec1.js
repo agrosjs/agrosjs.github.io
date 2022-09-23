@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkagrosjs_github_io=self.webpackChunkagrosjs_github_io||[]).push([[7552],{6397:e=>{e.exports=JSON.parse('{"title":"API","slug":"/category/api","permalink":"/docs/0.7.x/category/api","navigation":{"previous":{"title":"Platform","permalink":"/docs/0.7.x/development/platform"},"next":{"title":"index","permalink":"/docs/0.7.x/api/agros-config/"}}}')}}]);

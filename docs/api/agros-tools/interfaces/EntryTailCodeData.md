@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[packages/agros-tools/src/platform.interface.ts:23](https://github.com/agrosjs/agros/blob/c8f2da2/packages/agros-tools/src/platform.interface.ts#L23)
+[packages/agros-tools/src/platform.interface.ts:23](https://github.com/agrosjs/agros/blob/f71717c/packages/agros-tools/src/platform.interface.ts#L23)

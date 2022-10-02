@@ -23,6 +23,7 @@
 - [entities](AppCollectionFactory.md#entities)
 - [licenseList](AppCollectionFactory.md#licenselist)
 - [licenseUtils](AppCollectionFactory.md#licenseutils)
+- [npmClient](AppCollectionFactory.md#npmclient)
 - [projectConfig](AppCollectionFactory.md#projectconfig)
 
 ### Methods
@@ -76,7 +77,7 @@ ___
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:28](https://github.com/agrosjs/agros/blob/856008f/packages/create-agros-app/src/app.factory.ts#L28)
+[create-agros-app/src/app.factory.ts:27](https://github.com/agrosjs/agros/blob/8761138/packages/create-agros-app/src/app.factory.ts#L27)
 
 ___
 
@@ -86,7 +87,17 @@ ___
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:27](https://github.com/agrosjs/agros/blob/856008f/packages/create-agros-app/src/app.factory.ts#L27)
+[create-agros-app/src/app.factory.ts:26](https://github.com/agrosjs/agros/blob/8761138/packages/create-agros-app/src/app.factory.ts#L26)
+
+___
+
+### <a id="npmclient" name="npmclient"></a> npmClient
+
+• `Private` **npmClient**: `string`
+
+#### Defined in
+
+[create-agros-app/src/app.factory.ts:28](https://github.com/agrosjs/agros/blob/8761138/packages/create-agros-app/src/app.factory.ts#L28)
 
 ___
 
@@ -132,7 +143,7 @@ AbstractGeneratorFactory.generate
 
 #### Defined in
 
-[create-agros-app/src/app.factory.ts:30](https://github.com/agrosjs/agros/blob/856008f/packages/create-agros-app/src/app.factory.ts#L30)
+[create-agros-app/src/app.factory.ts:32](https://github.com/agrosjs/agros/blob/8761138/packages/create-agros-app/src/app.factory.ts#L32)
 
 ___
 

@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:32](https://github.com/agrosjs/agros/blob/cbe077c/packages/agros-tools/src/types.ts#L32)
+[packages/agros-tools/src/types.ts:32](https://github.com/agrosjs/agros/blob/ba87555/packages/agros-tools/src/types.ts#L32)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:33](https://github.com/agrosjs/agros/blob/cbe077c/packages/agros-tools/src/types.ts#L33)
+[packages/agros-tools/src/types.ts:33](https://github.com/agrosjs/agros/blob/ba87555/packages/agros-tools/src/types.ts#L33)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:29](https://github.com/agrosjs/agros/blob/cbe077c/packages/agros-tools/src/types.ts#L29)
+[packages/agros-tools/src/types.ts:29](https://github.com/agrosjs/agros/blob/ba87555/packages/agros-tools/src/types.ts#L29)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:35](https://github.com/agrosjs/agros/blob/cbe077c/packages/agros-tools/src/types.ts#L35)
+[packages/agros-tools/src/types.ts:35](https://github.com/agrosjs/agros/blob/ba87555/packages/agros-tools/src/types.ts#L35)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:30](https://github.com/agrosjs/agros/blob/cbe077c/packages/agros-tools/src/types.ts#L30)
+[packages/agros-tools/src/types.ts:30](https://github.com/agrosjs/agros/blob/ba87555/packages/agros-tools/src/types.ts#L30)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:31](https://github.com/agrosjs/agros/blob/cbe077c/packages/agros-tools/src/types.ts#L31)
+[packages/agros-tools/src/types.ts:31](https://github.com/agrosjs/agros/blob/ba87555/packages/agros-tools/src/types.ts#L31)
 
 ___
 
@@ -88,4 +88,4 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:34](https://github.com/agrosjs/agros/blob/cbe077c/packages/agros-tools/src/types.ts#L34)
+[packages/agros-tools/src/types.ts:34](https://github.com/agrosjs/agros/blob/ba87555/packages/agros-tools/src/types.ts#L34)

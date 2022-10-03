@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[platform.ts:8](https://github.com/agrosjs/agros/blob/b947880/packages/agros-platform-svelte/src/platform.ts#L8)
+[platform.ts:8](https://github.com/agrosjs/agros/blob/fbf3305/packages/agros-platform-svelte/src/platform.ts#L8)

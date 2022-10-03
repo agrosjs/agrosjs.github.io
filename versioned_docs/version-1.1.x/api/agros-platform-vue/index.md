@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[platform.ts:5](https://github.com/agrosjs/agros/blob/76cd863/packages/agros-platform-vue/src/platform.ts#L5)
+[platform.ts:5](https://github.com/agrosjs/agros/blob/e06f80b/packages/agros-platform-vue/src/platform.ts#L5)

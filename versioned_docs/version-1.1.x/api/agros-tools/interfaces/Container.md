@@ -36,4 +36,4 @@
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:106](https://github.com/agrosjs/agros/blob/81e2a22/packages/agros-tools/src/types.ts#L106)
+[packages/agros-tools/src/types.ts:106](https://github.com/agrosjs/agros/blob/f2feea4/packages/agros-tools/src/types.ts#L106)

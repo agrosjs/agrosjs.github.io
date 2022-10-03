@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[index.ts:15](https://github.com/agrosjs/agros/blob/81e2a22/packages/agros-loader/src/index.ts#L15)
+[index.ts:15](https://github.com/agrosjs/agros/blob/f2feea4/packages/agros-loader/src/index.ts#L15)

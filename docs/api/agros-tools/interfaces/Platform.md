@@ -43,7 +43,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/platform.interface.ts:32](https://github.com/agrosjs/agros/blob/2fe57c9/packages/agros-tools/src/platform.interface.ts#L32)
+[packages/agros-tools/src/platform.interface.ts:32](https://github.com/agrosjs/agros/blob/8f3ad5b/packages/agros-tools/src/platform.interface.ts#L32)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/platform.interface.ts:29](https://github.com/agrosjs/agros/blob/2fe57c9/packages/agros-tools/src/platform.interface.ts#L29)
+[packages/agros-tools/src/platform.interface.ts:29](https://github.com/agrosjs/agros/blob/8f3ad5b/packages/agros-tools/src/platform.interface.ts#L29)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/platform.interface.ts:30](https://github.com/agrosjs/agros/blob/2fe57c9/packages/agros-tools/src/platform.interface.ts#L30)
+[packages/agros-tools/src/platform.interface.ts:30](https://github.com/agrosjs/agros/blob/8f3ad5b/packages/agros-tools/src/platform.interface.ts#L30)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/platform.interface.ts:28](https://github.com/agrosjs/agros/blob/2fe57c9/packages/agros-tools/src/platform.interface.ts#L28)
+[packages/agros-tools/src/platform.interface.ts:28](https://github.com/agrosjs/agros/blob/8f3ad5b/packages/agros-tools/src/platform.interface.ts#L28)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/platform.interface.ts:31](https://github.com/agrosjs/agros/blob/2fe57c9/packages/agros-tools/src/platform.interface.ts#L31)
+[packages/agros-tools/src/platform.interface.ts:31](https://github.com/agrosjs/agros/blob/8f3ad5b/packages/agros-tools/src/platform.interface.ts#L31)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/platform.interface.ts:33](https://github.com/agrosjs/agros/blob/2fe57c9/packages/agros-tools/src/platform.interface.ts#L33)
+[packages/agros-tools/src/platform.interface.ts:33](https://github.com/agrosjs/agros/blob/8f3ad5b/packages/agros-tools/src/platform.interface.ts#L33)
 
 ___
 
@@ -170,4 +170,4 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/platform.interface.ts:27](https://github.com/agrosjs/agros/blob/2fe57c9/packages/agros-tools/src/platform.interface.ts#L27)
+[packages/agros-tools/src/platform.interface.ts:27](https://github.com/agrosjs/agros/blob/8f3ad5b/packages/agros-tools/src/platform.interface.ts#L27)

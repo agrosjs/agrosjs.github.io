@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:19](https://github.com/agrosjs/agros/blob/a3c5a01/packages/agros-tools/src/module-instance.class.ts#L19)
+[packages/agros-tools/src/module-instance.class.ts:19](https://github.com/agrosjs/agros/blob/fc9548f/packages/agros-tools/src/module-instance.class.ts#L19)
 
 ## Properties
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:12](https://github.com/agrosjs/agros/blob/a3c5a01/packages/agros-tools/src/module-instance.class.ts#L12)
+[packages/agros-tools/src/module-instance.class.ts:12](https://github.com/agrosjs/agros/blob/fc9548f/packages/agros-tools/src/module-instance.class.ts#L12)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:20](https://github.com/agrosjs/agros/blob/a3c5a01/packages/agros-tools/src/module-instance.class.ts#L20)
+[packages/agros-tools/src/module-instance.class.ts:20](https://github.com/agrosjs/agros/blob/fc9548f/packages/agros-tools/src/module-instance.class.ts#L20)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:13](https://github.com/agrosjs/agros/blob/a3c5a01/packages/agros-tools/src/module-instance.class.ts#L13)
+[packages/agros-tools/src/module-instance.class.ts:13](https://github.com/agrosjs/agros/blob/fc9548f/packages/agros-tools/src/module-instance.class.ts#L13)
 
 ## Methods
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:24](https://github.com/agrosjs/agros/blob/a3c5a01/packages/agros-tools/src/module-instance.class.ts#L24)
+[packages/agros-tools/src/module-instance.class.ts:24](https://github.com/agrosjs/agros/blob/fc9548f/packages/agros-tools/src/module-instance.class.ts#L24)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:72](https://github.com/agrosjs/agros/blob/a3c5a01/packages/agros-tools/src/module-instance.class.ts#L72)
+[packages/agros-tools/src/module-instance.class.ts:72](https://github.com/agrosjs/agros/blob/fc9548f/packages/agros-tools/src/module-instance.class.ts#L72)
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:34](https://github.com/agrosjs/agros/blob/a3c5a01/packages/agros-tools/src/module-instance.class.ts#L34)
+[packages/agros-tools/src/module-instance.class.ts:34](https://github.com/agrosjs/agros/blob/fc9548f/packages/agros-tools/src/module-instance.class.ts#L34)
 
 ___
 
@@ -139,7 +139,7 @@ get provider classes recursively from imported modules
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:42](https://github.com/agrosjs/agros/blob/a3c5a01/packages/agros-tools/src/module-instance.class.ts#L42)
+[packages/agros-tools/src/module-instance.class.ts:42](https://github.com/agrosjs/agros/blob/fc9548f/packages/agros-tools/src/module-instance.class.ts#L42)
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:80](https://github.com/agrosjs/agros/blob/a3c5a01/packages/agros-tools/src/module-instance.class.ts#L80)
+[packages/agros-tools/src/module-instance.class.ts:80](https://github.com/agrosjs/agros/blob/fc9548f/packages/agros-tools/src/module-instance.class.ts#L80)
 
 ___
 
@@ -185,7 +185,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:64](https://github.com/agrosjs/agros/blob/a3c5a01/packages/agros-tools/src/module-instance.class.ts#L64)
+[packages/agros-tools/src/module-instance.class.ts:64](https://github.com/agrosjs/agros/blob/fc9548f/packages/agros-tools/src/module-instance.class.ts#L64)
 
 ___
 
@@ -206,4 +206,4 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:68](https://github.com/agrosjs/agros/blob/a3c5a01/packages/agros-tools/src/module-instance.class.ts#L68)
+[packages/agros-tools/src/module-instance.class.ts:68](https://github.com/agrosjs/agros/blob/fc9548f/packages/agros-tools/src/module-instance.class.ts#L68)

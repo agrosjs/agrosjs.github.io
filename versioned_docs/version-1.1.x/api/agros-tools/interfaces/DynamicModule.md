@@ -41,7 +41,7 @@ Interface defining a Dynamic Module.
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:109](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L109)
+[packages/agros-tools/src/types.ts:109](https://github.com/agrosjs/agros/blob/17797cc/packages/agros-tools/src/types.ts#L109)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:110](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L110)
+[packages/agros-tools/src/types.ts:110](https://github.com/agrosjs/agros/blob/17797cc/packages/agros-tools/src/types.ts#L110)
 
 ___
 
@@ -75,7 +75,7 @@ false
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:138](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L138)
+[packages/agros-tools/src/types.ts:138](https://github.com/agrosjs/agros/blob/17797cc/packages/agros-tools/src/types.ts#L138)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:107](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L107)
+[packages/agros-tools/src/types.ts:107](https://github.com/agrosjs/agros/blob/17797cc/packages/agros-tools/src/types.ts#L107)
 
 ___
 
@@ -101,7 +101,7 @@ A module reference
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:128](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L128)
+[packages/agros-tools/src/types.ts:128](https://github.com/agrosjs/agros/blob/17797cc/packages/agros-tools/src/types.ts#L128)
 
 ___
 
@@ -115,4 +115,4 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:108](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L108)
+[packages/agros-tools/src/types.ts:108](https://github.com/agrosjs/agros/blob/17797cc/packages/agros-tools/src/types.ts#L108)

@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:255](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L255)
+[packages/agros-tools/src/types.ts:255](https://github.com/agrosjs/agros/blob/17797cc/packages/agros-tools/src/types.ts#L255)

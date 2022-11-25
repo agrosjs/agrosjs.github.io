@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:246](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L246)
+[packages/agros-tools/src/types.ts:246](https://github.com/agrosjs/agros/blob/17797cc/packages/agros-tools/src/types.ts#L246)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:245](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L245)
+[packages/agros-tools/src/types.ts:245](https://github.com/agrosjs/agros/blob/17797cc/packages/agros-tools/src/types.ts#L245)

@@ -12,10 +12,21 @@
 
 ### Properties
 
+- [inject](ValueProvider.md#inject)
 - [provide](ValueProvider.md#provide)
 - [useValue](ValueProvider.md#usevalue)
 
 ## Properties
+
+### <a id="inject" name="inject"></a> inject
+
+• `Optional` **inject**: `never`
+
+#### Defined in
+
+[packages/agros-tools/src/types.ts:46](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L46)
+
+___
 
 ### <a id="provide" name="provide"></a> provide
 
@@ -23,7 +34,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:44](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L44)
+[packages/agros-tools/src/types.ts:44](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L44)
 
 ___
 
@@ -33,4 +44,4 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:45](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L45)
+[packages/agros-tools/src/types.ts:45](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L45)

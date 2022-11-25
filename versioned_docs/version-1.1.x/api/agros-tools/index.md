@@ -23,12 +23,14 @@
 - [ComponentScript](interfaces/ComponentScript.md)
 - [Container](interfaces/Container.md)
 - [ContainerForwardedComponentProps](interfaces/ContainerForwardedComponentProps.md)
+- [DynamicModule](interfaces/DynamicModule.md)
 - [EnsureImportOptions](interfaces/EnsureImportOptions.md)
 - [EnsureImportResult](interfaces/EnsureImportResult.md)
 - [EntityDescriptor](interfaces/EntityDescriptor.md)
 - [EntryTailCodeData](interfaces/EntryTailCodeData.md)
 - [Factory](interfaces/Factory.md)
 - [FactoryCode](interfaces/FactoryCode.md)
+- [FactoryProvider](interfaces/FactoryProvider.md)
 - [GetComponentFactoryCodeData](interfaces/GetComponentFactoryCodeData.md)
 - [Interceptor](interfaces/Interceptor.md)
 - [ModuleDecoratorOptions](interfaces/ModuleDecoratorOptions.md)
@@ -50,14 +52,23 @@
 
 - [AddVirtualFile](index.md#addvirtualfile)
 - [AsyncModuleClass](index.md#asyncmoduleclass)
+- [BaseProvider](index.md#baseprovider)
+- [BaseProviderWithValue](index.md#baseproviderwithvalue)
 - [CollectionMap](index.md#collectionmap)
 - [CollectionType](index.md#collectiontype)
 - [ComponentMetadata](index.md#componentmetadata)
 - [EnsureImportType](index.md#ensureimporttype)
+- [Provider](index.md#provider)
+- [ProviderToken](index.md#providertoken)
+- [ProviderWithValue](index.md#providerwithvalue)
 - [Type](index.md#type)
 - [Updater](index.md#updater)
 - [UpdaterWithChecker](index.md#updaterwithchecker)
 - [UseInterceptorsDecoratorOptions](index.md#useinterceptorsdecoratoroptions)
+
+### Functions
+
+- [isClass](index.md#isclass)
 
 ## Type Aliases
 
@@ -82,13 +93,13 @@
 
 #### Defined in
 
-[packages/agros-tools/src/platform.interface.ts:4](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/platform.interface.ts#L4)
+[packages/agros-tools/src/platform.interface.ts:4](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/platform.interface.ts#L4)
 
 ___
 
 ### <a id="asyncmoduleclass" name="asyncmoduleclass"></a> AsyncModuleClass
 
-Ƭ **AsyncModuleClass**<`T`\>: [`Type`](index.md#type)<`T`\> \| `Promise`<[`Type`](index.md#type)\> \| [`ValueProvider`](interfaces/ValueProvider.md)
+Ƭ **AsyncModuleClass**<`T`\>: [`Type`](index.md#type)<`T`\> \| `Promise`<[`Type`](index.md#type)<`T`\>\> \| [`DynamicModule`](interfaces/DynamicModule.md)<`T`\>
 
 #### Type parameters
 
@@ -98,7 +109,33 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:49](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L49)
+[packages/agros-tools/src/types.ts:59](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L59)
+
+___
+
+### <a id="baseprovider" name="baseprovider"></a> BaseProvider
+
+Ƭ **BaseProvider**: [`ValueProvider`](interfaces/ValueProvider.md) \| [`FactoryProvider`](interfaces/FactoryProvider.md)
+
+#### Defined in
+
+[packages/agros-tools/src/types.ts:61](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L61)
+
+___
+
+### <a id="baseproviderwithvalue" name="baseproviderwithvalue"></a> BaseProviderWithValue
+
+Ƭ **BaseProviderWithValue**<`T`\>: [`BaseProvider`](index.md#baseprovider) & { `value`: `T`  }
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | `any` |
+
+#### Defined in
+
+[packages/agros-tools/src/types.ts:64](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L64)
 
 ___
 
@@ -108,7 +145,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:11](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L11)
+[packages/agros-tools/src/types.ts:11](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L11)
 
 ___
 
@@ -118,7 +155,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:12](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L12)
+[packages/agros-tools/src/types.ts:12](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L12)
 
 ___
 
@@ -128,7 +165,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:38](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L38)
+[packages/agros-tools/src/types.ts:38](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L38)
 
 ___
 
@@ -138,7 +175,50 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:128](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L128)
+[packages/agros-tools/src/types.ts:170](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L170)
+
+___
+
+### <a id="provider" name="provider"></a> Provider
+
+Ƭ **Provider**<`T`\>: [`Type`](index.md#type)<`T`\> \| [`BaseProvider`](index.md#baseprovider)
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | `any` |
+
+#### Defined in
+
+[packages/agros-tools/src/types.ts:62](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L62)
+
+___
+
+### <a id="providertoken" name="providertoken"></a> ProviderToken
+
+Ƭ **ProviderToken**: `string` \| `symbol`
+
+#### Defined in
+
+[packages/agros-tools/src/types.ts:70](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L70)
+
+___
+
+### <a id="providerwithvalue" name="providerwithvalue"></a> ProviderWithValue
+
+Ƭ **ProviderWithValue**<`T`, `V`\>: [`Type`](index.md#type)<`T`\> \| [`BaseProviderWithValue`](index.md#baseproviderwithvalue)<`V`\>
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | `any` |
+| `V` | `any` |
+
+#### Defined in
+
+[packages/agros-tools/src/types.ts:68](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L68)
 
 ___
 
@@ -164,7 +244,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:48](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L48)
+[packages/agros-tools/src/types.ts:58](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L58)
 
 ___
 
@@ -200,7 +280,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:187](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L187)
+[packages/agros-tools/src/types.ts:229](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L229)
 
 ___
 
@@ -232,7 +312,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:196](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L196)
+[packages/agros-tools/src/types.ts:238](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L238)
 
 ___
 
@@ -242,4 +322,24 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:114](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L114)
+[packages/agros-tools/src/types.ts:156](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L156)
+
+## Functions
+
+### <a id="isclass" name="isclass"></a> isClass
+
+▸ **isClass**(`obj`): `boolean`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `obj` | `any` |
+
+#### Returns
+
+`boolean`
+
+#### Defined in
+
+[packages/agros-tools/src/is.ts:1](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/is.ts#L1)

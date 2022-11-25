@@ -2,12 +2,6 @@
 
 # Interface: ModuleMetadata
 
-## Hierarchy
-
-- **`ModuleMetadata`**
-
-  ↳ [`ModuleInstanceMetadata`](ModuleInstanceMetadata.md)
-
 ## Table of contents
 
 ### Properties
@@ -16,7 +10,6 @@
 - [exports](ModuleMetadata.md#exports)
 - [imports](ModuleMetadata.md#imports)
 - [providers](ModuleMetadata.md#providers)
-- [routes](ModuleMetadata.md#routes)
 
 ## Properties
 
@@ -26,7 +19,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:96](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L96)
+[packages/agros-tools/src/types.ts:117](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L117)
 
 ___
 
@@ -36,7 +29,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:95](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L95)
+[packages/agros-tools/src/types.ts:116](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L116)
 
 ___
 
@@ -46,24 +39,14 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:93](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L93)
+[packages/agros-tools/src/types.ts:114](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L114)
 
 ___
 
 ### <a id="providers" name="providers"></a> providers
 
-• **providers**: `Set`<[`Type`](../index.md#type)<`any`\>\>
+• **providers**: `Set`<[`Provider`](../index.md#provider)<`any`\>\>
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:94](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L94)
-
-___
-
-### <a id="routes" name="routes"></a> routes
-
-• **routes**: `Set`<[`RouteOptionItem`](RouteOptionItem.md)<`any`\>\>
-
-#### Defined in
-
-[packages/agros-tools/src/types.ts:97](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L97)
+[packages/agros-tools/src/types.ts:115](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L115)

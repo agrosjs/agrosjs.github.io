@@ -2,6 +2,12 @@
 
 # Interface: ModuleDecoratorOptions
 
+## Hierarchy
+
+- **`ModuleDecoratorOptions`**
+
+  ↳ [`DynamicModule`](DynamicModule.md)
+
 ## Table of contents
 
 ### Properties
@@ -19,7 +25,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:88](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L88)
+[packages/agros-tools/src/types.ts:109](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L109)
 
 ___
 
@@ -29,7 +35,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:89](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L89)
+[packages/agros-tools/src/types.ts:110](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L110)
 
 ___
 
@@ -39,14 +45,14 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:86](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L86)
+[packages/agros-tools/src/types.ts:107](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L107)
 
 ___
 
 ### <a id="providers" name="providers"></a> providers
 
-• `Optional` **providers**: [`Type`](../index.md#type)<`any`\>[]
+• `Optional` **providers**: [`Provider`](../index.md#provider)<`any`\>[]
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:87](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/types.ts#L87)
+[packages/agros-tools/src/types.ts:108](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/types.ts#L108)

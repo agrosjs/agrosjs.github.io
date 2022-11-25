@@ -12,17 +12,15 @@
 
 - [importedModuleInstances](ModuleInstance.md#importedmoduleinstances)
 - [metadata](ModuleInstance.md#metadata)
-- [valueProviderMap](ModuleInstance.md#valueprovidermap)
 
 ### Methods
 
 - [addImportedModuleInstance](ModuleInstance.md#addimportedmoduleinstance)
-- [generateProviderValues](ModuleInstance.md#generateprovidervalues)
+- [generateBaseProviderValue](ModuleInstance.md#generatebaseprovidervalue)
+- [getBaseProvider](ModuleInstance.md#getbaseprovider)
 - [getImportedModuleInstances](ModuleInstance.md#getimportedmoduleinstances)
-- [getProviderClasses](ModuleInstance.md#getproviderclasses)
-- [getProviderValue](ModuleInstance.md#getprovidervalue)
+- [getProviders](ModuleInstance.md#getproviders)
 - [hasDependedProviderClass](ModuleInstance.md#hasdependedproviderclass)
-- [setValueProviderItem](ModuleInstance.md#setvalueprovideritem)
 
 ## Constructors
 
@@ -39,7 +37,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:19](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/module-instance.class.ts#L19)
+[packages/agros-tools/src/module-instance.class.ts:24](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/module-instance.class.ts#L24)
 
 ## Properties
 
@@ -49,7 +47,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:12](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/module-instance.class.ts#L12)
+[packages/agros-tools/src/module-instance.class.ts:18](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/module-instance.class.ts#L18)
 
 ___
 
@@ -59,17 +57,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:20](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/module-instance.class.ts#L20)
-
-___
-
-### <a id="valueprovidermap" name="valueprovidermap"></a> valueProviderMap
-
-• `Private` **valueProviderMap**: `Map`<`string`, `any`\>
-
-#### Defined in
-
-[packages/agros-tools/src/module-instance.class.ts:13](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/module-instance.class.ts#L13)
+[packages/agros-tools/src/module-instance.class.ts:25](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/module-instance.class.ts#L25)
 
 ## Methods
 
@@ -89,27 +77,48 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:24](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/module-instance.class.ts#L24)
+[packages/agros-tools/src/module-instance.class.ts:29](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/module-instance.class.ts#L29)
 
 ___
 
-### <a id="generateprovidervalues" name="generateprovidervalues"></a> generateProviderValues
+### <a id="generatebaseprovidervalue" name="generatebaseprovidervalue"></a> generateBaseProviderValue
 
-▸ **generateProviderValues**(`context`): `Promise`<`void`\>
+▸ **generateBaseProviderValue**(`provider`, `createProviderInstance?`): `Promise`<`any`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `context` | [`Factory`](../interfaces/Factory.md) |
+| `provider` | [`BaseProvider`](../index.md#baseprovider) |
+| `createProviderInstance?` | (`Class`: [`Type`](../index.md#type)<`any`\>) => `any` |
 
 #### Returns
 
-`Promise`<`void`\>
+`Promise`<`any`\>
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:72](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/module-instance.class.ts#L72)
+[packages/agros-tools/src/module-instance.class.ts:89](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/module-instance.class.ts#L89)
+
+___
+
+### <a id="getbaseprovider" name="getbaseprovider"></a> getBaseProvider
+
+▸ **getBaseProvider**(`providerKey`): [`BaseProviderWithValue`](../index.md#baseproviderwithvalue)<`any`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `providerKey` | [`ProviderToken`](../index.md#providertoken) |
+
+#### Returns
+
+[`BaseProviderWithValue`](../index.md#baseproviderwithvalue)<`any`\>
+
+#### Defined in
+
+[packages/agros-tools/src/module-instance.class.ts:70](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/module-instance.class.ts#L70)
 
 ___
 
@@ -123,61 +132,35 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:34](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/module-instance.class.ts#L34)
+[packages/agros-tools/src/module-instance.class.ts:39](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/module-instance.class.ts#L39)
 
 ___
 
-### <a id="getproviderclasses" name="getproviderclasses"></a> getProviderClasses
+### <a id="getproviders" name="getproviders"></a> getProviders
 
-▸ **getProviderClasses**(): `Set`<[`Type`](../index.md#type)<`any`\>\>
+▸ **getProviders**(): `Set`<[`Provider`](../index.md#provider)<`any`\>\>
 
 get provider classes recursively from imported modules
 
 #### Returns
 
-`Set`<[`Type`](../index.md#type)<`any`\>\>
+`Set`<[`Provider`](../index.md#provider)<`any`\>\>
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:42](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/module-instance.class.ts#L42)
-
-___
-
-### <a id="getprovidervalue" name="getprovidervalue"></a> getProviderValue
-
-▸ **getProviderValue**<`T`\>(`key`): `T`
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `T` | `any` |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-
-#### Returns
-
-`T`
-
-#### Defined in
-
-[packages/agros-tools/src/module-instance.class.ts:80](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/module-instance.class.ts#L80)
+[packages/agros-tools/src/module-instance.class.ts:47](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/module-instance.class.ts#L47)
 
 ___
 
 ### <a id="hasdependedproviderclass" name="hasdependedproviderclass"></a> hasDependedProviderClass
 
-▸ **hasDependedProviderClass**(`ProviderClass`): `boolean`
+▸ **hasDependedProviderClass**(`providerKey`): `boolean`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `ProviderClass` | [`Type`](../index.md#type)<`any`\> |
+| `providerKey` | [`Type`](../index.md#type)<`any`\> \| [`ProviderToken`](../index.md#providertoken) |
 
 #### Returns
 
@@ -185,25 +168,4 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:64](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/module-instance.class.ts#L64)
-
-___
-
-### <a id="setvalueprovideritem" name="setvalueprovideritem"></a> setValueProviderItem
-
-▸ **setValueProviderItem**(`key`, `value`): `void`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `value` | `any` |
-
-#### Returns
-
-`void`
-
-#### Defined in
-
-[packages/agros-tools/src/module-instance.class.ts:68](https://github.com/agrosjs/agros/blob/98583ae/packages/agros-tools/src/module-instance.class.ts#L68)
+[packages/agros-tools/src/module-instance.class.ts:78](https://github.com/agrosjs/agros/blob/f5a170d/packages/agros-tools/src/module-instance.class.ts#L78)

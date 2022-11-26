@@ -40,13 +40,13 @@
 
 #### Defined in
 
-[agros-common/src/modules/router.module.ts:57](https://github.com/agrosjs/agros/blob/17797cc/packages/agros-common/src/modules/router.module.ts#L57)
+[agros-common/src/modules/router.module.ts:63](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-common/src/modules/router.module.ts#L63)
 
 ___
 
 ### <a id="forfeature" name="forfeature"></a> forFeature
 
-▸ `Static` **forFeature**(`__namedParameters`): `Object`
+▸ `Static` **forFeature**(`__namedParameters`): `DynamicModule`<`any`\>
 
 #### Parameters
 
@@ -56,16 +56,11 @@ ___
 
 #### Returns
 
-`Object`
-
-| Name | Type |
-| :------ | :------ |
-| `provide` | `string` |
-| `useValue` | () => `Promise`<`RouteOptionItem`<`any`\>[]\> |
+`DynamicModule`<`any`\>
 
 #### Defined in
 
-[agros-common/src/modules/router.module.ts:46](https://github.com/agrosjs/agros/blob/17797cc/packages/agros-common/src/modules/router.module.ts#L46)
+[agros-common/src/modules/router.module.ts:46](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-common/src/modules/router.module.ts#L46)
 
 ___
 
@@ -85,4 +80,4 @@ ___
 
 #### Defined in
 
-[agros-common/src/modules/router.module.ts:29](https://github.com/agrosjs/agros/blob/17797cc/packages/agros-common/src/modules/router.module.ts#L29)
+[agros-common/src/modules/router.module.ts:29](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-common/src/modules/router.module.ts#L29)

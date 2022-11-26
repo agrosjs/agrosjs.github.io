@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-- `Omit`<[`ModuleMetadata`](ModuleMetadata.md), ``"imports"``\>
+- `Omit`<[`ModuleMetadata`](ModuleMetadata.md), ``"imports"`` \| ``"providers"``\>
 
   ↳ **`ModuleInstanceMetadata`**
 
@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:143](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/types.ts#L143)
+[packages/agros-tools/src/types.ts:144](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/types.ts#L144)
 
 ___
 
@@ -41,7 +41,7 @@ Omit.components
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:117](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/types.ts#L117)
+[packages/agros-tools/src/types.ts:117](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/types.ts#L117)
 
 ___
 
@@ -55,7 +55,7 @@ Omit.exports
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:116](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/types.ts#L116)
+[packages/agros-tools/src/types.ts:116](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/types.ts#L116)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:142](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/types.ts#L142)
+[packages/agros-tools/src/types.ts:142](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/types.ts#L142)
 
 ___
 
@@ -75,18 +75,14 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:144](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/types.ts#L144)
+[packages/agros-tools/src/types.ts:145](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/types.ts#L145)
 
 ___
 
 ### <a id="providers" name="providers"></a> providers
 
-• **providers**: `Set`<[`Provider`](../index.md#provider)<`any`\>\>
-
-#### Inherited from
-
-Omit.providers
+• **providers**: `Set`<[`ProviderWithValue`](../index.md#providerwithvalue)<`any`, `any`\>\>
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:115](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/types.ts#L115)
+[packages/agros-tools/src/types.ts:143](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/types.ts#L143)

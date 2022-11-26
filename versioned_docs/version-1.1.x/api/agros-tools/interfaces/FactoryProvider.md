@@ -24,17 +24,17 @@
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:55](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/types.ts#L55)
+[packages/agros-tools/src/types.ts:55](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/types.ts#L55)
 
 ___
 
 ### <a id="provide" name="provide"></a> provide
 
-• **provide**: `string`
+• **provide**: [`ProviderToken`](../index.md#providertoken)
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:50](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/types.ts#L50)
+[packages/agros-tools/src/types.ts:50](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/types.ts#L50)
 
 ___
 
@@ -60,4 +60,4 @@ Factory function that returns an instance of the provider to be injected.
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:54](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/types.ts#L54)
+[packages/agros-tools/src/types.ts:54](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/types.ts#L54)

@@ -21,6 +21,7 @@
 - [getImportedModuleInstances](ModuleInstance.md#getimportedmoduleinstances)
 - [getProviders](ModuleInstance.md#getproviders)
 - [hasDependedProviderClass](ModuleInstance.md#hasdependedproviderclass)
+- [setBaseProviderWithValue](ModuleInstance.md#setbaseproviderwithvalue)
 
 ## Constructors
 
@@ -37,7 +38,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:24](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/module-instance.class.ts#L24)
+[packages/agros-tools/src/module-instance.class.ts:26](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/module-instance.class.ts#L26)
 
 ## Properties
 
@@ -47,7 +48,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:18](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/module-instance.class.ts#L18)
+[packages/agros-tools/src/module-instance.class.ts:20](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/module-instance.class.ts#L20)
 
 ___
 
@@ -57,7 +58,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:25](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/module-instance.class.ts#L25)
+[packages/agros-tools/src/module-instance.class.ts:27](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/module-instance.class.ts#L27)
 
 ## Methods
 
@@ -77,7 +78,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:29](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/module-instance.class.ts#L29)
+[packages/agros-tools/src/module-instance.class.ts:41](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/module-instance.class.ts#L41)
 
 ___
 
@@ -98,7 +99,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:94](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/module-instance.class.ts#L94)
+[packages/agros-tools/src/module-instance.class.ts:106](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/module-instance.class.ts#L106)
 
 ___
 
@@ -118,7 +119,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:75](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/module-instance.class.ts#L75)
+[packages/agros-tools/src/module-instance.class.ts:87](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/module-instance.class.ts#L87)
 
 ___
 
@@ -132,7 +133,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:39](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/module-instance.class.ts#L39)
+[packages/agros-tools/src/module-instance.class.ts:51](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/module-instance.class.ts#L51)
 
 ___
 
@@ -148,7 +149,7 @@ get provider classes recursively from imported modules
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:47](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/module-instance.class.ts#L47)
+[packages/agros-tools/src/module-instance.class.ts:59](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/module-instance.class.ts#L59)
 
 ___
 
@@ -168,4 +169,25 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:83](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/module-instance.class.ts#L83)
+[packages/agros-tools/src/module-instance.class.ts:95](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/module-instance.class.ts#L95)
+
+___
+
+### <a id="setbaseproviderwithvalue" name="setbaseproviderwithvalue"></a> setBaseProviderWithValue
+
+▸ **setBaseProviderWithValue**(`providerToken`, `baseProviderWithValue`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `providerToken` | [`ProviderToken`](../index.md#providertoken) |
+| `baseProviderWithValue` | [`BaseProviderWithValue`](../index.md#baseproviderwithvalue)<`any`\> |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[packages/agros-tools/src/module-instance.class.ts:135](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/module-instance.class.ts#L135)

@@ -24,17 +24,17 @@
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:46](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/types.ts#L46)
+[packages/agros-tools/src/types.ts:46](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/types.ts#L46)
 
 ___
 
 ### <a id="provide" name="provide"></a> provide
 
-• **provide**: `string`
+• **provide**: [`ProviderToken`](../index.md#providertoken)
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:44](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/types.ts#L44)
+[packages/agros-tools/src/types.ts:44](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/types.ts#L44)
 
 ___
 
@@ -44,4 +44,4 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:45](https://github.com/agrosjs/agros/blob/a6e22e9/packages/agros-tools/src/types.ts#L45)
+[packages/agros-tools/src/types.ts:45](https://github.com/agrosjs/agros/blob/b557863/packages/agros-tools/src/types.ts#L45)

@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[agros-common/src/modules/router.module.ts:18](https://github.com/agrosjs/agros/blob/9428958/packages/agros-common/src/modules/router.module.ts#L18)
+[agros-common/src/modules/router.module.ts:18](https://github.com/agrosjs/agros/blob/7ebe656/packages/agros-common/src/modules/router.module.ts#L18)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[agros-common/src/modules/router.module.ts:19](https://github.com/agrosjs/agros/blob/9428958/packages/agros-common/src/modules/router.module.ts#L19)
+[agros-common/src/modules/router.module.ts:19](https://github.com/agrosjs/agros/blob/7ebe656/packages/agros-common/src/modules/router.module.ts#L19)
 
 ___
 
@@ -52,4 +52,4 @@ ___
 
 #### Defined in
 
-[agros-common/src/modules/router.module.ts:20](https://github.com/agrosjs/agros/blob/9428958/packages/agros-common/src/modules/router.module.ts#L20)
+[agros-common/src/modules/router.module.ts:20](https://github.com/agrosjs/agros/blob/7ebe656/packages/agros-common/src/modules/router.module.ts#L20)

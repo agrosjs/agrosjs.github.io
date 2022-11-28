@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[packages/agros-tools/src/types.ts:168](https://github.com/agrosjs/agros/blob/4eb8f7e/packages/agros-tools/src/types.ts#L168)
+[packages/agros-tools/src/types.ts:168](https://github.com/agrosjs/agros/blob/d727751/packages/agros-tools/src/types.ts#L168)

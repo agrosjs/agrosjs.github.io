@@ -11,8 +11,7 @@
 ### Methods
 
 - [createRouterItems](RouterModule.md#createrouteritems)
-- [forFeature](RouterModule.md#forfeature)
-- [forRoot](RouterModule.md#forroot)
+- [register](RouterModule.md#register)
 
 ## Constructors
 
@@ -40,19 +39,19 @@
 
 #### Defined in
 
-[agros-common/src/modules/router.module.ts:53](https://github.com/agrosjs/agros/blob/01368f2/packages/agros-common/src/modules/router.module.ts#L53)
+[agros-common/src/modules/router.module.ts:35](https://github.com/agrosjs/agros/blob/8fba5a5/packages/agros-common/src/modules/router.module.ts#L35)
 
 ___
 
-### <a id="forfeature" name="forfeature"></a> forFeature
+### <a id="register" name="register"></a> register
 
-▸ `Static` **forFeature**(`__namedParameters`): `DynamicModule`<`any`\>
+▸ `Static` **register**(`__namedParameters`): `DynamicModule`<`any`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | [`RouterModuleRootOptions`](../interfaces/RouterModuleRootOptions.md) |
+| `__namedParameters` | [`RouterModuleOptions`](../interfaces/RouterModuleOptions.md) |
 
 #### Returns
 
@@ -60,24 +59,4 @@ ___
 
 #### Defined in
 
-[agros-common/src/modules/router.module.ts:38](https://github.com/agrosjs/agros/blob/01368f2/packages/agros-common/src/modules/router.module.ts#L38)
-
-___
-
-### <a id="forroot" name="forroot"></a> forRoot
-
-▸ `Static` **forRoot**(`__namedParameters`): `DynamicModule`<`any`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `__namedParameters` | [`RouterModuleRootOptions`](../interfaces/RouterModuleRootOptions.md) |
-
-#### Returns
-
-`DynamicModule`<`any`\>
-
-#### Defined in
-
-[agros-common/src/modules/router.module.ts:23](https://github.com/agrosjs/agros/blob/01368f2/packages/agros-common/src/modules/router.module.ts#L23)
+[agros-common/src/modules/router.module.ts:20](https://github.com/agrosjs/agros/blob/8fba5a5/packages/agros-common/src/modules/router.module.ts#L20)

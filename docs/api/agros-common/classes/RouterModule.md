@@ -12,6 +12,7 @@
 
 - [createRouterItems](RouterModule.md#createrouteritems)
 - [register](RouterModule.md#register)
+- [registerAsync](RouterModule.md#registerasync)
 
 ## Constructors
 
@@ -39,7 +40,7 @@
 
 #### Defined in
 
-[agros-common/src/modules/router.module.ts:35](https://github.com/agrosjs/agros/blob/d61174d/packages/agros-common/src/modules/router.module.ts#L35)
+[agros-common/src/modules/router.module.ts:58](https://github.com/agrosjs/agros/blob/2842a8d/packages/agros-common/src/modules/router.module.ts#L58)
 
 ___
 
@@ -59,4 +60,24 @@ ___
 
 #### Defined in
 
-[agros-common/src/modules/router.module.ts:20](https://github.com/agrosjs/agros/blob/d61174d/packages/agros-common/src/modules/router.module.ts#L20)
+[agros-common/src/modules/router.module.ts:24](https://github.com/agrosjs/agros/blob/2842a8d/packages/agros-common/src/modules/router.module.ts#L24)
+
+___
+
+### <a id="registerasync" name="registerasync"></a> registerAsync
+
+▸ `Static` **registerAsync**(`__namedParameters`): `DynamicModule`<`any`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `__namedParameters` | [`RouterModuleAsyncOptions`](../interfaces/RouterModuleAsyncOptions.md) |
+
+#### Returns
+
+`DynamicModule`<`any`\>
+
+#### Defined in
+
+[agros-common/src/modules/router.module.ts:39](https://github.com/agrosjs/agros/blob/2842a8d/packages/agros-common/src/modules/router.module.ts#L39)

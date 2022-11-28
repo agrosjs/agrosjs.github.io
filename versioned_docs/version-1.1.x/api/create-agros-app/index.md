@@ -28,4 +28,4 @@
 
 #### Defined in
 
-[create-agros-app/src/run.ts:4](https://github.com/agrosjs/agros/blob/f9f7678/packages/create-agros-app/src/run.ts#L4)
+[create-agros-app/src/run.ts:4](https://github.com/agrosjs/agros/blob/01a8caa/packages/create-agros-app/src/run.ts#L4)

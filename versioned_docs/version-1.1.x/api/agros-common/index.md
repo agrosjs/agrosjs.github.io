@@ -19,6 +19,7 @@
 - [DI\_GLOBAL\_MODULE\_SYMBOL](index.md#di_global_module_symbol)
 - [DI\_METADATA\_COMPONENT\_SYMBOL](index.md#di_metadata_component_symbol)
 - [DI\_METADATA\_MODULE\_SYMBOL](index.md#di_metadata_module_symbol)
+- [DI\_METADATA\_PARAM\_BASE\_PROVIDER\_SYMBOL](index.md#di_metadata_param_base_provider_symbol)
 - [DI\_METADATA\_USE\_INTERCEPTORS\_SYMBOL](index.md#di_metadata_use_interceptors_symbol)
 - [IS\_DYNAMIC\_MODULE](index.md#is_dynamic_module)
 - [ROUTES](index.md#routes)
@@ -28,6 +29,7 @@
 
 - [Component](index.md#component)
 - [Global](index.md#global)
+- [Inject](index.md#inject)
 - [Injectable](index.md#injectable)
 - [Module](index.md#module)
 - [UseInterceptors](index.md#useinterceptors)
@@ -40,7 +42,7 @@
 
 #### Defined in
 
-[agros-common/src/constants.ts:1](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-common/src/constants.ts#L1)
+[agros-common/src/constants.ts:1](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-common/src/constants.ts#L1)
 
 ___
 
@@ -50,7 +52,7 @@ ___
 
 #### Defined in
 
-[agros-common/src/constants.ts:2](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-common/src/constants.ts#L2)
+[agros-common/src/constants.ts:2](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-common/src/constants.ts#L2)
 
 ___
 
@@ -60,7 +62,7 @@ ___
 
 #### Defined in
 
-[agros-common/src/constants.ts:5](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-common/src/constants.ts#L5)
+[agros-common/src/constants.ts:5](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-common/src/constants.ts#L5)
 
 ___
 
@@ -70,7 +72,17 @@ ___
 
 #### Defined in
 
-[agros-common/src/constants.ts:4](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-common/src/constants.ts#L4)
+[agros-common/src/constants.ts:4](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-common/src/constants.ts#L4)
+
+___
+
+### <a id="di_metadata_param_base_provider_symbol" name="di_metadata_param_base_provider_symbol"></a> DI\_METADATA\_PARAM\_BASE\_PROVIDER\_SYMBOL
+
+• `Const` **DI\_METADATA\_PARAM\_BASE\_PROVIDER\_SYMBOL**: typeof [`DI_METADATA_PARAM_BASE_PROVIDER_SYMBOL`](index.md#di_metadata_param_base_provider_symbol)
+
+#### Defined in
+
+[agros-common/src/constants.ts:7](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-common/src/constants.ts#L7)
 
 ___
 
@@ -80,7 +92,7 @@ ___
 
 #### Defined in
 
-[agros-common/src/constants.ts:6](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-common/src/constants.ts#L6)
+[agros-common/src/constants.ts:6](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-common/src/constants.ts#L6)
 
 ___
 
@@ -90,7 +102,7 @@ ___
 
 #### Defined in
 
-[agros-common/src/constants.ts:11](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-common/src/constants.ts#L11)
+[agros-common/src/constants.ts:12](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-common/src/constants.ts#L12)
 
 ___
 
@@ -100,7 +112,7 @@ ___
 
 #### Defined in
 
-[agros-common/src/constants.ts:8](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-common/src/constants.ts#L8)
+[agros-common/src/constants.ts:9](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-common/src/constants.ts#L9)
 
 ___
 
@@ -110,7 +122,7 @@ ___
 
 #### Defined in
 
-[agros-common/src/constants.ts:10](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-common/src/constants.ts#L10)
+[agros-common/src/constants.ts:11](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-common/src/constants.ts#L11)
 
 ## Functions
 
@@ -130,7 +142,7 @@ ___
 
 #### Defined in
 
-[agros-common/src/decorators/component.decorator.ts:8](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-common/src/decorators/component.decorator.ts#L8)
+[agros-common/src/decorators/component.decorator.ts:8](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-common/src/decorators/component.decorator.ts#L8)
 
 ___
 
@@ -144,7 +156,47 @@ ___
 
 #### Defined in
 
-[agros-common/src/decorators/global.decorator.ts:4](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-common/src/decorators/global.decorator.ts#L4)
+[agros-common/src/decorators/global.decorator.ts:4](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-common/src/decorators/global.decorator.ts#L4)
+
+___
+
+### <a id="inject" name="inject"></a> Inject
+
+▸ **Inject**<`T`\>(`token?`): (`target`: `object`, `key`: `string` \| `symbol`, `index?`: `number`) => `void`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | `any` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `token?` | `T` |
+
+#### Returns
+
+`fn`
+
+▸ (`target`, `key`, `index?`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `target` | `object` |
+| `key` | `string` \| `symbol` |
+| `index?` | `number` |
+
+##### Returns
+
+`void`
+
+#### Defined in
+
+[agros-common/src/decorators/inject.decorator.ts:6](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-common/src/decorators/inject.decorator.ts#L6)
 
 ___
 
@@ -158,7 +210,7 @@ ___
 
 #### Defined in
 
-[agros-common/src/decorators/injectable.decorator.ts:4](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-common/src/decorators/injectable.decorator.ts#L4)
+[agros-common/src/decorators/injectable.decorator.ts:4](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-common/src/decorators/injectable.decorator.ts#L4)
 
 ___
 
@@ -178,7 +230,7 @@ ___
 
 #### Defined in
 
-[agros-common/src/decorators/module.decorator.ts:8](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-common/src/decorators/module.decorator.ts#L8)
+[agros-common/src/decorators/module.decorator.ts:8](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-common/src/decorators/module.decorator.ts#L8)
 
 ___
 
@@ -198,4 +250,4 @@ ___
 
 #### Defined in
 
-[agros-common/src/decorators/use-interceptors.decorator.ts:5](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-common/src/decorators/use-interceptors.decorator.ts#L5)
+[agros-common/src/decorators/use-interceptors.decorator.ts:5](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-common/src/decorators/use-interceptors.decorator.ts#L5)

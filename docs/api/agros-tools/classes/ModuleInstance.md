@@ -27,7 +27,7 @@
 
 ### <a id="constructor" name="constructor"></a> constructor
 
-• **new ModuleInstance**(`metadata`, `globalModuleInstances`)
+• **new ModuleInstance**(`metadata`, `globalModuleInstances`, `HostModuleClass`)
 
 #### Parameters
 
@@ -35,10 +35,11 @@
 | :------ | :------ |
 | `metadata` | [`ModuleInstanceMetadata`](../interfaces/ModuleInstanceMetadata.md) |
 | `globalModuleInstances` | `Set`<[`ModuleInstance`](ModuleInstance.md)\> |
+| `HostModuleClass` | [`Type`](../index.md#type)<`any`\> |
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:26](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-tools/src/module-instance.class.ts#L26)
+[packages/agros-tools/src/module-instance.class.ts:30](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-tools/src/module-instance.class.ts#L30)
 
 ## Properties
 
@@ -48,7 +49,7 @@
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:20](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-tools/src/module-instance.class.ts#L20)
+[packages/agros-tools/src/module-instance.class.ts:24](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-tools/src/module-instance.class.ts#L24)
 
 ___
 
@@ -58,7 +59,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:27](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-tools/src/module-instance.class.ts#L27)
+[packages/agros-tools/src/module-instance.class.ts:31](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-tools/src/module-instance.class.ts#L31)
 
 ## Methods
 
@@ -78,7 +79,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:41](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-tools/src/module-instance.class.ts#L41)
+[packages/agros-tools/src/module-instance.class.ts:47](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-tools/src/module-instance.class.ts#L47)
 
 ___
 
@@ -99,7 +100,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:114](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-tools/src/module-instance.class.ts#L114)
+[packages/agros-tools/src/module-instance.class.ts:120](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-tools/src/module-instance.class.ts#L120)
 
 ___
 
@@ -119,7 +120,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:95](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-tools/src/module-instance.class.ts#L95)
+[packages/agros-tools/src/module-instance.class.ts:101](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-tools/src/module-instance.class.ts#L101)
 
 ___
 
@@ -133,7 +134,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:51](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-tools/src/module-instance.class.ts#L51)
+[packages/agros-tools/src/module-instance.class.ts:57](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-tools/src/module-instance.class.ts#L57)
 
 ___
 
@@ -149,7 +150,7 @@ get provider classes recursively from imported modules
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:59](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-tools/src/module-instance.class.ts#L59)
+[packages/agros-tools/src/module-instance.class.ts:65](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-tools/src/module-instance.class.ts#L65)
 
 ___
 
@@ -169,7 +170,7 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:103](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-tools/src/module-instance.class.ts#L103)
+[packages/agros-tools/src/module-instance.class.ts:109](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-tools/src/module-instance.class.ts#L109)
 
 ___
 
@@ -190,4 +191,4 @@ ___
 
 #### Defined in
 
-[packages/agros-tools/src/module-instance.class.ts:143](https://github.com/agrosjs/agros/blob/f9f7678/packages/agros-tools/src/module-instance.class.ts#L143)
+[packages/agros-tools/src/module-instance.class.ts:149](https://github.com/agrosjs/agros/blob/01a8caa/packages/agros-tools/src/module-instance.class.ts#L149)

@@ -22,9 +22,9 @@ Now we start this section by the following project structure:
             └── bar.service.ts
 ```
 
-## Feature Modules
+## RouterModule.register()
 
-To declare a route in a feature module, we should add `RouterModule.forFeature()` to `imports` field of `@Module()` decorator:
+To declare a route in a feature module, we should add `RouterModule.register()` to `imports` field of `@Module()` decorator:
 
 ```ts title=src/modules/foo/foo.module.ts
 import {
@@ -38,7 +38,7 @@ import { FooService } from './foo.service';
 @Module({
     imports: [
         // highlight-start
-        RouterModule.forFeature({
+        RouterModule.register({
             routes: [
                 {
                     path: 'foo',
@@ -97,7 +97,7 @@ import { BazService } from './baz.service';
 
 @Module({
     imports: [
-        RouterModule.forFeature({
+        RouterModule.register({
             routes: [
                 {
                     path: 'baz',
@@ -170,9 +170,9 @@ import { FooService } from './foo.service';
 export class FooModule {}
 ```
 
-## Root Module
+## RouterModule.registerAsync()
 
-The declaration of routes in root module is similar to feature modules, to declare a route in root module, we should add `RouterModule.forRoot()` to `imports` field of `@Module()` decorator:
+`RouterModule` also provides an async static method called `registerAsync` to use injected providers in factory function:
 
 ```ts title=src/app.module.ts
 import {
@@ -181,25 +181,40 @@ import {
 } from '@agros/app';
 import { BarModule } from '../bar/bar.module';
 import { FooModule } from '../foo/foo.module';
+// highlight-start
+import { ConfigModule } from '../config/config.module';
+import { ConfigService } from '../config/config.service';
+// highlight-end
 
 @Module({
     imports: [
         BarModule,
         FooModule,
-        // highlight-next-line
-        RouterModule.forRoot({
-            routes: [
-                {
-                    path: 'foo',
-                    useComponentClass: FooModule,
-                },
-                {
-                    path: 'bar',
-                    useComponentClass: BarModule,
-                },
+        // highlight-start
+        RouterModule.registerAsync({
+            imports: [
+                ConfigModule,
             ],
+            inject: [
+                ConfigService,
+            ],
+            useFactory: async (configService: ConfigService) => {
+                return [
+                    {
+                        path: 'foo',
+                        useComponentClass: FooModule,
+                    },
+                    {
+                        path: 'bar',
+                        useComponentClass: BarModule,
+                    },
+                ];
+            },
         }),
+        // highlight-end
     ],
 })
 export class AppModule {}
 ```
+
+The parameters of `useFactory` function will be injected by the sequence of the provider items in `inject`.
